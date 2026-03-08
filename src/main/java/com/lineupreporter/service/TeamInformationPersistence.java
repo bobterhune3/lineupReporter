@@ -59,4 +59,9 @@ public class TeamInformationPersistence {
             log.error("Could not save team info to {}", file, e);
         }
     }
+
+//    /** Data directory path for backups etc. */
+//    public Path getDataPath() {
+//        return dataPath;
+//    }
 }

@@ -3,14 +3,9 @@ package com.lineupreporter.config;
 import com.lineupreporter.service.LineupEngine;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 /**
  * On startup, initializes the application with the rosterReport.PRT file

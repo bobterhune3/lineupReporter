@@ -11,41 +11,41 @@ public final class TeamUtils {
 
     private static Map<String, String> teamAbrvMap = null;
 
-    private static final Map<String, String> PRETTY_MAP = new HashMap<>();
-
-    static {
-        // MLB-style abbreviations
-        PRETTY_MAP.put("YANKEES", "NYY");
-        PRETTY_MAP.put("RED SOX", "BOS");
-        PRETTY_MAP.put("ORIOLES", "BAL");
-        PRETTY_MAP.put("BLUE JAYS", "TOR");
-        PRETTY_MAP.put("RAYS", "TB");
-        PRETTY_MAP.put("GUARDIANS", "CLE");
-        PRETTY_MAP.put("WHITE SOX", "CWS");
-        PRETTY_MAP.put("TIGERS", "DET");
-        PRETTY_MAP.put("TWINS", "MIN");
-        PRETTY_MAP.put("ROYALS", "KC");
-        PRETTY_MAP.put("ASTROS", "HOU");
-        PRETTY_MAP.put("ANGELS", "LAA");
-        PRETTY_MAP.put("ATHLETICS", "OAK");
-        PRETTY_MAP.put("MARINERS", "SEA");
-        PRETTY_MAP.put("RANGERS", "TEX");
-        PRETTY_MAP.put("BRAVES", "ATL");
-        PRETTY_MAP.put("MARLINS", "MIA");
-        PRETTY_MAP.put("METS", "NYM");
-        PRETTY_MAP.put("PHILLIES", "PHI");
-        PRETTY_MAP.put("NATIONALS", "WSH");
-        PRETTY_MAP.put("CUBS", "CHC");
-        PRETTY_MAP.put("REDS", "CIN");
-        PRETTY_MAP.put("BREWERS", "MIL");
-        PRETTY_MAP.put("PIRATES", "PIT");
-        PRETTY_MAP.put("CARDINALS", "STL");
-        PRETTY_MAP.put("DIAMONDBACKS", "ARI");
-        PRETTY_MAP.put("ROCKIES", "COL");
-        PRETTY_MAP.put("DODGERS", "LAD");
-        PRETTY_MAP.put("PADRES", "SD");
-        PRETTY_MAP.put("GIANTS", "SF");
-    }
+//    private static final Map<String, String> PRETTY_MAP = new HashMap<>();
+//
+//    static {
+//        // MLB-style abbreviations
+//        PRETTY_MAP.put("YANKEES", "NYY");
+//        PRETTY_MAP.put("RED SOX", "BOS");
+//        PRETTY_MAP.put("ORIOLES", "BAL");
+//        PRETTY_MAP.put("BLUE JAYS", "TOR");
+//        PRETTY_MAP.put("RAYS", "TB");
+//        PRETTY_MAP.put("GUARDIANS", "CLE");
+//        PRETTY_MAP.put("WHITE SOX", "CWS");
+//        PRETTY_MAP.put("TIGERS", "DET");
+//        PRETTY_MAP.put("TWINS", "MIN");
+//        PRETTY_MAP.put("ROYALS", "KC");
+//        PRETTY_MAP.put("ASTROS", "HOU");
+//        PRETTY_MAP.put("ANGELS", "LAA");
+//        PRETTY_MAP.put("ATHLETICS", "OAK");
+//        PRETTY_MAP.put("MARINERS", "SEA");
+//        PRETTY_MAP.put("RANGERS", "TEX");
+//        PRETTY_MAP.put("BRAVES", "ATL");
+//        PRETTY_MAP.put("MARLINS", "MIA");
+//        PRETTY_MAP.put("METS", "NYM");
+//        PRETTY_MAP.put("PHILLIES", "PHI");
+//        PRETTY_MAP.put("NATIONALS", "WSH");
+//        PRETTY_MAP.put("CUBS", "CHC");
+//        PRETTY_MAP.put("REDS", "CIN");
+//        PRETTY_MAP.put("BREWERS", "MIL");
+//        PRETTY_MAP.put("PIRATES", "PIT");
+//        PRETTY_MAP.put("CARDINALS", "STL");
+//        PRETTY_MAP.put("DIAMONDBACKS", "ARI");
+//        PRETTY_MAP.put("ROCKIES", "COL");
+//        PRETTY_MAP.put("DODGERS", "LAD");
+//        PRETTY_MAP.put("PADRES", "SD");
+//        PRETTY_MAP.put("GIANTS", "SF");
+//    }
 
     public static void registerTeamAbvMapping(Map<String, String> map) {
         teamAbrvMap = map == null ? null : new HashMap<>(map);
@@ -54,14 +54,7 @@ public final class TeamUtils {
     /** SOM: map by first 12 chars of team name when a mapping is registered. */
     public static String prettyTeamName(String fullName) {
         if (fullName == null) return "UNK";
-//        if (teamAbrvMap != null) {
-//            String key = fullName.length() >= 12 ? fullName.substring(0, 12).trim() : fullName.trim();
-//            if (teamAbrvMap.containsKey(key)) return teamAbrvMap.get(key);
-//            return "UNK";
-//        }
         return prettyTeamNoDiceName(fullName);
-//        String normalized = fullName.toUpperCase().trim();
-//        return PRETTY_MAP.getOrDefault(normalized, normalized.length() >= 3 ? normalized.substring(0, 3) : "UNK");
     }
 
     /** SOM "No Dice" style: 3-letter abbreviations from truncated team names. */
@@ -98,13 +91,13 @@ public final class TeamUtils {
         if (teamName.startsWith("Washington N")) return "WSG";
         return "UNK";
     }
-
-    /** Legacy: same as prettyTeamName when no mapping is set. */
-    public static String prettyTeamNameLegacy(String fullName) {
-        if (fullName == null) return "UNK";
-        String normalized = fullName.toUpperCase().trim();
-        return PRETTY_MAP.getOrDefault(normalized, normalized.length() >= 3 ? normalized.substring(0, 3) : "UNK");
-    }
+//
+//    /** Legacy: same as prettyTeamName when no mapping is set. */
+//    public static String prettyTeamNameLegacy(String fullName) {
+//        if (fullName == null) return "UNK";
+//        String normalized = fullName.toUpperCase().trim();
+//        return PRETTY_MAP.getOrDefault(normalized, normalized.length() >= 3 ? normalized.substring(0, 3) : "UNK");
+//    }
 
     private TeamUtils() {}
 }

@@ -149,10 +149,23 @@
             container.textContent = 'No lineups. Click "Manage lineups" to add lineups.';
             return;
         }
+        // For each column, find playerIds that appear 2+ times (duplicate in same lineup)
+        const duplicatePlayerIdsByCol = {};
+        for (let col = 0; col < lineups.length; col++) {
+            const count = {};
+            for (let pos = 0; pos < POSITION_LABELS.length; pos++) {
+                const a = gridAssignments.find(function(x) { return x.lineupIndex === col && x.positionIndex === pos; });
+                if (a && a.playerId) {
+                    const pid = String(a.playerId);
+                    count[pid] = (count[pid] || 0) + 1;
+                }
+            }
+            duplicatePlayerIdsByCol[col] = new Set(Object.keys(count).filter(function(pid) { return count[pid] >= 2; }));
+        }
         const table = document.createElement('table');
         table.className = 'lineup-grid-table data-table';
         const thead = document.createElement('thead');
-        let headerRow = '<tr><th>POS</th>';
+        let headerRow = '<tr><th></th>';
         lineups.forEach((l, i) => {
             headerRow += '<th>' + (l.pitcherArm || '') + ' ' + (l.balanceFrom || '') + '-' + (l.balanceTo || '') + ' (' + (l.estimatedAtBats || 0) + ')</th>';
         });
@@ -183,6 +196,7 @@
                 const assignment = gridAssignments.find(a => a.lineupIndex === col && a.positionIndex === pos);
                 if (assignment && assignment.playerId) select.value = String(assignment.playerId);
                 if (!select.value) select.classList.add('not-set'); else select.classList.remove('not-set');
+                if (select.value && duplicatePlayerIdsByCol[col] && duplicatePlayerIdsByCol[col].has(select.value)) select.classList.add('duplicate-in-lineup'); else select.classList.remove('duplicate-in-lineup');
                 select.addEventListener('change', onGridCellChange);
                 td.appendChild(select);
                 tr.appendChild(td);
@@ -207,7 +221,25 @@
         }
         a.playerId = playerId;
         a.playerName = playerName;
+        updateDuplicateInLineupClassForColumn(lineupIndex);
         saveGrid();
+    }
+
+    function updateDuplicateInLineupClassForColumn(col) {
+        const count = {};
+        for (let pos = 0; pos < POSITION_LABELS.length; pos++) {
+            const a = gridAssignments.find(function(x) { return x.lineupIndex === col && x.positionIndex === pos; });
+            if (a && a.playerId) {
+                const pid = String(a.playerId);
+                count[pid] = (count[pid] || 0) + 1;
+            }
+        }
+        const duplicateIds = new Set(Object.keys(count).filter(function(pid) { return count[pid] >= 2; }));
+        const container = document.getElementById('lineup-grid-container');
+        const selects = container.querySelectorAll('.lineup-grid-table select[data-lineup-index="' + col + '"]');
+        selects.forEach(function(s) {
+            if (s.value && duplicateIds.has(s.value)) s.classList.add('duplicate-in-lineup'); else s.classList.remove('duplicate-in-lineup');
+        });
     }
 
     /** Build assignments array from current grid DOM so request always has correct playerId/playerName. */

@@ -32,7 +32,6 @@ com\lineupreporter\util\RecordIndex.class
 com\lineupreporter\config\AppConfig.class
 com\lineupreporter\service\TeamInformationPersistence.class
 com\lineupreporter\somreport\output\NoOpOutput.class
-com\lineupreporter\domain\Game.class
 com\lineupreporter\service\LineupPersistence.class
 com\lineupreporter\domain\LineupData.class
 com\lineupreporter\service\UsageEstimatorService.class

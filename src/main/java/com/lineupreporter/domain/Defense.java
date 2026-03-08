@@ -1,5 +1,7 @@
 package com.lineupreporter.domain;
 
+import org.thymeleaf.util.StringUtils;
+
 public class Defense {
 
     private long id;
@@ -40,12 +42,49 @@ public class Defense {
     public String getThird() { return third; }
     public void setThird(String third) { this.third = third; }
     public String getShortStop() { return shortStop; }
-    public void setShortStop(String shortStop) { this.shortStop = shortStop; }
-    public String getLeft() { return left; }
+    public void setShortStop(String shortStop) { this.shortStop = shortStop;}
+
+
+    /**
+     * RF to CF, add 1 to the range rating.
+     * LF to CF, add 2 to the range rating.
+     * LF to RF, add 1 to the range rating.
+     */
+    public String getLeft() {
+        if(StringUtils.isEmpty(left) && !StringUtils.isEmpty(right)) {
+            return right+"$";
+        }
+        else if(StringUtils.isEmpty(left) && !StringUtils.isEmpty(center)) {
+            return center+"$";
+        }
+        return left;
+    }
     public void setLeft(String left) { this.left = left; }
-    public String getCenter() { return center; }
+
+
+    public String getCenter() {
+        if( StringUtils.isEmpty(center) && !StringUtils.isEmpty(left)) {
+            char c = left.charAt(0);
+            return (Character.isDigit(c) ? (c - '0' + 2) : c) + left.substring(1)+"$";
+        }
+        else if(StringUtils.isEmpty(center) && !StringUtils.isEmpty(right) ) {
+            return right+"$";
+        }
+        return center;
+    }
     public void setCenter(String center) { this.center = center; }
-    public String getRight() { return right; }
+
+    public String getRight() {
+        if( StringUtils.isEmpty(right) && !StringUtils.isEmpty(center)) {
+            char c = center.charAt(0);
+            return (Character.isDigit(c) ? (c - '0' + 1) : c) + center.substring(1)+"$";
+        }
+        else if( StringUtils.isEmpty(right) && !StringUtils.isEmpty(left)) {
+            char c = left.charAt(0);
+            return (Character.isDigit(c) ? (c - '0' + 1) : c) + left.substring(1)+"$";
+        }
+        return right;
+    }
     public void setRight(String right) { this.right = right; }
     public String getOfArm() { return ofArm; }
     public void setOfArm(String ofArm) { this.ofArm = ofArm; }

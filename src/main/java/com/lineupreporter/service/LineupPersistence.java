@@ -63,6 +63,11 @@ public class LineupPersistence {
         }
     }
 
+    /** Data directory path for backups etc. */
+    public Path getDataPath() {
+        return dataPath;
+    }
+
     /** Get or create TeamLineup for the given team. */
     public static TeamLineup lookupTeamLineup(Map<String, TeamLineup> storedLineups, Team team) {
         if (team == null || team.getAbrv() == null) return new TeamLineup();
