@@ -1,0 +1,2321 @@
+[1]2025 Anaheim Angels   [2]Black=In Majors(13/11) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Josh Bell          1   0 2025  WAN  5R 468 16  1 22 .237  57  88  63 .325 .417
+Alex Bregman       2   0 2025  BOA  1L 433 28  0 18 .273  51  70  62 .360 .462
+Jonatan Clase      3   0 2025  TOA  1R 100  3  0  2 .210  10  28   9 .288 .300
+Jake Cronenworth   4   0 2025  SDN   E 419 20  1 11 .246  69 107  59 .367 .377
+Tyler Freeman      5   0 2025  CON   E 377 20  2  2 .281  34  51  31 .354 .361
+T.J. Friedl        6   0 2025  CIN  1R 579 22  2 14 .261  81 115  53 .364 .378
+Ian Happ           7   0 2025  CHN  2R 569 32  0 23 .243  87 151  79 .342 .420
+Austin Hedges      8   0 2025  CLA   E 155  3  0  5 .161  18  43  10 .250 .277
+Ivan Herrera       9   0 2025  SLN  6L 388 13  0 19 .284  43  84  66 .373 .464
+Isiah Kiner-Falef 10   0 2025  TOA  3R 431 21  2  2 .262  17  77  40 .297 .334
+Parker Meadows    11   0 2025  DEA  1R 191  6  2  4 .215  21  56  16 .291 .330
+Gabriel Moreno    12   0 2025  ARN   E 277 12  1  9 .285  29  53  40 .353 .433
+Zach Neto         13   0 2025  LAA   E 502 29  1 26 .257  33 149  62 .319 .474
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Bell             23    N/N   S    E    D    C    9   56%  0% (3-1)    0  3   1
+Bregman          26    N/N   R    E    D    C   10    8%  3% (13-5)   1  1   3
+Clase            27    W/N   S    C    B    D   16 * 33%  0% (18-13)  3  1   1
+Cronenworth      32    N/N   L    D    B    C   14   22%  8% (13-6)   3  3   3
+Freeman          29    W/W   R    B    B    B   14 * 86%  0% (15-13) 18  9   3
+Friedl           30    N/N   L    B    A    C   15 * 14%  0% (18-6)  12  3   1
+Happ             28    N/N   S    C    D    D   13   25%  0% (13-6)   6  3   1
+Hedges           50    N/N   R    E    B    D    9   50% 50% (13-4)   1  2   2
+Herrera          25    N/N   R    B    D    C   12 * 14%  0% (18-6)   8  2   5
+Kiner-Falefa     28    N/W   R    B    B    C   14 * 28%  0% (19-13) 15  4   1
+Meadows          22    W/N   L    C    D    D   16 * 11%  0% (20-6)   4  0   5
+Moreno           25    W/N   R    D    D    C   11   28%  8% (13-6)   2  2   6
+Neto             20    N/N   R    A    D    D   14 * 42%  0% (18-15) 26  9   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Bell                          4e17                                    .213 40 
+Bregman                                 2e13                          .247 35 
+Clase                                             3e7  4e7  3e7  +2   .235  8 
+Cronenworth                   3e8  3e15      3e19                     .259  6 
+Freeman                            4e13 4e14                4e3  -2   .290 35 
+Friedl                                                 2e3       +0   .240 11 
+Happ                                              1e1            -2   .243 16 
+Hedges          1e2 -3t1p0                                            .158 15 
+Herrera         4e13 +3t1p2                       5e25           +2   .284 49 
+Kiner-Falefa                       2e6  2e17 3e10                     .275 34 
+Meadows                                                2e3       -1   .173  0 
+Moreno          1e1 +0t2p2                                            .229 30 
+Neto                                         2e14                     .259 10 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Taj Bradley           14   0 2025  MNA    R      5            N    #1WR
+Garrett Cleavinger    15   0 2025  TBA    L            1      1    #1WR
+Caleb Ferguson        16   0 2025  SEA    L            1      N    #1WR
+Bowden Francis        17   0 2025  TOA    R      4            N    #1WR
+Tony Gonsolin         18   0 2025  LAN    R      5            N    #1WR
+Cristian Javier       19   0 2025  HOA    R      5            N    #1WR
+Bryan King            20   0 2025  HOA    L            1      1    #1WR
+German Marquez        22   0 2025  CON    R      5            N    #1WR
+Erik Miller           23   0 2025  SFN    L            1      N    #1WL
+Aaron Nola            24   0 2025  PHN    R      5            N    #1WR
+Bailey Ober           25   0 2025  MNA    R      5            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Bradley          49    1R   6   8  5.05 143  131   56  127 19 27  0
+Cleavinger       35    2R   2   6  2.35  61   40   18   82  9  0  2
+Ferguson         44    6L   5   4  3.58  65   54   22   51  2  0  0
+Francis          55    6R   2   8  6.05  64   71   27   54 19 14  0
+Gonsolin         56     E   3   2  5.00  36   33   18   38  9  7  0
+Javier           53    1R   2   4  4.62  37   32   15   34  3  8  0
+King             28    9R   5   4  2.78  68   60   11   69 10  0  2
+Marquez          50    1L   3  16  6.70 126  168   48   83 23 26  0
+Miller           37    2L   4   1  1.50  30   24   20   22  0  0  0
+Nola             61    3R   5  10  6.01  94   99   28   97 18 17  0
+Ober             54    1L   6   9  5.10 146  159   31  120 30 27  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Bradley              N     -2    2      10    18  3e10  E   C   10   1        
+Cleavinger           N     -5    0       3     2   3e0  E   C   10   1        
+Ferguson             N     +7    0       3    12   5e0  E   C   10   0        
+Francis              N     -3    0       9     3   2e0  E   C   10   5        
+Gonsolin             N     +0    0       5    10   4e0  E   C   10   6        
+Javier               N     +1    0      18     0  3e39  E   C   10   6        
+King                 N     -5    0      10     6  3e21  E   C   10   1        
+Marquez              N     +4    0       9    11   4e0  E   C   10   1        
+Miller               N     -2    0       7    24   2e0  E   C   10   5        
+Nola                 N     +0    0       1     6   2e0  E   C   10   4        
+Ober                 N     -4    5       0    11   1e0  E   C   10   1        
+[2]
+[1]2025 Arizona Diamondbacks   [2]Black=In Majors(15/9) [4]Blue=In Minors(1/1)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Harrison Bader     1   0 2025  PHN  3R 448 24  1 17 .277  39 136  54 .347 .449
+Will Benson        2   0 2025  CIN  6R 230  8  2 12 .226  16  67  41 .273 .435
+Vidal Brujan       3   0 2025  ATN  1R  87  5  0  0 .253   6  21   8 .305 .310
+Dylan Crews        4   0 2025  WAN  1R 293  8  2 10 .208  24  76  27 .280 .352
+Elias Diaz         6   0 2025  SDN  1R 255  7  0  9 .204  21  74  29 .270 .337
+Ezequiel Duran     7   0 2025  TEA   E 205 14  0  0 .224   8  55  14 .266 .293
+Zack Gelof         8   0 2025  SAA  2R  92  3  0  2 .174   7  46   7 .230 .272
+Nolan Jones        9   0 2025  CLA  3R 355 14  2  5 .211  39 113  34 .296 .304
+Nick Kurtz         5   0 2025  SAA  8R 420 26  2 36 .290  63 151  86 .383 .619
+Brooks Lee        10   0 2025  MNA  1L 487 15  1 16 .236  31  92  64 .285 .370
+Nick Loftin       11   0 2025  KCA   E 168  9  2  4 .208  14  27  20 .278 .357
+Michael Massey    12   0 2025  KCA  1R 262  9  0  3 .244   9  43  20 .268 .313
+Josh Naylor       13   0 2025  SEA  1R 543 29  1 20 .295  48  83  92 .353 .462
+[4]Nasim Nunez       14   0 2025  WAN  3L  82  2  0  4 .232   8  20  13 .297 .402
+Lane Thomas       15   0 2025  CLA  2L 125  2  0  4 .160  14  44  11 .246 .272
+Anthony Volpe     16   0 2025  NYA  2L 539 32  4 19 .212  43 150  72 .272 .391
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Bader            32    N/N   R    B    D    D   14 * 56%  3% (15-11) 11  7   1
+Benson            7    N/N   L    D    D    C   14   42% 14% (13-7)   2  2   1
+Brujan           17    W/W   S    C    D    C   14 * 58%  0% (15-13)  2  1   2
+Crews            26    W/N   R    A    D    D   16 * 42%  0% (18-15) 17  5   5
+Diaz             31    N/N   R    E    B    D    9    0%  0% (0-0)    0  0   2
+Duran            44    W/W   R    A    D    D   15 * 31%  0% (19-14) 11  2   1
+Gelof            27    W/N   R    D    D    D   15 * 50% 50% (15-4)   1  2   6
+Jones            21    W/W   L    B    D    D   13 * 28%  0% (17-12)  8  3   1
+Kurtz            33    N/N   L    E    D    D   11   11%  0% (13-6)   2  1   2
+Lee              35    N/N   S    D    D    C   11    8%  0% (15-6)   3  1   2
+Loftin           36    N/N   R    E    D    C   13   33% 11% (13-6)   1  1   1
+Massey           18    W/W   L    D    D    B   12   19%  0% (13-6)   2  1   5
+Naylor           33    N/N   L   AA    D    C   12 * 28%  0% (19-13) 30  2   1
+[4]Nunez            37    N/N   S    B    B    C   17 * 53%  0% (19-15)  9  1   1
+Thomas           32    N/N   R    B    D    C   15 * 33%  0% (19-13)  4  1   5
+Volpe            29    N/N   R    B    C    C   15 * 44%  0% (17-14) 18  8   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Bader                                             1e5  1e5  1e5  -1   .221 10 
+Benson                                            3e5  3e5  3e5  -1   .244 26 
+Brujan                             4e6  4e50 4e12 4e16 4e16 4e16 +1   .271 12 
+Crews                                                  3e14 2e14 -2   .182 18 
+Diaz            3e9 -1t12p0                                           .178 58 
+Duran                         3e5  3e10 3e39 3e10 4e8       4e8  -2   .203 22 
+Gelof                              2e6                                .169  0 
+Jones                                             3e2  4e2  3e2  -4   .224 23 
+Kurtz                         2e15                                    .266  8 
+Lee                                4e23 3e3  4e14                     .249 35 
+Loftin                        4e8  3e8  3e17      4e13           -2   .235 56 
+Massey                             3e3            4e17           +0   .202 14 
+Naylor                        3e7                                     .285 44 
+[4]Nunez                              2e12      2e20      4e16      +0   .194 13 
+Thomas                                                 3e5  3e5  -1   .160 39 
+Volpe                                        2e21                     .202 28 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Sandy Alcantara       17   0 2025  MMN    R      6            N    #1WR
+Scott Barlow          18   0 2025  CIN    R            1      0    #1WR
+Angel Chivilli        21   0 2025  CON    R            2      N    #1WR
+Aaron Civale          20   0 2025  CHN    R      5     3      0    #1WR
+Kyle Nicolas          22   0 2025  PIN    R            2      N    #1WR
+Quinn Priester        23   0 2025  MLN    R      5     4      N    #1WR
+Trevor Rogers         24   0 2025  BAA    L      6            N    #1WL
+Collin Snider         25   0 2025  SEA    R            1      N    #1WR
+Randy Vasquez         26   0 2025  SDN    R      5     3      N    #1WR
+[4]Hayden Wesneski       27   0 2025  HOA    R      5            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Alcantara        48    1L  11  12  5.36 175  165   57  142 22 31  0
+Barlow           40    4R   6   3  4.21  68   50   45   75  8  1  1
+Chivilli         39    4L   1   5  7.06  59   76   23   43 13  0  0
+Civale           48     E   4   9  4.85 102   96   33   88 16 18  1
+Nicolas          39    2L   1   2  4.74  38   34   18   34  3  0  0
+Priester         45     E  13   3  3.32 157  145   50  132 18 24  0
+Rogers           18    1L   9   3  1.81 110   70   29  103  6 18  0
+Snider           45    9R   2   1  5.47  26   32    6   24  3  0  0
+Vasquez          47    2R   6   7  3.84 134  125   52   78 16 26  0
+[4]Wesneski         41    4L   1   3  4.50  32   29    6   29  7  6  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Alcantara            N     +7    3      10     7   5e0  E   C   10   1        
+Barlow               N     +8    0       5     0   5e0  E   C   10   0        
+Chivilli             N     +0    0      13    10   4e0  E   C   10   1        
+Civale               N     -4    8       0    14   4e0  E   C   10   2        
+Nicolas              N     +1    0       5     6   4e0  E   C   10   1        
+Priester             N     +0    0       5    24  3e10  E   C   10   1        
+Rogers               N     -2    4       0    20   3e0  E   C   10   2        
+Snider               N     -1    0       7    14  4e51  E   C   10   5        
+Vasquez              N     +0    3       4    20  2e11  E   C   10   1        
+[4]Wesneski             N     -2    0       0     0   3e0  E   C   10   6        
+[2]
+[1]2025 Atlanta Braves   [2]Black=In Majors(16/9) [4]Blue=In Minors(3/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+C.J. Abrams        1   0 2025  WAN  3R 580 35  5 19 .257  37 125  60 .315 .433
+Jackson Chourio    2   0 2025  MLN  5L 549 35  4 21 .270  30 121  78 .308 .463
+Xavier Edwards     3   0 2025  MMN  3R 561 20  5  3 .283  49  88  43 .343 .353
+David Hamilton     4   0 2025  BOA  3R 177  4  1  6 .198  13  47  19 .257 .333
+Jonah Heim         5   0 2025  TEA   E 395 14  0 11 .213  32  88  43 .271 .332
+Teoscar Hernandez  6   0 2025  LAN   E 511 29  1 25 .247  26 134  89 .284 .454
+Andy Ibanez        7   0 2025  DEA  4L 176  8  0  4 .239  12  26  21 .301 .352
+Royce Lewis        8   0 2025  MNA   E 376 18  0 13 .237  25  80  52 .283 .388
+Noelvi Marte       9   0 2025  CIN  4R 339 17  2 14 .263  16  85  51 .300 .448
+[4]Austin Martin     10   0 2025  MNA  2L 156  8  1  1 .282  22  31   7 .374 .365
+Mickey Moniak     11   0 2025  CON  5R 434 20  8 24 .270  22 110  68 .306 .518
+Cedric Mullins    12   0 2025  NYN  2L 435 23  1 17 .216  50 120  59 .299 .391
+[4]Liover Peguero    13   0 2025  PIN  3L  80  1  0  4 .200   6  25   8 .273 .363
+Gavin Sheets      14   0 2025  SDN   E 492 28  1 19 .252  44 107  71 .317 .429
+Lenyn Sosa        15   0 2025  CHA   E 518 20  1 22 .264  18 127  75 .293 .434
+Matt Thaiss       16   0 2025  TBA  2R 156  6  1  1 .218  29  46  16 .349 .288
+Luis Torrens      17   0 2025  NYN  1L 261 14  1  5 .226  19  56  29 .284 .345
+[4]Brett Wisely      18   0 2025  ATN  1R  54  4  0  1 .185   7  14  10 .279 .315
+Masataka Yoshida  19   0 2025  BOA  2R 188 11  0  4 .266  10  24  26 .307 .388
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Abrams           32    N/N   L   AA    D    C   16 * 31%  0% (19-14) 31  3   1
+Chourio          25    N/N   R    A    C    C   16 * 39%  0% (18-13) 21  7   1
+Edwards          32    W/W   S    A    A    C   15 * 28%  0% (19-13) 27  7   1
+Hamilton         11    W/N   L   AA    B    D   17 * 61%  0% (19-16) 22  6   1
+Heim             30    N/N   S    D    D    C    8    6%  0% (20-6)   3  0   2
+Hernandez        24    N/N   R    D    D    D   13   25%  0% (14-6)   5  2   1
+Ibanez           71    N/W   R    C    D    C   12 * 22%  0% (18-12)  4  1   1
+Lewis            29    N/N   R    B    D    D   13 * 28%  0% (19-13) 12  2   4
+Marte            28    W/N   R    B    D    D   15 * 36%  0% (18-13) 10  3   4
+[4]Martin           33    N/W   R    A    C    D   14 * 39%  0% (18-14) 11  4   1
+Moniak           12    N/N   L    B    D    D   15 * 28%  0% (17-12)  9  3   1
+Mullins          26    N/N   L    A    A    D   15 * 31%  0% (19-14) 22  4   1
+[4]Peguero          35    N/N   R    B    D    D   16 * 14%  0% (20-13)  4  0   1
+Sheets           29    W/N   L    E    D    C   10   11%  0% (13-6)   2  1   1
+Sosa             26    N/N   R    E    D    D   11   11%  0% (13-6)   2  1   1
+Thaiss           15    W/W   L    E    D    D   10   22%  6% (13-6)   1  1   2
+Torrens          27    W/N   R    E    D    D   10    3%  0% (20-6)   1  0   2
+[4]Wisely           15    W/N   L    D    B    D   13 * 61% 19% (15-7)   1  1   1
+Yoshida          17    W/N   L    C    D    B   11 *  8%  0% (20-6)   3  0   5
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Abrams                                       3e26                     .243  8 
+Chourio                                           2e3  3e3  2e3  -2   .242 38 
+Edwards                            1e8       4e24                     .301 12 
+Hamilton                           3e22 4e65 4e21                     .198 25 
+Heim            3e1 +0t5p1                                            .199 37 
+Hernandez                                                   4e3  -1   .265 41 
+Ibanez                        3e13 3e4  2e13 4e48 4e19           +1   .257 47 
+Lewis                                   3e12                          .264 29 
+Marte                                   3e25           4e3  3e3  -3   .258 33 
+[4]Martin                             4e50           3e1  4e1       +1   .238 47 
+Moniak                                            3e11 4e11 3e11 +1   .279 10 
+Mullins                                                2e4       +1   .209  0 
+[4]Peguero                       4e14 3e6       4e32                     .186 40 
+Sheets                        4e14                4e3            -2   .256 26 
+Sosa                          4e9  4e19 4e18                          .273 35 
+Thaiss          3e7 +2t8p1    4e25                                    .238 13 
+Torrens         2e9 -4t3p2    4e7                                     .235 39 
+[4]Wisely                             3e11 4e65 3e14                     .194  0 
+Yoshida                                           5e7       5e7  +1   .270 24 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Tanner Bibee          20   0 2025  CLA    R      6            N    #1WR
+Kris Bubic            21   0 2025  KCA    L      6            N    #1WL
+Tanner Houck          22   0 2025  BOA    R      5            N    #1WR
+Tylor Megill          23   0 2025  NYN    R      5            N    #1WR
+David Peterson        24   0 2025  NYN    L      6            N    #1WL
+Luis Severino         25   0 2025  SAA    R      5            N    #1WR
+Jose Suarez           26   0 2025  ATN    L      5     3      0    #1WL
+Luke Weaver           27   0 2025  NYA    R            1      3    #1WR
+Joey Wentz            28   0 2025  ATN    L      4     3      N    #1WL
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Bibee            54    1L  12  11  4.24 182  170   54  162 27 31  0
+Bubic            21    1R   8   7  2.55 116   98   39  116  6 20  0
+Houck            55    9R   0   3  8.04  44   57   17   32 10  9  0
+Megill           47    1L   5   5  3.95  68   60   33   89  6 14  0
+Peterson         23    4L   9   6  4.22 169  166   65  150 11 30  0
+Severino         48    2R   8  11  4.54 163  162   50  124 16 29  0
+Suarez           46    2L   2   0  1.86  19   15   10   16  1  1  1
+Weaver           53    3L   4   4  3.62  65   46   20   72 10  0  8
+Wentz            29    3R   5   7  5.60  98  110   43   92 11 13  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Bibee                N     +3    2       3    16   3e0  E   C   10   1        
+Bubic                N     -1    0       1    23  2e12  E   C   10   3        
+Houck                N     +6    0       9    12  4e33  E   C   10   6        
+Megill               N     +0    0       9     0  4e21  E   C   10   5        
+Peterson             N     -3    2       3    20   2e0  E   C   10   1        
+Severino             N     -2    0       3     4   1e0  E   C   10   1        
+Suarez               N     -2    0       0     8   3e0  E   C   10   1        
+Weaver               N     -3    0       3     0  2e22  E   C   10   1        
+Wentz                N     +6    0      10     9   4e0  E   C   10   1        
+[2]
+[1]2025 Baltimore Orioles   [2]Black=In Majors(15/10) [4]Blue=In Minors(2/4)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Lourdes Gurriel    1   0 2025  ARN  2L 500 24  2 19 .248  31  76  80 .295 .418
+Bryce Harper       2   0 2025  PHN  1L 501 32  0 27 .261  70 121  75 .357 .487
+Gunnar Henderson   3   0 2025  BAA  4R 577 34  5 17 .274  62 137  68 .349 .438
+Jose Herrera       4   0 2025  ARN  1L 166  6  0  2 .187  23  47  17 .285 .259
+Heston Kjerstad    5   0 2025  BAA  5R 156  5  2  4 .192   6  45  19 .240 .327
+Shea Langeliers    6   0 2025  SAA  6L 481 32  0 31 .277  36 103  72 .325 .536
+Wyatt Langford     7   0 2025  TEA  1L 489 25  1 22 .241  74 151  62 .344 .431
+Brandon Lowe       8   0 2025  TBA  6R 507 19  0 31 .256  38 149  83 .307 .477
+Bo Naylor          9   0 2025  CLA  3R 359 22  1 14 .195  45  99  47 .282 .379
+Jorge Polanco     10   0 2025  SEA  2L 471 30  0 26 .265  42  82  78 .326 .495
+Ceddanne Rafaela  11   0 2025  BOA  1R 546 34  4 16 .249  28 117  63 .295 .414
+Austin Riley      12   0 2025  ATN  1R 416 20  1 16 .260  27 128  54 .309 .428
+Giancarlo Stanton 13   0 2025  NYA  1R 249  8  0 24 .273  29  96  66 .350 .594
+Miguel Vargas     14   0 2025  CHA  2L 504 32  2 16 .234  56 100  60 .316 .401
+[4]Will Wagner       15   0 2025  SDN  5R 129  7  0  0 .225  17  28   7 .324 .279
+Matt Wallner      16   0 2025  MNA  1R 336 16  3 22 .202  46 114  40 .311 .464
+[4]Joey Wiemer       17   0 2025  MMN  3L  55  2  0  3 .236   2  23  12 .279 .436
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Gurriel          28    N/N   R    B    D    C   12 * 36%  0% (16-12) 10  4   1
+Harper           42    N/N   L    B    D    B   13 * 17%  0% (19-11) 12  2   1
+Henderson        33    N/N   L   AA    D    C   17 * 31%  0% (19-13) 30  5   1
+Herrera          30    W/W   S    E    A    C    8    0%  0% (0-0)    0  0   2
+Kjerstad         14    W/N   L    E    D    D   11    6%  0% (20-6)   1  0   1
+Langeliers       25    N/N   R    C    D    C   13 * 11%  0% (19-6)   7  1   3
+Langford         27    N/N   R    A    D    D   16 * 31%  0% (19-13) 22  6   2
+Lowe             27    N/N   L    D    D    C   13   17%  0% (13-6)   3  2   1
+Naylor           21    N/N   L    E    D    D   12   28% 25% (13-4)   1  2   2
+Polanco          22    N/N   S    C    C    C   12 * 36%  0% (15-11)  6  3   1
+Rafaela          28    N/N   R    A    C    C   16 * 31%  0% (19-13) 20  5   1
+Riley            23    N/N   R    E    D    D   11   14%  0% (13-6)   2  1   3
+Stanton          26    N/N   R    E    D    D    8    0%  0% (0-0)    0  0   5
+Vargas           27    W/N   R    C    D    D   13    6%  0% (20-6)   6  0   1
+[4]Wagner           14    W/W   L    E    C    C   11    3%  0% (20-6)   1  0   1
+Wallner          25    N/N   L    C    D    D   12 * 58%  8% (15-8)   4  3   4
+[4]Wiemer           51    N/N   R    E    D    D   15    0%  0% (0-0)    0  0   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Gurriel                                           3e4            -1   .243 32 
+Harper                        2e3                                     .228  9 
+Henderson                                    2e10                     .283 13 
+Herrera         4e3 +1t6p0                                            .187 12 
+Kjerstad                                          4e2       4e2  +2   .185 63 
+Langeliers      3e3 +0t7p3                                            .237 33 
+Langford                                          1e2  3e2       -2   .227 19 
+Lowe                          4e13 3e11                               .225 16 
+Naylor          3e2 -2t8p0                                            .208 11 
+Polanco                            4e10 5e11                          .283 20 
+Rafaela                            3e26                1e6       -2   .214 24 
+Riley                                   3e18                          .264 33 
+Stanton                                           5e11      5e11 +0   .249 17 
+Vargas                        3e6       3e20      5e9            +2   .210 23 
+[4]Wagner                        4e7  4e18 4e17                          .208 32 
+Wallner                                                     4e7  -2   .202  5 
+[4]Wiemer                                            2e4       2e4  -2   .231  0 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Bryan Abreu           18   0 2025  HOA    R            1      3    #1WR
+Hunter Brown          19   0 2025  HOA    R      6            N    #1WR
+Aroldis Chapman       20   0 2025  BOA    L            1      6    #1WL
+[4]Chris Flexen          21   0 2025  CHN    R            3      0    #1WR
+Robert Garcia         22   0 2025  TEA    L            1      2    #1WR
+[4]Edgardo Henriquez     23   0 2025  LAN    R            1      0    #1WR
+[4]Griffin Jax           24   0 2025  TBA    R      1     1      N    #1WR
+[4]Jackson Jobe          25   0 2025  DEA    R      5            N    #1WR
+Martin Perez          26   0 2025  CHA    L      5            N    #1WL
+Cole Ragans           27   0 2025  KCA    L      5            N    #1WL
+Paul Skenes           28   0 2025  PIN    R      6            N    #1WR
+Edwin Uceta           29   0 2025  TBA    R            1      0    #1WR
+Will Warren           30   0 2025  NYA    R      5            N    #1WR
+Jacob Webb            31   0 2025  TEA    R            2      0    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Abreu            45     E   3   4  2.28  71   51   31  105  4  0  7
+Brown            51     E  12   9  2.43 185  133   57  206 17 31  0
+Chapman          26     E   5   3  1.17  61   28   15   85  3  0 32
+[4]Flexen           43    9R   5   1  3.09  44   38   12   22  7  1  1
+Garcia           39    1R   4   8  2.95  64   58   22   68  8  0  9
+[4]Henriquez        31    5R   2   1  2.37  19   17    5   18  2  0  1
+[4]Jax              52    6R   1   7  4.23  66   64   21   99  7  2  0
+[4]Jobe             49    3L   4   1  4.22  49   46   27   39  7 10  0
+Perez            27    5L   1   6  3.54  56   40   22   44  6 10  0
+Ragans           26    1R   3   3  4.67  62   53   20   98  7 13  0
+Skenes           53    2R  10  10  1.97 188  136   42  216 11 32  0
+Uceta            44    2R  10   3  3.79  76   62   27  103 11  0  1
+Warren           54    2R   9   8  4.44 162  158   65  171 22 33  0
+Webb             45    5L   5   4  3.00  66   49   19   58 10  0  1
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Abreu                N     +2    0      12     0  3e20  E   C   10   0        
+Brown                N     +0    2       0    21   3e0  E   C   10   1        
+Chapman              N     +0    0      20     4   4e0  E   C   10   1        
+[4]Flexen               N     -3    0      16     4  2e33  E   C   10   1        
+Garcia               N     -5    6       3    13  3e51  E   C   10   0        
+[4]Henriquez            N     +0    0      20     0  3e51  E   C   10   5        
+[4]Jax                  N     -1    0       0     0  3e22  E   C   10   0        
+[4]Jobe                 N     +5    0       3     0  3e30  E   C   10   6        
+Perez                N     -1    0       0    24  2e51  E   C   10   6        
+Ragans               N     +0    0      11     0   3e0  E   C   10   5        
+Skenes               N     -3    0       2    18  4e15  E   C   10   0        
+Uceta                N     +3   12       0     0   4e0  E   C   10   0        
+Warren               N     -3    2       2     0  4e18  E   C   10   0        
+Webb                 N     +2    0       0     6   2e0  E   C   10   2        
+[2]
+[1]2025 Boston Red Sox   [2]Black=In Majors(14/11) [4]Blue=In Minors(0/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Griffin Conine     1   0 2025  MMN  3L  79  7  0  2 .253   7  25   8 .314 .418
+Brenton Doyle      2   0 2025  CON  4L 502 23  2 15 .233  30 138  57 .274 .376
+Jarren Duran       3   0 2025  BOA  4R 620 41 13 16 .256  60 169  84 .332 .442
+Freddy Fermin      4   0 2025  SDN  3R 319 13  0  5 .251  19  65  26 .297 .339
+Sal Frelick        5   0 2025  MLN   E 528 20  3 12 .288  47  80  63 .351 .405
+Andres Gimenez     6   0 2025  TOA  1R 329 11  1  7 .210  25  66  35 .285 .313
+M.J. Melendez      7   0 2025  KCA  1L  60  2  0  1 .083   3  23   1 .154 .167
+Drew Millas        8   0 2025  WAN  7R  49  5  1  0 .306   4   7   7 .358 .449
+Garrett Mitchell   9   0 2025  MLN  2R  68  4  1  0 .206   7  25   3 .286 .294
+Jeremy Pena       10   0 2025  HOA  2R 493 30  2 17 .304  35  93  62 .363 .477
+Daniel Schneemann 11   0 2025  CLA  4R 379 18  1 12 .206  38 117  41 .283 .354
+Edmundo Sosa      12   0 2025  PHN  3L 243 12  1 11 .276  10  56  39 .307 .469
+Spencer Steer     13   0 2025  CIN   E 509 21  2 21 .238  51 129  75 .312 .411
+Luis Urias        14   0 2025  SAA  3R 287  7  0  8 .230  31  45  25 .315 .338
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Conine           27    W/N   L    E    D    D   12   94%  0% (3-1)    0  1   6
+Doyle            25    N/N   R    A    C    D   16 * 22%  0% (19-13) 18  2   1
+Duran            31    N/N   L    A    D    C   16 * 31%  0% (19-13) 24  6   1
+Fermin           31    N/W   R    E    A    B   11   22% 19% (13-3)   1  2   2
+Frelick          30    W/N   L    B    B    C   15 * 31%  0% (17-12) 19  6   1
+Gimenez          24    W/N   L    B    D    C   15 * 22%  0% (19-13) 12  2   4
+Melendez         13    W/W   L    E    D    D   13    0%  0% (0-0)    0  0   1
+Millas           25    W/W   S    C    C    C   13 *  8%  0% (20-11)  2  0   4
+Mitchell         29    W/W   L    B    B    D   17 * 11%  0% (20-13)  3  0   6
+Pena             20    N/N   R    A    D    C   17 * 19%  0% (19-12) 20  2   3
+Schneemann       14    W/N   L    B    D    C   14 * 31%  0% (17-12)  9  3   1
+Sosa             44    N/N   R    E    C    C   14   22%  6% (13-6)   1  1   1
+Steer            23    N/N   R    C    C    C   14 *  8%  0% (19-6)   7  1   1
+Urias            21    N/N   R    D    D    C   10   17%  0% (13-6)   2  1   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Conine                                            3e4       3e4  -2   .248  0 
+Doyle                                                  1e3       -3   .256 41 
+Duran                                             2e8  3e8  4e8  -1   .290  9 
+Fermin          2e4 -3t7p3         5e71                               .223 24 
+Frelick                       5e30      5e37           2e4  1e4  -2   .276  6 
+Gimenez                            1e4       2e12                     .223 36 
+Melendez                                          4e5       4e5  -1   . 83  0 
+Millas          3e16 -1t20p0                                          .315  0 
+Mitchell                                               2e1       -2   .208  0 
+Pena                                         1e12                     .313 26 
+Schneemann                         2e6  3e8  3e40 3e2  3e2  3e2  +0   .189 12 
+Sosa                               3e6  3e12 3e12 5e16           +1   .271 46 
+Steer                         2e3                 3e9            +0   .233 35 
+Urias                              4e8  4e30                          .195 40 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Hayden Birdsong       15   0 2025  SFN    R      4     3      N    #1WR
+[4]Kyle Bradish          16   0 2025  BAA    R      5            N    #1WR
+Patrick Corbin        17   0 2025  TEA    L      5            N    #1WL
+Reid Detmers          18   0 2025  LAA    L            1      2    #1WL
+Bryce Elder           19   0 2025  ATN    R      6            N    #1WR
+Jose Ferrer           20   0 2025  WAN    L            1      3    #1WL
+[4]Porter Hodge          21   0 2025  CHN    R            1      1    #1WR
+Dustin May            22   0 2025  BOA    R      5     3      N    #1WR
+Chris Paddack         23   0 2025  DEA    R      5     3      0    #1WR
+Brady Singer          24   0 2025  CIN    R      5            N    #1WR
+Abner Uribe           25   0 2025  MLN    R            1      3    #1WR
+Yoshinobu Yamamoto    26   0 2025  LAN    R      6            N    #1WR
+Ryan Yarbrough        27   0 2025  NYA    L      5     3      0    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Birdsong         48    9R   4   4  4.80  66   61   37   68 10 10  0
+[4]Bradish          56    6R   1   1  2.53  32   23   10   47  3  6  0
+Corbin           25    2L   7  11  4.40 155  161   51  131 21 30  0
+Detmers          30    3R   5   3  3.96  64   58   25   80  6  0  3
+Elder            48    6L   8  11  5.30 156  167   51  131 24 28  0
+Ferrer           35    8L   4   4  4.48  76   81   16   71  5  0 11
+[4]Hodge            42    7L   2   2  6.27  33   34   18   40  9  0  2
+May              56    3R   7  11  4.96 132  132   56  123 21 23  0
+Paddack          51     E   5  12  5.35 158  166   37  112 31 28  1
+Singer           56    4R  14  12  4.03 170  150   60  163 19 32  0
+Uribe            42    2L   3   2  1.67  75   51   27   90  4  0  7
+Yamamoto         49    3L  12   8  2.49 174  113   59  201 14 30  0
+Yarbrough        36    5L   3   1  4.36  64   58   19   55 13  8  1
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Birdsong             N     -2    0      19     7  3e22  E   C   10   1        
+[4]Bradish              N     -4    0       0     4   3e0  E   C   10   6        
+Corbin               N     +5    0       8    10  3e10  E   C   10   1        
+Detmers              N     -1    0       6    15   5e0  E   C   10   1        
+Elder                N     +2    0       2    11   2e0  E   C   10   1        
+Ferrer               N     -2    0      17    21  3e51  E   C   10   0        
+[4]Hodge                N     -1   11      20     3   4e0  E   C   10   4        
+May                  N     +5    0       1    13  4e11  E   C   10   2        
+Paddack              N     +0    0       6    10  2e10  E   C   10   1        
+Singer               N     +0    0       3    10   3e0  E   C   10   0        
+Uribe                N     -4    6      16    19  2e19  E   C   10   0        
+Yamamoto             N     -2    0       6     5   2e8  E   C   10   1        
+Yarbrough            N     +1    0       0     9   2e0  E   C   10   4        
+[2]
+[1]2025 Chicago Cubs   [2]Black=In Majors(14/12) [4]Blue=In Minors(0/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Cody Bellinger     1   0 2025  NYA  6L 588 25  5 29 .272  57  90  98 .334 .480
+Mookie Betts       2   0 2025  LAN   E 589 23  2 20 .258  61  68  82 .326 .406
+Aaron Judge        3   0 2025  NYA  3L 541 30  2 53 .331 124 160 114 .457 .688
+Ha-Seong Kim       4   0 2025  ATN  1L 171  4  0  5 .234  16  39  17 .304 .345
+Otto Lopez         5   0 2025  MMN  5R 544 21  0 15 .246  44  82  77 .305 .368
+Luke Maile         6   0 2025  KCA  2R  45  2  0  1 .244   7  16   6 .346 .356
+Andrew McCutchen   7   0 2025  PIN  1L 477 22  0 13 .239  67 118  57 .333 .367
+Isaac Paredes      8   0 2025  HOA  1R 378 15  1 20 .254  50  76  53 .352 .458
+Salvador Perez     9   0 2025  KCA  3R 597 35  0 30 .236  28 125 100 .284 .446
+Miguel Rojas      10   0 2025  LAN  4L 290 18  0  7 .262  24  46  27 .318 .397
+Michael Taylor    28   1 2025  CHA  3L 295 20  1  9 .200  23 110  35 .259 .366
+Tyrone Taylor     11   0 2025  NYN  2R 310 18  3  2 .223  16  76  27 .279 .319
+Tyler Wade        12   0 2025  SDN  2R 107  1  2  0 .206  15  31   9 .309 .252
+Christian Walker  13   0 2025  HOA  1R 585 24  1 27 .238  40 177  88 .297 .421
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Bellinger        26    N/N   L    B    D    C   15 * 19%  0% (19-12) 13  2   1
+Betts            28    N/N   R    C    D    B   13 * 11%  0% (18-6)   8  2   1
+Judge            23    N/N   R    B    D    D   13 * 25%  0% (16-11) 12  5   1
+Kim              33    N/N   R    B    D    C   15 * 33%  0% (18-13)  6  2   5
+Lopez            33    N/N   R    B    D    C   14 * 33%  0% (17-13) 15  6   1
+Maile            33    W/N   R    D    C    D    8 *  6%  0% (20-11)  1  0   2
+McCutchen        28    N/N   R    E    D    B   10    8%  3% (13-5)   1  1   1
+Paredes          16    N/N   R    E    D    B   11   19%  0% (3-1)    0  1   4
+Perez            23    W/N   R    E    D    D    8    0%  0% (0-0)    0  0   1
+Rojas            42    N/W   R    C    B    D   11 *  8%  0% (20-6)   5  0   1
+Taylor           44    N/N   R    B    B    D   14 * 39%  0% (18-13)  8  3   1
+Taylor           29    W/W   R    B    C    D   15 * 31%  0% (19-13) 12  2   2
+Wade             20    W/W   L    D    A    D   16 * 50% 50% (15-4)   1  2   1
+Walker           21    N/N   R    E    D    D   10   11%  0% (13-6)   2  1   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Bellinger                     2e7                 1e3  3e3  2e3  -3   .285 17 
+Betts                                        2e8            2e12 -2   .297 35 
+Judge                                                       2e2  +1   .282 21 
+Kim                                2e5       2e12                     .215 14 
+Lopez                              2e11      2e16                     .271 25 
+Maile           2e2 +1t1p6                                            .260 27 
+McCutchen                                         5e3       5e3  +1   .211 32 
+Paredes                                 2e10                          .214 31 
+Perez           3e1 -3t7p0    3e6                                     .249 36 
+Rojas                         4e25 2e6  2e8  2e12                     .224 36 
+Taylor                                            2e5  2e5  2e5  -2   .200 35 
+Taylor                                            1e4  1e4  1e4  -3   .266 15 
+Wade                               3e14 3e19 4e27 4e5  4e5  4e5  +0   .231  0 
+Walker                        3e7                                     .214 23 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Graham Ashcraft       14   0 2025  CIN    R            1      N    #1WL
+[4]Ronel Blanco          15   0 2025  HOA    R      5            N    #1WR
+Luis Castillo         16   0 2025  SEA    R      6            N    #1WR
+Seranthony Dominguez  17   0 2025  TOA    R            1      1    #1WR
+Erick Fedde           19   0 2025  MLN    R      5     4      N    #1WR
+Ian Hamilton          20   0 2025  NYA    R            2      N    #1WR
+Hogan Harris          21   0 2025  SAA    L            2      3    #1WR
+Kyle Hendricks        29   2 2025  LAA    R      5            N    #1WR
+Tim Herrin            22   0 2025  CLA    L            1      N    #1WL
+Carlos Rodon          23   0 2025  NYA    L      6            N    #1WL
+Tony Santillan        24   0 2025  CIN    R            1      2    #1WR
+Max Scherzer          25   0 2025  TOA    R      5            N    #1WR
+Robert Suarez         26   0 2025  SDN    R            1      6    #1WR
+[4]Jesus Tinoco          27   0 2025  MMN    R            1      3    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Ashcraft         45    7L   8   5  3.99  65   68   25   64  2  0  0
+[4]Blanco           39    7R   3   4  4.10  48   37   20   48  7  9  0
+Castillo         49    6R  11   8  3.54 181  168   46  162 23 32  0
+Dominguez        46    5R   4   4  3.16  63   44   36   79  5  0  2
+Fedde            52    7R   4  13  5.49 141  147   67   83 19 24  0
+Hamilton         42    9R   2   1  4.28  40   28   22   42  5  1  0
+Harris           37    3R   2   1  3.20  65   54   33   65  5  0  4
+Hendricks        48    4L   8  10  4.76 165  167   43  114 25 31  0
+Herrin           42    2L   5   4  4.85  43   37   30   45  5  0  0
+Rodon            23     E  18   9  3.09 195  132   73  203 22 33  0
+Santillan        53    4R   1   5  2.44  74   53   29   75  7  0  7
+Scherzer         56    3R   5   5  5.19  85   87   23   82 19 17  0
+Suarez           49    4R   4   6  2.97  70   47   16   75  6  0 40
+[4]Tinoco           41    9L   2   1  5.12  19   17    8   10  1  0  4
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Ashcraft             N     +0    0      16    18  2e44  E   C   10   2        
+[4]Blanco               N     +1    0       0     0   3e0  E   C   10   6        
+Castillo             N     +0    0       3    18   5e0  E   C   10   0        
+Dominguez            N     +9    0      20    10  5e23  E   C   10   1        
+Fedde                N     +9    0       2    15  2e10  E   C   10   1        
+Hamilton             N     -3    0      11    20   3e0  E   C   10   1        
+Harris               N     +2    0       2     6  4e22  E   C   10   1        
+Hendricks            N     +4    0       0    24   3e8  E   C   10   1        
+Herrin               N     +7    0       9     9   3e0  E   C   10   1        
+Rodon                Y     +1    0       4    10   3e0  E   C   10   0        
+Santillan            N     -4    0      12    20   2e0  E   C   10   0        
+Scherzer             N     +2    0       4     0   3e0  E   C   10   4        
+Suarez               N     -1    0       3     4   2e0  E   C   10   0        
+[4]Tinoco               N     +0    0       0    18   3e0  E   C   10   5        
+[2]
+[1]2025 Cleveland Guardians   [2]Black=In Majors(12/13) [4]Blue=In Minors(0/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Ronald Acuna       1   0 2025  ATN  3R 338 12  1 21 .290  71 102  42 .417 .518
+Tommy Edman        2   0 2025  LAN  1L 346 13  1 13 .225  19  61  49 .274 .382
+Nick Fortes        3   0 2025  TBA  1R 218  9  1  5 .229  14  47  21 .296 .349
+Maikel Garcia      4   0 2025  KCA  2L 595 39  5 16 .286  62  84  74 .351 .449
+Steven Kwan        5   0 2025  CLA  2R 625 29  1 11 .272  55  60  56 .330 .374
+Victor Robles      6   0 2025  SEA  2L 106  4  1  1 .245   3  26   9 .281 .330
+Jake Rogers        7   0 2025  DEA  1L 123  5  2  3 .187  15  39  19 .277 .333
+Rowdy Tellez       8   0 2025  TEA  8R 289 11  0 17 .228  17  83  49 .276 .443
+Jared Triolo       9   0 2025  PIN  3L 331 18  2  7 .227  39  76  24 .311 .356
+Trea Turner       10   0 2025  PHN   E 589 31  7 15 .304  43 107  69 .355 .457
+Andrew Vaughn     11   0 2025  MLN  3L 406 22  0 14 .254  31  80  65 .307 .411
+James Wood        12   0 2025  WAN  2L 598 38  0 31 .256  85 221  94 .350 .475
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Acuna            29    N/N   R    B    D    D   15 * 11%  0% (19-6)   9  1   4
+Edman            34    N/N   S    D    D    C   14   17%  0% (15-6)   3  1   4
+Fortes           48    W/N   R    E    D    C   10    3%  0% (20-6)   1  0   3
+Garcia           20    N/N   R    A    C    C   16 * 42%  0% (17-13) 23  9   1
+Kwan             33    W/N   L    A    B    C   15 * 22%  0% (18-12) 21  5   1
+Robles           43    W/N   R    B    D    C   14 * 47%  0% (18-15)  6  2   5
+Rogers           22    N/N   R    E    D    D   12    0%  0% (0-0)    0  0   4
+Tellez            7    W/N   L    E    D    D    8    3%  0% (20-6)   1  0   1
+Triolo           33    N/N   R    B    D    C   15 * 25%  0% (19-13) 13  2   1
+Turner           32    N/N   R   AA    D    B   17 * 31%  0% (19-14) 36  7   1
+Vaughn           28    N/N   R    E    D    B    9    0%  0% (0-0)    0  0   1
+Wood             35    N/N   L    B    D    C   15 * 33%  0% (16-12) 15  7   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Acuna                                                       3e4  -3   .246 10 
+Edman                              2e4  3e14           3e4       +0   .271 15 
+Fortes          2e7 +2t7p3                                            .224 42 
+Garcia                             2e14 1e8  3e16      4e16 4e16 -1   .269 33 
+Kwan                                              1e9            -3   .311  0 
+Robles                                                 3e4  2e4  -1   .235 42 
+Rogers          2e8 -3t10p0                                           .200 28 
+Tellez                        4e7                                     .209 47 
+Triolo                        3e5  2e3  1e11 3e22                     .192 14 
+Turner                                       2e10                     .304 29 
+Vaughn                        3e8                                     .230 41 
+Wood                                              3e4            -2   .235 28 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Tyler Alexander       13   0 2025  CHA    L      4     3      0    #1WR
+Chris Bassitt         14   0 2025  TOA    R      6            N    #1WR
+Jalen Beeks           15   0 2025  ARN    L      1     1      0    #1WL
+Garrett Crochet       16   0 2025  BOA    L      6            N    #1WL
+J.T. Ginn             17   0 2025  SAA    R      5     3      N    #1WR
+Adrian Houser         18   0 2025  TBA    R      6            N    #1WR
+[4]Kevin Kelly           19   0 2025  TBA    R            1      N    #1WR
+Dylan Lee             20   0 2025  ATN    L            1      1    #1WL
+Jesus Luzardo         21   0 2025  PHN    L      5            N    #1WL
+Davis Martin          22   0 2025  CHA    R      5            N    #1WL
+Luis Ortiz            23   0 2025  CLA    R      5            N    #1WR
+Randy Rodriguez       24   0 2025  SFN    R            1      2    #1WR
+Emmet Sheehan         25   0 2025  LAN    R      5     4      N    #1WR
+Mitch Spence          26   0 2025  SAA    R      5     3      0    #1WR
+[4]Tyler Wells           27   0 2025  BAA    R      5            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Alexander        44    2R   5  14  4.98  98  107   30   82  9  5  1
+Bassitt          56    4R  11   9  3.96 170  174   52  166 22 31  0
+Beeks            42     E   5   3  3.77  57   42   20   47  6  2  1
+Crochet          19    5L  18   5  2.59 205  165   46  255 24 32  0
+Ginn             46    9R   4   7  5.08  90   92   31   99 17 16  0
+Houser           48    4R   8   5  3.31 125  122   38   92 10 21  0
+[4]Kelly            43    2R   2   5  5.90  40   45    9   35 11  0  0
+Lee              44    3L   2   4  3.29  68   53   14   76 13  0  2
+Luzardo          24    5L  15   7  3.92 184  167   57  216 16 32  0
+Martin           50    2R   7  10  4.10 143  136   48  104 20 25  0
+Ortiz            51    2R   4   9  4.36  89   80   42   96 12 16  0
+Rodriguez        52    6L   3   5  1.78  51   34   11   67  4  0  4
+Sheehan          37    2L   6   3  2.82  73   49   22   89  7 12  0
+Spence           47    4R   3   6  5.10  85   96   26   66 16  8  1
+[4]Wells            56    9R   2   1  2.91  22   17    2   18  4  4  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Alexander            N     -1    7       1     8  3e14  E   C   10   2        
+Bassitt              N     +2    6       4    19  3e17  E   C   10   1        
+Beeks                N     +1    0       3     8   3e0  E   C   10   1        
+Crochet              Y     +0    5       7     6   3e0  E   C   10   0        
+Ginn                 N     +3    0       1    14   4e0  E   C   10   2        
+Houser               N     -4    9       9    25  2e11  E   C   10   1        
+[4]Kelly                N     +1    8       5    15   3e0  E   C   10   4        
+Lee                  N     -5   19      10    19   2e0  E   C   10   0        
+Luzardo              N     +4    2       2     7  3e24  E   C   10   0        
+Martin               N     +0    5       2    24   2e0  E   C   10   1        
+Ortiz                N     +6    0       0    16  4e51  E   C   10   1        
+Rodriguez            N     +7    0       9     9   4e0  E   C   10   3        
+Sheehan              N     -5    0       6     0  3e20  E   C   10   4        
+Spence               N     +0    0       2    15  4e17  E   C   10   1        
+[4]Wells                N     +6    0       0    24   3e0  E   C   10   6        
+[2]
+[1]2025 Detroit Tigers   [2]Black=In Majors(15/10) [4]Blue=In Minors(0/4)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Pete Alonso        1   0 2025  NYN  4R 624 41  1 38 .272  61 162 126 .347 .524
+Andrew Benintendi  2   0 2025  CHA  4L 420 16  2 20 .240  40  82  63 .307 .431
+Jonah Bride        3   0 2025  MNA  2L 112  2  0  0 .170  11  39   5 .248 .188
+Corbin Carroll     4   0 2025  ARN  1R 564 32 17 31 .259  67 153  84 .343 .541
+Elly De La Cruz    5   0 2025  CIN  4R 629 31  7 22 .264  67 181  86 .336 .440
+Jonathan India     6   0 2025  KCA   E 497 29  0  9 .233  54 106  45 .323 .346
+D.J. Lemahieu      7   0 2025  NYA  2R 128  3  0  2 .266  14  35  12 .338 .336
+Chas McCormick     8   0 2025  HOA  2L 100  5  0  1 .210   9  31   5 .279 .290
+Zach McKinstry     9   0 2025  DEA  3L 452 23 11 12 .259  46 111  49 .333 .438
+Jackson Merrill   10   0 2025  SDN  2R 440 25  6 16 .264  33 108  67 .317 .457
+Victor Scott      11   0 2025  SLN  1R 398 15  1  5 .216  42 111  37 .305 .296
+Ildemaro Vargas   12   0 2025  ARN  1R 115  2  1  3 .270   2  15  19 .292 .383
+Christian Vazquez 13   0 2025  MNA  2R 190  7  0  3 .189  18  35  14 .271 .274
+Austin Wells      14   0 2025  NYA  1L 401 22  1 21 .219  30 118  71 .275 .436
+Connor Wong       15   0 2025  BOA   E 168  8  0  0 .190  16  42   7 .262 .238
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Alonso           29    N/N   R    E    D    B   10   14% 14% (13-3)   1  2   0
+Benintendi       21    N/N   L    E    D    C   10    3%  0% (20-6)   1  0   3
+Bride            52    W/W   R    E    D    D   11    0%  0% (0-0)    0  0   1
+Carroll          32    N/N   L    A    D    C   17 * 36%  0% (19-15) 32  6   1
+De La Cruz       32    N/N   S   AA    D    D   17 * 36%  0% (19-15) 37  8   0
+India            19    N/N   R    E    D    C   12   67%  0% (3-1)    0  4   1
+Lemahieu         34    W/N   R    E    D    D    9    0%  0% (0-0)    0  0   4
+McCormick        42    N/W   R    D    A    D   13 * 61% 39% (15-6)   2  3   4
+McKinstry        24    W/N   L    A    D    C   17 * 33%  0% (19-13) 19  5   1
+Merrill          36    W/N   L    E    C    D   15   19% 17% (13-3)   1  2   3
+Scott            27    W/W   L   AA    A    D   17 * 42%  0% (19-15) 34  4   2
+Vargas           44    N/W   S    E    D    B   13    0%  0% (0-0)    0  0   4
+Vazquez          27    W/N   R    E    D    B    9   25%  8% (13-6)   1  1   5
+Wells            31    N/N   L    C    D    C   11 * 11%  0% (19-6)   5  1   2
+Wong             23    W/W   R    D    D    D   13   28%  0% (13-11)  2  1   3
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Alonso                        4e10                                    .244 45 
+Benintendi                                        4e8            +1   .216 14 
+Bride                         4e7  4e6  4e16                          .163  7 
+Carroll                                                3e1  1e1  +1   .247 10 
+De La Cruz                                   2e27                     .238 32 
+India                              4e17 4e47      5e10           +0   .237 23 
+Lemahieu                           3e3                                .249 41 
+McCormick                                         2e2  2e2  2e2  -1   .186 10 
+McKinstry                     4e25 3e71 3e15 3e23 3e2       3e2  -1   .212 15 
+Merrill                                                2e1       -2   .287  8 
+Scott                                             2e8  1e8  2e8  +0   .220  4 
+Vargas                        4e18 3e6  3e41 4e14                     .297 40 
+Vazquez         2e1 +0t1p0                                            .172 19 
+Wells           2e3 -1t2p1                                            .246 37 
+Wong            3e6 +0t9p0    4e30                                    .173 52 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+[4]Jason Adam            16   0 2025  SDN    R            1      N    #1WR
+Logan Allen           17   0 2025  CLA    L      5            N    #1WR
+Walker Buehler        18   0 2025  PHN    R      5     3      N    #1WR
+Logan Gilbert         19   0 2025  SEA    R      5            N    #1WR
+Jake Junis            20   0 2025  CLA    R            2      N    #1WR
+Zack Littell          21   0 2025  CIN    R      6            N    #1WR
+Phil Maton            22   0 2025  TEA    R            1      2    #1WR
+Robbie Ray            23   0 2025  SFN    L      6            N    #1WL
+Dennis Santana        24   0 2025  PIN    R            1      4    #1WR
+J.P. Sears            25   0 2025  SDN    L      5            N    #1WR
+[4]Justin Slaten         26   0 2025  BOA    R            1      2    #1WR
+Cade Smith            27   0 2025  CLA    R            1      4    #1WR
+[4]Alex Vesia            28   0 2025  LAN    L            1      2    #1WL
+[4]Simeon Woods-Richard  29   0 2025  MNA    R      5            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+[4]Adam             46    5L   8   4  1.93  65   50   25   70  4  0  0
+Allen            21    2L   8  11  4.25 157  157   62  122 18 29  0
+Buehler          56    2R  10   7  4.93 126  130   61   92 22 24  0
+Gilbert          50    3L   6   6  3.44 131  104   31  173 20 25  0
+Junis            39    2L   4   1  2.97  67   64   18   55  5  0  0
+Littell          47    1L  10   8  3.81 187  174   32  130 36 32  0
+Maton            44    2R   4   5  2.79  61   42   23   81  3  0  5
+Ray              23    3L  11   8  3.65 182  148   73  186 22 32  0
+Santana          40    4L   4   5  2.18  70   44   17   60  5  0 16
+Sears            17    1L   9  11  5.04 136  143   36  117 30 27  0
+[4]Slaten           42    3L   2   4  4.24  34   27   10   25  3  0  3
+Smith            48    2L   8   5  2.93  74   55   19  104  4  0 16
+[4]Vesia            34    4L   4   2  3.02  60   37   22   80  9  0  5
+[4]Woods-Richard    49    1L   7   4  4.04 111   96   46  107 17 22  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+[4]Adam                 N     +7    0      10    10   3e0  E   C   10   1        
+Allen                N     -1    0       5    17  2e28  E   C   10   1        
+Buehler              N     +7    0       0    18  4e11  E   C   10   1        
+Gilbert              N     +1    0      18     0  4e11  E   C   10   1        
+Junis                N     +2    0       0    20   3e0  E   C   10   1        
+Littell              N     +0    0       3    24   3e8  E   C   10   0        
+Maton                N     +4    0       3     7  4e24  E   C   10   1        
+Ray                  N     +1    2       8     5   3e0  E   C   10   0        
+Santana              N     -1    0       0     0  3e20  E   C   10   0        
+Sears                N     -3    0       1     8   4e0  E   C   10   1        
+[4]Slaten               N     +0    0       6    20   3e0  E   C   10   5        
+Smith                N     -2   11       9     0  3e20  E   C   10   0        
+[4]Vesia                N     -1    0      12     0   2e0  E   C   10   1        
+[4]Woods-Richard        N     -1    3       7     0  4e26  E   C   10   2        
+[2]
+[1]2025 Houston Astros   [2]Black=In Majors(13/11) [4]Blue=In Minors(0/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Jordan Beck        1   0 2025  CON  2L 539 27  5 16 .258  43 174  53 .317 .416
+Ernie Clement      2   0 2025  TOA  5L 545 35  2  9 .277  27  61  50 .313 .398
+Ke'Bryan Hayes     3   0 2025  CIN  2R 527 16  3  5 .235  36 111  49 .290 .306
+Alejandro Kirk     4   0 2025  TOA   E 451 18  0 15 .282  48  59  76 .348 .421
+Francisco Lindor   5   0 2025  NYN  3R 644 35  0 31 .267  65 131  86 .346 .466
+Ketel Marte        6   0 2025  ARN   E 480 28  0 28 .283  64  83  72 .376 .517
+Marcell Ozuna      7   0 2025  ATN  1R 487 19  0 21 .232  94 144  68 .355 .400
+Vinnie Pasquantin  8   0 2025  KCA  4R 621 33  1 32 .264  49 107 113 .323 .475
+Gary Sanchez       9   0 2025  BAA  4R  91  2  0  5 .231   4  27  24 .297 .418
+Jesus Sanchez     10   0 2025  HOA  6R 451 21  4 14 .237  42 110  48 .304 .395
+Daulton Varsho    12   0 2025  TOA  5R 248 13  2 20 .238  17  77  55 .284 .548
+Mark Vientos      13   0 2025  NYN  1L 424 21  2 17 .233  30 115  61 .289 .413
+Mike Yastrzemski  14   0 2025  KCA  6R 477 28  1 17 .233  72 108  46 .333 .403
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Beck             24    N/N   R    B    C    D   14 * 47%  0% (17-13) 19  8   1
+Clement          32    N/W   R    C    B    B   14 * 50%  8% (15-8)   6  5   1
+Hayes            21    W/W   R    B    D    C   12 * 22%  0% (18-12) 12  3   1
+Kirk             28    N/N   R    E    D    C    8    3%  0% (20-6)   1  0   2
+Lindor           31    N/N   S    A    B    C   14 * 31%  0% (19-13) 31  6   1
+Marte            33    N/N   S    D    D    C   12   17%  0% (13-6)   4  2   2
+Ozuna            22    N/N   R    E    D    D    9    0%  0% (0-0)    0  0   1
+Pasquantino      24    N/N   L    E    D    C    9    3%  0% (20-6)   1  0   1
+Sanchez          42    N/N   R    E    D    D    8    0%  0% (0-0)    0  0   6
+Sanchez          15    N/N   L    B    D    C   12 * 28%  0% (18-12) 13  3   2
+Varsho           20    N/N   L    D    D    D   14    8%  0% (20-6)   2  0   5
+Vientos          30    N/N   R    E    D    D   10    3%  0% (20-6)   1  0   2
+Yastrzemski      20    N/N   L    C    B    C   13 * 14%  0% (18-6)   7  2   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Beck                                              3e4            -2   .230 22 
+Clement                       4e21 2e14 1e10 3e17                     .226 39 
+Hayes                                   1e6                           .244 37 
+Kirk            1e1 -2t13p2                                           .295 46 
+Lindor                                       2e14                     .253 16 
+Marte                              2e10                               .239 32 
+Ozuna                                                                 .208 25 
+Pasquantino                   4e5                                     .236 35 
+Sanchez         4e16 +1t15p0                                          .249 30 
+Sanchez                                           4e10 4e10 3e10 -2   .227 33 
+Varsho                                                 1e3       -1   .224  0 
+Vientos                       4e9       4e21                          .198 39 
+Yastrzemski                                       2e1  3e1  2e1  -3   .216 18 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Keegan Akin           15   0 2025  BAA    L      1     1      2    #1WL
+Aaron Ashby           16   0 2025  MLN    L            2      2    #1WR
+Zach Eflin            11   3 2025  BAA    R      5            N    #1WR
+Pete Fairbanks        17   0 2025  TBA    R            1      5    #1WR
+Sonny Gray            18   0 2025  SLN    R      5            N    #1WR
+Brenan Hanifee        19   0 2025  DEA    R            1      N    #1WR
+Raisel Iglesias       21   0 2025  ATN    R            1      5    #1WR
+Jared Koenig          22   0 2025  MLN    L            1      1    #1WR
+Brandon Pfaadt        23   0 2025  ARN    R      5            N    #1WR
+Chris Sale            24   0 2025  ATN    L      6            N    #1WL
+Kodai Senga           25   0 2025  NYN    R      5            N    #1WL
+[4]Michael Soroka        26   0 2025  CHN    R      5     3      N    #1WR
+[4]Brandon Woodruff      27   0 2025  MLN    R      6            N    #1WL
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Akin             41    3R   5   4  3.41  63   54   33   59 10  3  8
+Ashby            35    2L   5   2  2.16  67   54   24   76  3  1  3
+Eflin            60    7R   6   5  5.93  71   88   13   50 18 14  0
+Fairbanks        47    2R   4   5  2.83  60   45   18   59  7  0 27
+Gray             52    5L  14   8  4.28 181  185   38  201 25 32  0
+Hanifee          31    8R   3   3  3.00  60   65   14   40  3  0  0
+Iglesias         53    2L   4   6  3.21  67   51   16   73  8  0 29
+Koenig           41    3L   6   1  2.86  66   57   20   68  6  0  2
+Pfaadt           53    2L  13   9  5.25 177  198   37  147 26 33  0
+Sale             19    3L   7   5  2.58 126  102   32  165 11 20  0
+Senga            53    2R   7   6  3.02 113   94   55  109 12 22  0
+[4]Soroka           56    3R   3   8  4.52  90   72   29   95 12 17  0
+[4]Woodruff         53    4L   7   2  3.20  65   45   14   83  9 12  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Akin                 N     -3    0       6    11  3e23  E   C   10   1        
+Ashby                N     +2    0      20    20  3e22  E   C   10   4        
+Eflin                N     -3    0       2    10  1e40  E   C   10   5        
+Fairbanks            N     +2    0       7    11  3e24  E   C   10   1        
+Gray                 N     -2    0       2     7   1e8  E   C   10   0        
+Hanifee              N     +3    0       7    16  3e48  E   C   10   1        
+Iglesias             N     +0    0       0     6   2e0  E   C   10   0        
+Koenig               N     -4    0       3    21  2e22  E   C   10   0        
+Pfaadt               N     +0    0       3     6  5e33  E   C   10   0        
+Sale                 N     +7    0       5     0  3e11  E   C   10   3        
+Senga                N     +0    0       9    18  3e13  E   C   10   2        
+[4]Soroka               N     +3    4       4     8   3e0  E   C   10   3        
+[4]Woodruff             N     +3    0       3     0   4e0  E   C   10   5        
+[2]
+[1]2025 Kansas City Royals   [2]Black=In Majors(13/9) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Patrick Bailey     1   0 2025  SFN  1R 409 18  3  6 .222  30 133  55 .277 .325
+Byron Buxton       2   0 2025  MNA  4L 488 21  7 35 .264  41 148  83 .327 .551
+Dylan Carlson      3   0 2025  BAA   E 217  9  1  6 .203  21  54  20 .278 .336
+Santiago Espinal   4   0 2025  CIN  2L 301 12  0  0 .243  21  38  16 .292 .282
+Ty France          5   0 2025  TOA  1R 444 25  0  7 .257  22  83  52 .320 .360
+Spencer Horwitz    6   0 2025  PIN  5R 364 26  0 11 .272  44  73  51 .353 .434
+Danny Jansen       7   0 2025  MLN   E 288 11  0 14 .215  42  86  36 .321 .399
+Brandon Nimmo      8   0 2025  NYN   E 587 27  0 25 .262  50 141  92 .324 .436
+Joey Ortiz         9   0 2025  MLN  4L 470 18  1  7 .230  27  74  45 .276 .317
+Blake Perkins     10   0 2025  MLN  3L 155  6  2  3 .226  15  47  19 .298 .348
+Davis Schneider   11   0 2025  TOA   E 188  5  0 11 .234  36  60  31 .361 .436
+Myles Straw       12   0 2025  TOA  1L 267 14  1  4 .262  19  50  32 .313 .367
+Leody Taveras     13   0 2025  SEA  1R 171  6  1  3 .205   5  50  17 .226 .304
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Bailey           28    W/W   S    E    B    C   10    3%  0% (20-6)   1  0   1
+Buxton           22    N/N   R    A    D    D   17 * 25%  0% (20-13) 24  0   2
+Carlson          31    W/N   S    C    D    D   13 * 58% 17% (15-7)   3  3   1
+Espinal          39    W/W   R    E    B    C   13   17%  0% (13-6)   2  1   1
+France           30    N/W   R    E    D    D    9    3%  0% (20-6)   1  0   1
+Horwitz          12    N/N   L    E    D    C   10   25%  0% (3-1)    0  1   4
+Jansen           33    N/N   R    E    D    B   10    0%  0% (0-0)    0  0   2
+Nimmo            31    N/N   L    B    D    C   14 * 11%  0% (19-11) 13  1   1
+Ortiz            29    W/W   R    B    C    B   15 * 28%  0% (19-13) 14  3   1
+Perkins          31    N/W   S    B    D    D   15 * 31%  0% (19-13)  7  2   5
+Schneider        57    N/N   R    C    D    D   13 * 17%  0% (17-6)   3  1   1
+Straw            50    W/N   R    B    A    C   17 * 19%  0% (19-13) 12  1   1
+Taveras          17    W/N   S    B    B    D   15 * 44%  0% (18-15)  9  3   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Bailey          1e3 -3t8p3                                            .272 25 
+Buxton                                                 1e3       -1   .273  0 
+Carlson                                           2e4  3e4  3e4  -1   .177 18 
+Espinal                       4e25 2e11 2e3  3e10 4e18      4e18 +1   .196 51 
+France                        2e4  4e41                               .289 35 
+Horwitz                       3e7  4e12                               .244 25 
+Jansen          3e2 +1t8p0                                            .201 20 
+Nimmo                                             3e1  4e1       +1   .248 18 
+Ortiz                                        2e10                     .211 34 
+Perkins                                                1e4       -3   .244 35 
+Schneider                          4e3  4e33      3e8            +0   .208 24 
+Straw                              5e41           1e2  1e2  1e2  -2   .220 28 
+Taveras                                                3e13 3e13 -1   .232  0 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Anthony Banda         14   0 2025  LAN    L            1      N    #1WL
+Jose Berrios          15   0 2025  TOA    R      5            N    #1WR
+Josh Hader            16   0 2025  HOA    L            1      6    #1WL
+Brant Hurter          17   0 2025  DEA    L      4     3      1    #1WL
+Jake Irvin            18   0 2025  WAN    R      5            N    #1WR
+Sean Manaea           19   0 2025  NYN    L      5     3      N    #1WR
+Michael Wacha         20   0 2025  KCA    R      6            N    #1WR
+Ryan Weathers         21   0 2025  MMN    L      5            N    #1WR
+Angel Zerpa           22   0 2025  KCA    L      1     1      N    #1WL
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Banda            43    7L   5   1  3.18  65   45   34   61  8  1  0
+Berrios          52    4L   9   5  4.17 166  160   56  138 26 30  0
+Hader            23     E   6   2  2.05  53   29   16   76  8  0 28
+Hurter           40    3L   4   3  2.43  63   57   27   68  4  4  2
+Irvin            57    4R   9  13  5.70 180  195   62  124 38 33  0
+Manaea           27    4L   2   4  5.64  61   62   12   75 13 12  0
+Wacha            52    2L  10  13  3.86 173  166   45  126 15 31  0
+Weathers         20    3R   2   2  3.99  38   37   12   37  7  8  0
+Zerpa            41    5L   5   2  4.18  65   67   22   58  7  2  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Banda                N     +4    0      20     8   3e0  E   C   10   0        
+Berrios              N     +0    2       0    22   2e0  E   C   10   1        
+Hader                N     +0    0       9     0   4e0  E   C   10   4        
+Hurter               N     +4    0       6    20  4e46  E   C   10   1        
+Irvin                N     -2    2       3    24   3e8  E   C   10   0        
+Manaea               N     +0    0       6     0   3e0  E   C   10   5        
+Wacha                N     -1    0       2    21   3e0  E   C   10   1        
+Weathers             N     +2    0       5     9   3e0  E   C   10   6        
+Zerpa                N     +0    6       3    24   2e0  E   C   10   1        
+[2]
+[1]2025 Los Angeles Dodgers   [2]Black=In Majors(15/10) [4]Blue=In Minors(1/1)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Wilyer Abreu       1   0 2025  BOA  3R 373 17  0 22 .247  40 101  69 .317 .469
+Alex Call          2   0 2025  LAN  1L 270 13  2  5 .267  36  55  31 .361 .385
+Jazz Chisholm      3   0 2025  NYA  1R 462 15  1 31 .242  58 148  80 .332 .481
+J.P. Crawford      4   0 2025  SEA  1R 570 24  0 12 .265  74 122  58 .352 .370
+Oneil Cruz         5   0 2025  PIN  4R 471 18  3 20 .200  64 174  61 .298 .378
+Henry Davis        6   0 2025  PIN  1L 252  7  0  7 .167  18  76  22 .234 .278
+Yandy Diaz         7   0 2025  TBA  2L 583 29  1 25 .300  57  92  83 .366 .482
+[4]Jerar Encarnacion  8   0 2025  SFN  2L  55  3  0  2 .200   1  15   7 .214 .364
+Nolan Gorman       9   0 2025  SLN  3L 351 14  1 14 .205  47 136  46 .296 .370
+Starling Marte    10   0 2025  NYN   E 293 14  0  9 .270  22  68  34 .335 .410
+Ryan McMahon      11   0 2025  NYA  3R 509 23  1 20 .214  70 189  53 .312 .381
+J.T. Realmuto     12   0 2025  PHN  3R 502 26  1 12 .257  35 129  52 .315 .384
+Rob Refsnyder     13   0 2025  BOA  6L 182 12  0  9 .269  24  54  30 .354 .484
+Ramon Urias       14   0 2025  HOA  2L 352 17  0 11 .241  27  88  44 .292 .384
+Jordan Walker     15   0 2025  SLN  1R 363 13  1  6 .215  29 126  41 .278 .306
+Christian Yelich  16   0 2025  MLN  3R 573 21  0 29 .264  64 167 103 .343 .452
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Abreu            16    N/N   L    C    D    D   13 * 47%  0% (15-12)  6  3   4
+Call             39    N/W   R    D    B    C   15   17%  0% (13-6)   2  1   1
+Chisholm         28    N/N   L   AA    C    D   16 * 44%  0% (19-15) 31  8   3
+Crawford         32    N/N   L    C    B    C   12    8%  0% (18-6)   8  1   1
+Cruz             23    W/N   L   AA    D    D   16 * 44%  0% (19-15) 38  5   1
+Davis            23    N/N   R    D    C    B   12   22%  0% (13-6)   2  1   2
+Diaz             27    N/N   R    D    D    B   10    6%  0% (15-6)   3  1   1
+[4]Encarnacion      46    N/N   R    D    D    D   11 *  6%  0% (20-11)  1  0   6
+Gorman           23    N/N   L    E    D    D   11   14%  3% (13-5)   1  1   2
+Marte            45    N/N   R    B    D    C   13 * 19%  0% (18-12)  7  2   2
+McMahon          22    N/N   L    D    C    C   12    8%  0% (15-6)   3  1   1
+Realmuto         31    N/N   R    C    D    D   14 * 17%  0% (18-11)  8  2   2
+Refsnyder        64    N/N   R    C    D    C   13 *  8%  0% (20-6)   3  0   1
+Urias            30    N/N   R    D    D    C   12    6%  0% (20-6)   3  0   1
+Walker           27    N/W   R    B    D    D   13 * 28%  0% (17-12) 10  3   3
+Yelich           33    N/N   L    B    D    B   16 * 31%  0% (17-12) 16  6   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Abreu                                                       1e9  -3   .214 32 
+Call                                              2e3  3e3  2e3  +0   .262 26 
+Chisholm                           2e20 4e37                          .198  2 
+Crawford                                     3e14                     .239 26 
+Cruz                                                   4e15      -1   .193 14 
+Davis           3e4 -3t3p0                                            .164  6 
+Diaz                          4e10                                    .249 30 
+[4]Encarnacion                   5e30                4e5       4e5  -1   .209 68 
+Gorman                        4e25 4e6  4e21                          .186  0 
+Marte                                             4e4       4e4  +0   .256 34 
+McMahon                                 1e11                          .190 14 
+Realmuto        2e1 -3t7p0                                            .222 39 
+Refsnyder                                         4e6       4e6  -1   .234 42 
+Urias                         4e16 3e4  2e10                          .217 26 
+Walker                                                      4e6  -2   .252 36 
+Yelich                                            4e9            +1   .291  9 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Brennan Bernardino    17   0 2025  BOA    L      1     1      0    #1WL
+Dylan Cease           18   0 2025  SDN    R      5            N    #1WR
+[4]Yimi Garcia           19   0 2025  TOA    R            1      2    #1WR
+Grant Holmes          20   0 2025  ATN    R      6            N    #1WL
+Shelby Miller         21   0 2025  MLN    R            1      3    #1WR
+Carmen Mlodzinski     22   0 2025  PIN    R      4     3      N    #1WR
+Tanner Scott          23   0 2025  LAN    L            1      4    #1WR
+Framber Valdez        24   0 2025  HOA    L      6            N    #1WR
+Louie Varland         25   0 2025  TOA    R            1      N    #1WL
+Ryan Walker           26   0 2025  SFN    R            1      4    #1WR
+Gavin Williams        27   0 2025  CLA    R      5            N    #1WL
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Bernardino       41    1R   4   3  3.14  52   39   26   43  1  3  1
+Cease            48     E   8  12  4.55 168  152   71  215 21 32  0
+[4]Garcia           49    1L   1   2  3.86  21   13   12   25  2  0  3
+Holmes           51    1L   4   9  3.99 115  100   54  123 16 21  0
+Miller           48     E   4   3  2.74  46   33   15   54  5  0 10
+Mlodzinski       49    3L   5   8  3.55  99  102   27   89  8 12  0
+Scott            27    7R   1   4  4.74  57   54   18   60 11  0 23
+Valdez           19    4R  13  11  3.66 192  171   68  187 15 31  0
+Varland          46    1R   4   3  2.97  73   65   22   75  6  1  0
+Walker           46    2R   5   7  4.11  61   60   18   60  4  0 17
+Williams         51    3L  12   5  3.06 168  130   83  173 23 31  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Bernardino           N     +0    0      12     0  1e51  E   C   10   2        
+Cease                N     +0    0       6     7   3e8  E   C   10   0        
+[4]Garcia               N     +3    0      20     0  2e51  E   C   10   5        
+Holmes               N     -5    0       9     8  2e13  E   C   10   3        
+Miller               N     +9    0       4     9  2e31  E   C   10   5        
+Mlodzinski           N     -2    0      11    18   3e0  E   C   10   1        
+Scott                N     -3    0       7    18   3e0  E   C   10   2        
+Valdez               N     +2    2      14    22   5e0  E   C   10   1        
+Varland              N     +0    0       0    18  2e20  E   C   10   0        
+Walker               N     -4   13       3     3   3e0  E   C   10   1        
+Williams             N     -1    2      12     3   2e0  E   C   10   1        
+[2]
+[1]2025 Milwaukee Brewers   [2]Black=In Majors(17/13) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Nick Castellanos   1   0 2025  PHN  1R 547 27  2 17 .250  32 133  72 .294 .400
+Michael Conforto   2   0 2025  LAN  2L 418 20  0 12 .199  56 121  36 .305 .333
+Jonny Deluca       3   0 2025  TBA   E  57  1  3  0 .333   2  13   4 .356 .456
+Yainer Diaz        4   0 2025  HOA  1L 542 25  1 20 .256  20  95  70 .284 .417
+Adolis Garcia      5   0 2025  TEA  2R 507 28  0 19 .227  28 135  75 .271 .394
+Jose Iglesias      6   0 2025  SDN  1L 306 11  0  3 .229  24  56  36 .298 .294
+Carson Kelly       7   0 2025  CHN  1L 369 13  1 17 .249  45  80  50 .333 .428
+Matt McLain        8   0 2025  CIN   E 510 18  0 15 .220  55 167  50 .300 .343
+Christopher Morel  9   0 2025  TBA   E 278 16  0 11 .219  25 109  33 .289 .396
+Luis Rengifo      10   0 2025  LAA  1R 501 16  3  9 .238  33 104  43 .287 .335
+Corey Seager      11   0 2025  TEA  3R 380 19  0 21 .271  58  87  50 .373 .487
+Trey Sweeney      12   0 2025  DEA  2L 296  6  2  6 .196  26  92  32 .258 .291
+Mike Tauchman     13   0 2025  CHA  1R 335 17  1  9 .263  45  86  40 .356 .400
+Chris Taylor      14   0 2025  LAA  1R 113  7  0  2 .186   5  42  12 .256 .301
+Spencer Torkelson 15   0 2025  DEA  2L 563 27  1 31 .240  72 169  78 .333 .456
+Justin Turner     16   0 2025  CHN  5L 169  7  0  3 .219  17  37  18 .288 .314
+Jacob Young       17   0 2025  WAN   E 324 10  1  2 .231  27  65  31 .296 .287
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Castellanos      32    N/N   R    D    D    C   12    6%  0% (20-6)   4  0   1
+Conforto         16    W/N   L    E    D    D   11    3%  0% (20-6)   1  0   1
+Deluca           40    W/W   R    A    D    C   16 * 19%  0% (20-13)  6  0   6
+Diaz             21    N/N   R    E    D    D   11    8%  3% (13-5)   1  1   1
+Garcia           27    N/N   R    B    D    D   13 * 31%  0% (18-13) 13  4   1
+Iglesias         39    W/W   R    C    D    C   13 * 11%  0% (19-6)   5  1   1
+Kelly            30    N/N   R    E    D    C    9    3%  0% (20-6)   2  0   2
+McLain           22    N/N   R    A    B    D   15 * 22%  0% (19-13) 18  2   1
+Morel            52    N/N   R    B    D    D   14 * 28%  0% (19-13)  7  2   1
+Rengifo          20    N/W   S    C    D    C   14 * 50%  6% (15-10) 10  7   1
+Seager           36    N/N   L    D    D    B    9    3%  0% (20-6)   3  0   4
+Sweeney          16    W/N   L    C    D    D   13   17%  0% (15-6)   3  1   1
+Tauchman         18    N/N   L    E    D    B   10    0%  0% (0-0)    0  0   4
+Taylor           30    W/N   R    D    D    D   13 * 67% 19% (15-9)   2  2   5
+Torkelson        28    N/N   R    E    D    D   12    8%  0% (13-6)   2  1   1
+Turner           58    N/W   R    D    D    C    9    8%  0% (20-6)   2  0   1
+Young            28    W/W   R    B    A    C   17 * 89% 11% (15-11) 15 11   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Castellanos                                                 4e0  +0   .222 39 
+Conforto                                          4e6            -2   .178 35 
+Deluca                                                 2e3       -1   .291  0 
+Diaz            4e1 +1t3p1                                            .232 40 
+Garcia                                                      1e3  -4   .245 28 
+Iglesias                           2e5  3e17 3e12 4e25           +2   .268 32 
+Kelly           2e1 -3t3p2                                            .195 40 
+McLain                             2e8       3e38                     .178 18 
+Morel                              4e22           4e9       4e9  +1   .207 40 
+Rengifo                            2e8  4e23 4e48           4e1  +2   .228 19 
+Seager                                       2e7                      .236 45 
+Sweeney                                      3e12                     .172  5 
+Tauchman                                                    4e1  +0   .302 16 
+Taylor                             3e8  4e6       3e3  4e3  3e3  +1   .199  7 
+Torkelson                     3e6                                     .219 27 
+Turner                        4e7       5e62                          .246 25 
+Young                                                  1e0       -1   .240 30 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Griffin Canning       18   0 2025  NYN    R      5            N    #1WR
+Lucas Erceg           19   0 2025  KCA    R            1      1    #1WL
+Carlos Estevez        20   0 2025  KCA    R            1      6    #1WR
+Jeremiah Estrada      21   0 2025  SDN    R            1      2    #1WS
+Bailey Falter         22   0 2025  KCA    L      5     3      N    #1WR
+Kyle Harrison         23   0 2025  BOA    L      4     3      N    #1WR
+George Kirby          24   0 2025  SEA    R      6            N    #1WR
+Daniel Lynch          25   0 2025  KCA    L      4     3      0    #1WL
+Yuki Matsui           26   0 2025  SDN    L            1      0    #1WL
+Ryan Pepiot           27   0 2025  TBA    R      6            N    #1WR
+Colin Rea             28   0 2025  CHN    R      5     4      0    #1WR
+Gregory Soto          29   0 2025  NYN    L            1      0    #1WL
+Justin Steele         30   0 2025  CHN    L      5            N    #1WL
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Canning          52     E   7   3  3.77  76   70   35   70  8 16  0
+Erceg            53    6L   8   4  2.64  61   54   18   48  4  0  2
+Estevez          54    5R   4   5  2.45  66   48   22   54  5  0 42
+Estrada          39    5L   4   5  3.45  73   58   27  108 12  0  3
+Falter           26    1R   7   7  4.45 125  115   46   81 19 24  0
+Harrison         33    2R   1   1  4.04  36   35   14   38  4  6  0
+Kirby            54    2R  10   8  4.21 126  121   29  137 15 23  0
+Lynch            42     E   6   2  3.06  68   66   26   45  8  2  1
+Matsui           43    7R   3   1  3.98  63   53   33   61 10  0  1
+Pepiot           46    3L  11  12  3.86 168  134   61  167 26 31  0
+Rea              51    7R  11   7  3.95 159  155   44  127 20 27  1
+Soto             43    6L   1   5  4.18  60   62   24   70  4  0  1
+Steele           32    9L   3   1  4.76  23   21    5   21  5  4  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Canning              N     -1    0       8     6   2e0  E   C   10   4        
+Erceg                N     -1    0      11    24  3e47  E   C   10   1        
+Estevez              N     -2    6       6     0   2e0  E   C   10   1        
+Estrada              N     +0    0       9     0  4e20  E   C   10   0        
+Falter               N     +1    0       9    24   2e0  E   C   10   1        
+Harrison             N     -1    0       5     0   4e0  E   C   10   1        
+Kirby                N     +0    0       5    11   4e0  E   C   10   2        
+Lynch                N     -3    0       2    10   3e0  E   C   10   2        
+Matsui               N     +1    0      17     4   3e0  E   C   10   1        
+Pepiot               N     -1    0       6    19   1e0  E   C   10   1        
+Rea                  N     -2    0       2    11  2e10  E   C   10   1        
+Soto                 N     +9    0      20     0  5e51  E   C   10   0        
+Steele               N     -1    0       0    22   3e0  E   C   10   6        
+[2]
+[1]2025 Minnesota Twins   [2]Black=In Majors(13/13) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Willy Adames       1   0 2025  SFN  1R 591 22  2 30 .225  80 179  87 .318 .421
+Michael Busch      2   0 2025  CHN  4R 524 25  5 34 .261  56 139  90 .343 .523
+Carlos Correa      3   0 2025  HOA  1L 537 29  0 13 .276  45 113  52 .332 .402
+Rafael Devers     26   0 2025  SFN  2R 607 33  0 35 .252 112 192 109 .372 .479
+Brendan Donovan    4   0 2025  SLN  3R 460 32  0 10 .287  42  67  50 .353 .422
+Eric Haase         5   0 2025  MLN  4R  70  3  0  2 .229   4  31   9 .289 .357
+Michael Harris     6   0 2025  ATN   E 611 26  6 20 .249  16 128  86 .268 .409
+Nathaniel Lowe     7   0 2025  BOA  3R 540 23  3 18 .228  62 159  84 .307 .381
+Sean Murphy        8   0 2025  ATN  1L 291 13  0 16 .199  35 105  45 .300 .409
+Heliot Ramos       9   0 2025  SFN   E 620 24  1 21 .256  52 158  69 .328 .400
+Casey Schmitt     10   0 2025  SFN  2R 312 15  0 12 .237  27  83  40 .305 .401
+Jose Tena         11   0 2025  WAN  2R 152 13  2  0 .243  15  37  16 .314 .355
+Jose Trevino      12   0 2025  CIN  2R 282 20  0  4 .238  15  39  22 .272 .351
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Adames           27    N/N   R    B    D    D   13 * 25%  0% (17-11) 12  4   1
+Busch            17    N/N   L    D    D    C   11    3%  0% (20-6)   4  0   1
+Correa           23    N/N   R    E    D    C   11    0%  0% (0-0)    0  0   1
+Devers           35    N/N   L    E    D    D   10    6%  3% (13-5)   1  1   0
+Donovan          33    W/N   L    D    B    B   12   22%  6% (13-6)   3  3   2
+Haase            36    N/N   R    E    D    D   12    0%  0% (0-0)    0  0   2
+Harris           28    N/N   L    A    B    C   15 * 36%  0% (18-13) 20  6   1
+Lowe             29    W/N   L    E    D    D   10    3%  0% (20-6)   1  0   1
+Murphy           33    N/N   R    E    D    D    9    0%  0% (0-0)    0  0   4
+Ramos            27    N/N   R    D    D    D   12   22%  3% (13-6)   6  4   1
+Schmitt          34    N/N   R    E    D    D   13    0%  0% (0-0)    0  0   3
+Tena              9    W/W   L    C    D    C   13 * 25%  0% (17-11)  3  1   1
+Trevino          26    W/W   R    E    D    C    8    0%  0% (0-0)    0  0   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Adames                                       2e17                     .229 19 
+Busch                         3e5                                     .265  0 
+Correa                                  2e10 3e17                     .227 46 
+Devers                        4e12      5e17                          .263 31 
+Donovan                            3e8       4e18 3e1            +1   .243  8 
+Haase           4e1 +0t9p1                                            .247 15 
+Harris                                                 1e1       -2   .225 14 
+Lowe                          4e8                                     .237 11 
+Murphy          2e1 -1t3p1                                            .199 34 
+Ramos                                             4e10           -1   .237 34 
+Schmitt                       4e12 3e13 2e35 4e18                     .197 28 
+Tena                               4e37 4e20                          .270 37 
+Trevino         2e7 +1t1p1                                            .221 48 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Brock Burke           14   0 2025  LAA    L            1      N    #1WL
+Sean Burke            13   0 2025  CHA    R      4     4      N    #1WR
+Jose Butto            15   0 2025  SFN    R            2      0    #1WR
+Daysbel Hernandez     16   0 2025  ATN    R            1      N    #1WR
+Tommy Kahnle          25   0 2025  DEA    R            1      3    #1WR
+Mitch Keller          17   0 2025  PIN    R      6            N    #1WR
+Dean Kremer           18   0 2025  BAA    R      5     4      N    #1WR
+Bryce Miller          19   0 2025  SEA    R      5            N    #1WR
+Hoby Milner           20   0 2025  TEA    L            1      N    #1WL
+Mitchell Parker       21   0 2025  WAN    L      5     3      0    #1WL
+Spencer Schwellenbach 22   0 2025  ATN    R      6            N    #1WR
+Jose Soriano          23   0 2025  LAA    R      6            N    #1WR
+Justin Verlander      24   0 2025  SFN    R      5            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Burke            36     E   7   1  3.36  62   58   18   52  8  1  0
+Burke            49    2L   4  11  4.22 134  131   63  133 23 22  0
+Butto            42    1L   5   3  3.90  67   62   32   58  4  0  1
+Hernandez        42    4L   4   3  3.41  37   27   30   33  3  0  0
+Kahnle           54    5R   1   5  4.43  63   51   31   50  8  0  9
+Keller           50    4R   6  15  4.19 176  171   51  150 21 32  0
+Kremer           54    1R  11  10  4.19 172  163   45  142 22 29  0
+Miller           43    2R   4   6  5.68  90   93   34   74 17 18  0
+Milner           45    7L   3   4  3.84  70   68   21   58  5  0  0
+Parker           25     E   9  16  5.68 165  178   58  103 25 30  1
+Schwellenbach    53    3R   7   4  3.09 111   89   18  108 13 17  0
+Soriano          54    2L  10  11  4.26 169  158   78  152 12 31  0
+Verlander        47    1L   4  11  3.85 152  155   52  137 16 29  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Burke                N     -2    6       0    14  4e46  E   C   10   1        
+Burke                N     +2    0       2     6  3e51  E   C   10   1        
+Butto                N     +1    5       9    14  3e21  E   C   10   2        
+Hernandez            N     +0    0      11    24   4e0  E   C   10   4        
+Kahnle               N     -2    0      10    17   3e0  E   C   10   1        
+Keller               N     +5    0       6    12   5e0  E   C   10   0        
+Kremer               N     -2    2      12    16   2e0  E   C   10   1        
+Miller               N     +6    0       4    16   4e0  E   C   10   3        
+Milner               N     -6    0       0    18   2e0  E   C   10   0        
+Parker               N     -4    0       3     9  5e17  E   C   10   0        
+Schwellenbach        N     -4    0       3    10  1e13  E   C   10   4        
+Soriano              N     -3    0      10    24   2e0  E   C   10   1        
+Verlander            N     +2    0       2     4  2e10  E   C   10   1        
+[2]
+[1]2025 New York Yankees   [2]Black=In Majors(15/10) [4]Blue=In Minors(1/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Luisangel Acuna    1   0 2025  NYN   E 175  7  0  0 .234  13  37   8 .293 .274
+Riley Adams        2   0 2025  WAN  2R 263  8  0  8 .186  18 110  24 .252 .308
+Miguel Andujar     3   0 2025  CIN  4L 321 17  1 10 .318  17  49  44 .352 .470
+[4]Christian Encarna  4   0 2025  CIN  5R 130  4  0  6 .208   3  32  19 .234 .377
+Kyle Farmer        5   0 2025  CON  3L 277 14  0  8 .227  17  66  31 .280 .365
+Riley Greene       6   0 2025  DEA  5R 600 31  1 36 .258  46 201 111 .313 .493
+Kyle Higashioka    7   0 2025  TEA   E 303 14  1 11 .241  20  72  47 .291 .403
+Jackson Holliday   8   0 2025  BAA  2R 586 21  3 17 .242  56 140  55 .314 .375
+Edouard Julien     9   0 2025  MNA  2L 182 10  0  3 .220  22  61  12 .309 .324
+Josh Jung         10   0 2025  TEA   E 482 23  1 14 .251  27 129  61 .294 .390
+Ryan Mountcastle  11   0 2025  BAA  1R 332 18  0  7 .250  15  98  35 .286 .367
+Dane Myers        12   0 2025  MMN  4L 307 10  0  6 .235  23  77  31 .291 .326
+Logan O'Hoppe     13   0 2025  LAA  3L 423  8  1 19 .213  24 139  43 .258 .371
+James Outman      14   0 2025  MNA  2R 134  5  1  6 .134  12  63  11 .216 .321
+Geraldo Perdomo   15   0 2025  ARN  2L 597 33  5 20 .290  94  83 100 .389 .462
+Wenceel Perez     16   0 2025  DEA  3L 344 17  4 13 .244  31  87  43 .308 .430
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Acuna            33    W/W   R    A    C    C   17 * 31%  0% (19-14) 16  1   1
+Adams            33    N/N   R    E    D    D   10    3%  0% (20-6)   1  0   2
+Andujar          28    N/N   R    E    D    C   11    3%  0% (20-6)   1  0   3
+[4]Encarnacion      25    N/N   R    E    D    D   13  100%  0% (3-1)    0  2   4
+Farmer           40    N/W   R    E    D    D   11   31%  0% (3-1)    0  1   1
+Greene           30    N/N   L    E    D    B   13    8%  0% (13-6)   2  1   1
+Higashioka       34    N/N   R    D    D    B    9   17%  0% (15-6)   3  1   2
+Holliday         28    N/N   L    B    D    C   14 * 61%  6% (15-11) 17 11   1
+Julien           22    N/W   L    E    D    D   10  100%  0% (3-1)    0  3   1
+Jung             29    N/N   R    D    D    D   11   11%  0% (16-6)   4  1   1
+Mountcastle      25    W/N   R    D    D    C   12    6%  0% (20-6)   3  0   4
+Myers            34    N/N   R    A    D    D   14 * 33%  0% (19-15) 18  5   3
+O'Hoppe          18    N/N   R    E    D    D   10   17%  0% (13-6)   2  1   2
+Outman           29    N/N   L    E    D    D   15    6%  0% (20-6)   1  0   1
+Perdomo          31    N/N   S    A    A    B   15 * 25%  0% (19-13) 27  6   1
+Perez            29    N/N   S    B    D    D   14 * 31%  0% (17-12)  8  3   4
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Acuna                              2e6  3e37 3e20      4e9       +2   .190 47 
+Adams           4e3 +0t6p0    5e25                                    .169 33 
+Andujar                       4e5       4e6       4e5       4e5  -1   .290 39 
+[4]Encarnacion                   4e13      4e44                          .208  8 
+Farmer                        4e21 3e5  3e22 4e17                     .257 47 
+Greene                                            2e3  3e3  3e3  +0   .227 35 
+Higashioka      3e2 +2t4p2                                            .289 26 
+Holliday                           4e12      4e38                     .202  4 
+Julien                        4e16 4e15      4e88                     .194 20 
+Jung                                    3e10                          .260 35 
+Mountcastle                   3e3                                     .222 44 
+Myers                                             3e6  3e6  3e6  -2   .225 53 
+O'Hoppe         4e4 +0t5p0                                            .162 39 
+Outman                                            2e4  3e4  2e4  -1   .134  0 
+Perdomo                                      1e18                     .317 21 
+Perez                                             3e5  4e5  2e5  -1   .216 22 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Javier Assad          17   0 2025  CHN    R      4     3      N    #1WR
+Paul Blackburn        18   0 2025  NYA    R      4     3      0    #1WR
+[4]Dane Dunning          19   0 2025  ATN    R            3      1    #1WR
+Calvin Faucher        20   0 2025  MMN    R            1      4    #1WR
+Jack Flaherty         21   0 2025  DEA    R      5            N    #1WR
+Kevin Ginkel          22   0 2025  ARN    R            1      2    #1WL
+Nick Lodolo           23   0 2025  CIN    L      5            N    #1WL
+Keider Montero        24   0 2025  DEA    R      4     4      N    #1WR
+Joel Payamps          25   0 2025  ATN    R            1      0    #1WR
+Eury Perez            26   0 2025  MMN    R      5            N    #1WR
+Eduardo Rodriguez     27   0 2025  ARN    L      5            N    #1WL
+[4]Paul Sewald           28   0 2025  DEA    R            1      1    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Assad            43    9R   4   1  3.65  37   33   12   23  3  7  0
+Blackburn        47    6L   0   3  6.23  39   47   12   34  6  4  1
+[4]Dunning          49    9L   0   0  6.97  21   24    7   21  4  0  2
+Faucher          51    3L   4   4  3.28  60   53   24   59  8  0 15
+Flaherty         51    2R   8  15  4.64 161  147   59  188 23 31  0
+Ginkel           40    5L   1   4  7.36  26   29   13   29  2  0  3
+Lodolo           22    5R   9   8  3.33 157  138   31  156 22 28  0
+Montero          46    5R   5   3  4.37  91   95   31   72 16 12  0
+Payamps          39    9R   0   1  6.84  26   31    9   24  4  0  1
+Perez            56    1L   7   6  4.25  95   68   32  105 12 20  0
+Rodriguez        23    1R   9   9  5.02 154  178   60  143 25 29  0
+[4]Sewald           49    3R   1   1  4.58  20   18    6   20  4  0  2
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Assad                N     +4    0       5    24   3e0  E   C   10   6        
+Blackburn            N     +3    8       5    14   3e0  E   C   10   5        
+[4]Dunning              N     -1    0       9     0   2e0  E   C   10   1        
+Faucher              N     -2    0       7     9   2e0  E   C   10   1        
+Flaherty             N     +0    0       5     6   2e0  E   C   10   1        
+Ginkel               N     -1    0       7     1   4e0  E   C   10   5        
+Lodolo               N     +0    2       2     4  3e18  E   C   10   1        
+Montero              N     -1    0       4    12   2e0  E   C   10   1        
+Payamps              N     -1    0       0    12   2e0  E   C   10   1        
+Perez                N     +4    7      20     0  4e15  E   C   10   3        
+Rodriguez            N     -1    2       5     3   4e0  E   C   10   1        
+[4]Sewald               N     +9    0       0     0  2e51  E   C   10   5        
+[2]
+[1]2025 Philadelphia Phillies   [2]Black=In Majors(15/10) [4]Blue=In Minors(1/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Javier Baez        1   0 2025  DEA  2L 417 17  3 12 .257  10 109  57 .282 .398
+Alec Burleson      2   0 2025  SLN  2R 497 26  2 18 .290  39  79  69 .343 .459
+Willson Contreras  3   0 2025  SLN  1L 490 31  1 20 .257  44 142  80 .344 .447
+Jasson Dominguez   4   0 2025  NYA  2R 381 18  1 10 .257  41 115  47 .331 .388
+Freddie Freeman    5   0 2025  LAN   E 556 39  2 24 .295  60 128  90 .367 .502
+Romy Gonzalez      6   0 2025  BOA  4L 315 23  3  9 .305  18  81  53 .343 .483
+Derek Hill         7   0 2025  CHA  2R 134  6  0  3 .216   9  48  11 .281 .328
+Alex Jackson       8   0 2025  BAA  3L  91  8  0  5 .220   5  37   8 .290 .473
+Manny Machado      9   0 2025  SDN   E 615 33  0 27 .275  55 131  95 .335 .460
+[4]Justyn-Henry Mall 10   0 2025  DEA  3L 104  6  0  1 .221  20  32  17 .346 .308
+Ronny Mauricio    11   0 2025  NYN  8R 168  6  0  6 .226  15  54  10 .293 .369
+Ben Rice          12   0 2025  NYA  2R 467 28  4 26 .255  50 100  65 .337 .499
+Marcus Semien     13   0 2025  TEA   E 470 16  1 15 .230  50  93  62 .305 .364
+George Springer   14   0 2025  TOA  3R 498 27  1 32 .309  69 111  84 .399 .560
+Taylor Ward       16   0 2025  LAA  3L 579 31  2 36 .228  75 175 103 .317 .475
+Masyn Winn        15   0 2025  SLN   E 491 27  0  9 .253  34 102  51 .310 .363
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Baez             31    N/N   R    C    D    C   15 * 11%  0% (19-6)   5  1   1
+Burleson         24    N/N   L    C    C    C   11    8%  0% (17-6)   5  1   1
+Contreras        25    N/N   R    C    D    C   11    8%  0% (17-6)   5  1   1
+Dominguez        24    W/N   S    A    D    D   15 * 33%  0% (19-14) 23  5   1
+Freeman          28    N/N   L    C    D    C   12   17%  0% (15-6)   6  2   1
+Gonzalez         41    N/W   R    C    D    D   14 * 72% 14% (15-9)   6  5   2
+Hill             40    N/N   R    B    B    D   17 * 22%  0% (20-13)  7  0   5
+Jackson          31    N/N   R    E    D    D   10    0%  0% (0-0)    0  0   2
+Machado          27    N/N   R    B    D    D   11 * 19%  0% (18-11) 14  3   1
+[4]Malloy           54    W/W   R    E    D    D   11    0%  0% (0-0)    0  0   1
+Mauricio         21    W/N   S    C    D    D   12 * 14%  0% (20-11)  4  0   4
+Rice             23    N/N   L    D    D    D   11   19%  3% (13-6)   3  2   1
+Semien           26    N/N   R    B    D    C   15 * 14%  0% (19-11) 11  1   3
+Springer         25    N/N   R    A    D    D   14 * 14%  0% (19-12) 18  1   2
+Ward             18    N/N   R    D    D    D   13    8%  0% (16-6)   4  1   1
+Winn             30    W/N   R    C    C    C   15 * 50%  0% (15-12)  9  5   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Baez                               3e30 2e10 2e24      2e4       -1   .266 30 
+Burleson                      4e16                4e2       4e2  +0   .262 41 
+Contreras                     3e13                                    .277 34 
+Dominguez                                         4e4            -1   .236 16 
+Freeman                       3e3                                     .285 33 
+Gonzalez                      3e16 4e15 4e65                          .295 38 
+Hill                                                   1e2       -1   .192 31 
+Jackson         3e1 -1t10p2                                           .220 29 
+Machado                                 2e18                          .275 36 
+[4]Malloy                        4e5                 5e2       5e2  +2   .232  5 
+Mauricio                           3e59 3e15 4e34                     .202 44 
+Rice            4e7 +1t6p8    4e12                                    .236 51 
+Semien                             1e3                                .241 21 
+Springer                                          4e3  4e3  4e3  +1   .258 32 
+Ward                                              3e4            +1   .223 25 
+Winn                                         1e4                      .303 32 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Slade Cecconi         17   0 2025  CLA    R      6            N    #1WR
+Daniel Coulombe       18   0 2025  TEA    L            1      1    #1WL
+Jacob Degrom          19   0 2025  TEA    R      5            N    #1WL
+Nathan Eovaldi        20   0 2025  TEA    R      6            N    #1WR
+Tyler Gilbert         21   0 2025  CHA    L      1     1      0    #1WL
+Kenley Jansen         22   0 2025  LAA    R            1      6    #1WS
+[4]Pablo Lopez           23   0 2025  MNA    R      5            N    #1WL
+Drew Rasmussen        24   0 2025  TBA    R      5            N    #1WR
+Landen Roupp          25   0 2025  SFN    R      5            N    #1WR
+[4]Clarke Schmidt        26   0 2025  NYA    R      6            N    #1WR
+Brent Suter           27   0 2025  CIN    L      4     3      N    #1WL
+Devin Williams        28   0 2025  NYA    R            1      4    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Cecconi          50    3L   7   7  4.30 132  125   32  109 24 23  0
+Coulombe         46     E   2   1  2.30  43   32   18   43  3  1  2
+Degrom           49    2L  12   8  2.97 173  122   37  185 26 30  0
+Eovaldi          53    2R  11   3  1.73 130   90   21  129 10 22  0
+Gilbert          48    1L   4   2  3.88  51   40   24   49  5  5  1
+Jansen           50    8R   5   4  2.59  59   37   19   57  8  0 29
+[4]Lopez            57    3R   5   4  2.74  76   64   20   73  6 14  0
+Rasmussen        54    3R  10   5  2.76 150  116   37  127 18 31  0
+Roupp            53    1L   7   7  3.80 107  113   45  102 11 22  0
+[4]Schmidt          49    5R   4   4  3.32  79   56   30   73  9 14  0
+Suter            41    2L   1   2  4.52  68   69   18   53 11  3  0
+Williams         44    3R   4   6  4.79  62   45   25   90  5  0 18
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Cecconi              N     -2    3       4    16  2e22  E   C   10   2        
+Coulombe             N     +2    0       5     4   3e0  E   C   10   3        
+Degrom               N     -1    0       3     4   2e0  E   C   10   1        
+Eovaldi              N     -3    0      11    24  1e11  E   C   10   3        
+Gilbert              N     +2    0       8    10   4e0  E   C   10   3        
+Jansen               N     +9   16       0     8  4e24  E   C   10   1        
+[4]Lopez                N     +2    9       2     4  3e51  E   C   10   5        
+Rasmussen            N     +2    0       4    24   3e0  E   C   10   1        
+Roupp                N     +0    3      14     3   3e0  E   C   10   3        
+[4]Schmidt              N     -1    9       5     7   2e0  E   C   10   5        
+Suter                N     -5    0       6     2  2e51  E   C   10   1        
+Williams             N     +9    0      14     0   5e0  E   C   10   1        
+[2]
+[1]2025 Pittsburgh Pirates   [2]Black=In Majors(15/10) [4]Blue=In Minors(0/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Jo Adell           1   0 2025  LAA  3L 526 18  1 37 .236  33 151  98 .293 .485
+Brett Baty         2   0 2025  NYN  1R 393 13  2 18 .254  33 108  50 .313 .435
+Jake Burger        3   0 2025  TEA  3L 356 15  1 16 .236  12  93  53 .269 .419
+Lawrence Butler    4   0 2025  SAA  3R 569 30  2 21 .234  59 179  63 .306 .404
+Junior Caminero    5   0 2025  TBA  1R 602 28  0 45 .264  41 125 110 .311 .535
+Nico Hoerner       6   0 2025  CHN  4L 599 29  4  7 .297  39  49  61 .345 .394
+Nathan Lukes       7   0 2025  TOA  1R 388 19  2 12 .255  38  60  65 .323 .407
+Kyle Manzardo      8   0 2025  CLA  2R 470 19  2 27 .234  48 135  70 .313 .455
+Brandon Marsh      9   0 2025  PHN  5R 379 25  2 11 .280  38 110  43 .342 .443
+Tyler O'Neill     10   0 2025  BAA  1L 181  6  1  9 .199  22  51  26 .292 .392
+Oswald Peraza     11   0 2025  LAA  1R 244  6  0  5 .164  17  80  20 .223 .250
+Endy Rodriguez    12   0 2025  PIN  1L  52  4  0  0 .173   5  14   2 .246 .250
+Adley Rutschman   13   0 2025  BAA  3L 322 16  2  9 .220  40  57  29 .307 .366
+Tyler Soderstrom  14   0 2025  SAA  1R 561 34  1 25 .276  55 141  93 .346 .474
+Ezequiel Tovar    15   0 2025  CON  1L 360 18  4  9 .253  21  98  33 .294 .400
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Adell            18    N/N   R    D    D    D   14   11%  0% (17-6)   5  1   1
+Baty             20    N/N   L    B    D    D   12 * 11%  0% (20-11)  8  0   1
+Burger           26    N/N   R    E    D    D   12   14%  6% (13-5)   1  1   4
+Butler           21    N/N   L    A    C    D   14 * 36%  0% (18-13) 22  7   1
+Caminero         29    N/N   R    C    D    C   12 * 11%  0% (19-6)   7  1   1
+Hoerner          24    N/W   R    A    D    C   16 * 28%  0% (19-13) 29  6   1
+Lukes            11    N/N   L    D    B    C   13   33% 33% (13-4)   2  4   1
+Manzardo         18    N/N   L    E    D    D    9    3%  0% (20-6)   2  0   1
+Marsh            20    N/N   L    C    C    C   14 * 11%  0% (19-6)   7  1   2
+O'Neill          28    N/N   R    C    D    D   12 * 11%  0% (20-11)  4  0   5
+Peraza           31    W/N   R    B    D    D   15 * 25%  0% (20-13)  9  0   1
+Rodriguez        21    W/W   S    E    D    D   11  100%  0% (3-1)    0  1   6
+Rutschman        30    W/N   S    E    D    C   11    0%  0% (0-0)    0  0   5
+Soderstrom       24    N/N   L    C    D    D   12 * 17%  0% (17-6)   8  3   1
+Tovar            22    N/N   R    C    B    B   13 * 39%  0% (15-11)  5  3   4
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Adell                                                  4e8  3e8  -1   .231 26 
+Baty                               3e8  3e15                          .223 21 
+Burger                        3e10                                    .231  8 
+Butler                                                 3e2  3e2  +0   .210 14 
+Caminero                      5e25      3e20                          .229 61 
+Hoerner                            1e4       2e12                     .306  5 
+Lukes                                             2e3  3e3  2e3  -2   .301 44 
+Manzardo                      4e13                                    .215 19 
+Marsh                                             2e6  3e6  3e6  -2   .229  0 
+O'Neill                                           3e9       3e9  -1   .196 10 
+Peraza                        4e30 4e16 2e11 3e22                     .182 36 
+Rodriguez       4e16 +1t20p0  4e30                                    .173  0 
+Rutschman       1e1 -2t4p0                                            .187 34 
+Soderstrom                    3e11                2e3            +0   .245 45 
+Tovar                                        2e16                     .253  4 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Shane Baz             16   0 2025  TBA    R      5            N    #1WR
+Huascar Brazoban      17   0 2025  NYN    R      1     1      1    #1WR
+Edward Cabrera        18   0 2025  MMN    R      5            N    #1WR
+Joey Cantillo         19   0 2025  CLA    L      5     3      0    #1WL
+Tim Hill              20   0 2025  NYA    L            1      N    #1WR
+Clay Holmes           21   0 2025  NYN    R      5     3      N    #1WR
+Merrill Kelly         22   0 2025  TEA    R      6            N    #1WR
+[4]Michael King          23   0 2025  SDN    R      5            N    #1WR
+Wandy Peralta         24   0 2025  SDN    L            1      N    #1WL
+[4]Erik Sabrowski        25   0 2025  CLA    L            1      N    #1WR
+Zack Wheeler          26   0 2025  PHN    R      6            N    #1WL
+Garrett Whitlock      27   0 2025  BOA    R            2      0    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Baz              48    2L  10  12  4.87 166  158   64  176 26 31  0
+Brazoban         40    9R   5   2  3.57  63   51   27   57  6  3  2
+Cabrera          51    1R   8   7  3.53 138  121   48  150 17 26  0
+Cantillo         27    5R   5   3  3.21  95   78   42  108 10 13  1
+Hill             51    9L   4   4  3.09  67   58   16   37  8  0  0
+Holmes           52    1L  12   8  3.53 166  150   66  129 14 31  0
+Kelly            53    1R  12   9  3.52 184  157   48  167 23 32  0
+[4]King             56    1R   5   3  3.44  73   62   26   76 12 15  0
+Peralta          43    2R   6   1  3.14  72   66   30   63  5  1  0
+[4]Sabrowski        50    3L   0   1  1.84  29   14   21   42  2  0  0
+Wheeler          56     E  10   5  2.71 150  107   33  195 19 24  0
+Whitlock         47    2L   7   3  2.25  72   54   24   91  2  0  1
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Baz                  N     +1    0       3    19   4e8  E   C   10   1        
+Brazoban             N     +0    0       7    23   4e0  E   C   10   1        
+Cabrera              N     +9    0      13     8   4e0  E   C   10   1        
+Cantillo             N     +0    0       4     8   2e0  E   C   10   1        
+Hill                 N     -5    0       3    22   2e0  E   C   10   0        
+Holmes               N     +0    2       7    12   2e8  E   C   10   0        
+Kelly                N     -2    4       0    13  1e24  E   C   10   0        
+[4]King                 N     -5    0       5    11   2e0  E   C   10   5        
+Peralta              N     +0    5       2     4   4e0  E   C   10   0        
+[4]Sabrowski            N     +7    0       0     0   5e0  E   C   10   5        
+Wheeler              N     -1    0       2     7  1e10  E   C   10   2        
+Whitlock             N     +2    0       9     0  5e20  E   C   10   1        
+[2]
+[1]2025 San Diego Padres   [2]Black=In Majors(18/11) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Alec Bohm          1   0 2025  PHN  2L 464 18  3 11 .287  29  82  59 .331 .409
+Evan Carter        2   0 2025  TEA  5R 194  9  2  5 .247  19  41  25 .336 .392
+Pete Crow-Armstro  3   0 2025  CHN  4R 591 37  4 31 .247  29 155  95 .287 .481
+Adrian Del Castil  4   0 2025  ARN  7R 120  6  0  4 .242   8  47  17 .290 .392
+Vladimir Guerrero  5   0 2025  TOA  2L 589 34  0 23 .292  81  94  84 .381 .467
+Austin Hays        6   0 2025  CIN  4L 380 16  5 15 .266  29 107  64 .315 .453
+Ryan Jeffers       7   0 2025  MNA  3L 406 26  0  9 .266  50  91  47 .356 .397
+Ramon Laureano     8   0 2025  SDN  1L 441 26  2 24 .281  35 119  76 .342 .512
+Joey Loperfido     9   0 2025  TOA  2R  96  4  0  4 .333   4  27  14 .379 .500
+Curtis Mead       10   0 2025  CHA   E 240 10  1  3 .233  15  63  19 .299 .321
+Jake Meyers       11   0 2025  HOA  1R 343 15  2  3 .292  31  67  24 .354 .373
+Keibert Ruiz      12   0 2025  WAN  2L 255 12  0  2 .247   8  26  25 .277 .318
+Max Schuemann     13   0 2025  SAA  3R 183  4  2  2 .197  22  35  13 .295 .273
+Pavin Smith       14   0 2025  ARN  6R 244 17  1  8 .258  41  92  28 .362 .434
+Michael Toglia    15   0 2025  CON  2L 306 15  1 11 .190  28 132  32 .258 .353
+Kyle Tucker       16   0 2025  CHN   E 500 25  4 22 .266  87  88  73 .377 .464
+Brice Turang      17   0 2025  MLN   E 584 28  2 18 .288  66 150  81 .359 .435
+Bobby Witt Jr     18   0 2025  KCA  1L 623 47  6 23 .295  49 125  88 .351 .501
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Bohm             26    N/N   R    E    D    C   11    3%  0% (20-6)   2  0   3
+Carter           12    W/N   L    A    D    D   16 * 39%  0% (19-15) 14  2   5
+Crow-Armstrong   29    N/N   L   AA    B    C   17 * 50%  0% (19-15) 35  8   1
+Del Castillo      6    W/N   L    E    D    D    9    0%  0% (0-0)    0  0   2
+Guerrero Jr      23    N/N   R    C    D    C   11   22%  0% (13-6)   6  3   1
+Hays             24    N/N   R    C    D    C   13 * 11%  0% (20-11)  7  0   4
+Jeffers          28    W/N   R    E    D    D   10    8%  3% (13-5)   1  1   3
+Laureano         32    N/N   R    C    D    D   13 * 47%  0% (15-12)  7  4   2
+Loperfido        21    W/N   L    D    D    D   14 * 50% 50% (15-4)   1  2   1
+Mead             47    W/N   R    B    D    D   12 * 17%  0% (19-11)  5  1   1
+Meyers           20    W/W   R    A    D    D   14 * 33%  0% (18-13) 16  5   4
+Ruiz             20    N/W   S    E    D    B    8   67%  0% (3-1)    0  2   6
+Schuemann        31    W/W   R    B    B    C   15 * 17%  0% (19-12)  7  1   1
+Smith             7    W/N   L    D    D    D   11   28%  8% (13-6)   2  2   5
+Toglia           29    N/N   S    D    D    D   11    6%  0% (20-6)   3  0   1
+Tucker           33    N/N   L    A    D    C   15 * 22%  0% (19-13) 25  3   1
+Turang           30    N/N   L    A    A    C   16 * 31%  0% (18-13) 24  8   1
+Witt Jr          21    W/N   R   AA    D    C   17 * 36%  0% (19-15) 38  9   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Bohm                          4e7       3e8                           .277 49 
+Carter                                                 2e3       +0   .251  7 
+Crow-Armstrong                                         1e2       -3   .233  0 
+Del Castillo    4e6 +3t9p0                                            .218 25 
+Guerrero Jr                   2e11                                    .280 37 
+Hays                                              3e8            -1   .270 35 
+Jeffers         3e1 +0t9p1                                            .245 26 
+Laureano                                          2e9  3e9  2e9  -3   .257 32 
+Loperfido                                         3e1       4e1  +1   .351 34 
+Mead                          4e8  4e13 4e12                          .237 50 
+Meyers                                                 1e2       +0   .227 38 
+Ruiz            4e2 +1t5p0                                            .284 24 
+Schuemann                          3e8  3e14 4e34 4e9  4e9       +2   .185 39 
+Smith                         4e5                                     .227 25 
+Toglia                        3e6                                     .190 36 
+Tucker                                                      3e4  -1   .242 17 
+Turang                             1e10      3e88                     .311  0 
+Witt Jr                                      1e10                     .290 12 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+David Bednar          19   0 2025  NYA    R            1      6    #1WL
+Matt Brash            20   0 2025  SEA    R            1      3    #1WR
+Kyle Finnegan         21   0 2025  DEA    R            1      4    #1WR
+Tyler Holton          22   0 2025  DEA    L      1     1      N    #1WL
+Matthew Liberatore    23   0 2025  SLN    L      5            N    #1WL
+Michael Lorenzen      24   0 2025  KCA    R      5            N    #1WR
+Michael McGreevy      25   0 2025  SLN    R      6            N    #1WL
+John Schreiber        26   0 2025  KCA    R            1      0    #1WR
+Tarik Skubal          27   0 2025  DEA    L      6            N    #1WR
+Jeffrey Springs       28   0 2025  SAA    L      5     4      N    #1WL
+Jameson Taillon       29   0 2025  CHN    R      6            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Bednar           47    2L   6   5  2.30  63   46   19   86  4  0 27
+Brash            50    2L   1   3  2.47  47   41   18   58  4  0  4
+Finnegan         51    4L   4   4  3.47  57   45   18   55  4  0 24
+Holton           45    8L   6   5  3.66  79   65   17   64 15  6  0
+Liberatore       20    1R   8  12  4.21 152  158   40  122 19 29  0
+Lorenzen         51    1L   7  11  4.64 142  149   39  127 25 26  0
+McGreevy         46    9R   8   4  4.42  96  100   20   58 12 16  0
+Schreiber        42    2R   3   3  3.80  64   57   19   62 10  0  1
+Skubal           21     E  13   6  2.21 195  141   33  241 18 31  0
+Springs          21    1L  11  11  4.11 171  153   54  138 28 30  0
+Taillon          49    7L  11   7  3.68 130  110   27   98 24 23  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Bednar               N     +3    0      15     6   5e0  E   C   10   1        
+Brash                N     +2    0       0     8   3e0  E   C   10   3        
+Finnegan             N     +3    0      20     3   3e0  E   C   10   2        
+Holton               N     +0    0       9    23  3e18  E   C   10   0        
+Liberatore           N     +5    0       8    12   4e0  E   C   10   1        
+Lorenzen             N     +0    0      19     9   3e0  E   C   12   1        
+McGreevy             N     -5    4       0    21  3e15  E   C   10   1        
+Schreiber            N     -2    0       6     6  3e22  E   C   10   0        
+Skubal               N     -1    4       3     9   3e7  E   C   10   1        
+Springs              N     +3    6       0     4   4e8  E   C   10   1        
+Taillon              N     +1    0       1     1   3e0  E   C   10   3        
+[2]
+[1]2025 San Francisco Giants   [2]Black=In Majors(14/11) [4]Blue=In Minors(0/1)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Blaze Alexander    1   0 2025  ARN  2L 230 12  1  7 .230  22  86  28 .323 .383
+Randy Arozarena    2   0 2025  SEA   E 613 32  1 27 .238  64 191  76 .334 .426
+Triston Casas      3   0 2025  BOA   E  99  3  0  3 .182  11  27  11 .277 .303
+Colton Cowser      4   0 2025  BAA   E 327 14  0 16 .196  27 128  40 .269 .385
+Paul Dejong        5   0 2025  WAN  2R 193 10  0  6 .228  11  70  23 .269 .373
+Mauricio Dubon     6   0 2025  HOA  3L 369 21  0  7 .241  24  42  33 .289 .355
+Rhys Hoskins       7   0 2025  MLN  1R 279 12  1 12 .237  38  91  43 .332 .416
+Bryce Johnson      8   0 2025  SDN  4R  76  4  0  1 .342   3  19   8 .383 .434
+Josh Lowe          9   0 2025  TBA  4R 396 21  2 11 .220  33 109  40 .283 .366
+Jeff McNeil       10   0 2025  NYN  1L 399 21  5 12 .243  49  55  54 .335 .411
+Joc Pederson      11   0 2025  TEA  1R 265 10  1  9 .181  34  65  26 .285 .328
+Jose Ramirez      12   0 2025  CLA  1L 593 34  3 30 .283  66  74  85 .360 .503
+Will Smith        13   0 2025  LAN  2R 362 20  1 17 .296  64  89  61 .404 .497
+Mike Trout        14   0 2025  LAA  2R 456 14  1 26 .232  87 178  64 .359 .439
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Alexander        31    N/N   R    D    C    D   14 * 61% 39% (15-6)   4  6   2
+Arozarena        30    N/N   R    A    D    D   13 * 31%  0% (19-13) 31  6   1
+Casas            11    N/N   L    E    D    D    8    0%  0% (0-0)    0  0   6
+Cowser           26    N/N   L    A    D    D   14 * 25%  0% (20-13) 14  0   4
+Dejong           34    N/N   R    C    D    D   12 * 11%  0% (20-11)  4  0   5
+Dubon            29    W/N   R    D    D    B   13    6%  0% (20-6)   3  0   1
+Hoskins          31    N/N   R    D    D    D    9   19%  0% (13-6)   2  1   5
+Johnson          40    W/N   S    B    B    D   16 * 25%  0% (19-13)  4  1   1
+Lowe             29    W/N   L    A    C    D   16 * 33%  0% (19-13) 18  4   4
+McNeil           22    W/N   L    D    D    B   12    3%  0% (20-6)   3  0   2
+Pederson          5    N/N   L    D    D    B    9    3%  0% (20-6)   2  0   5
+Ramirez          29    N/N   S   AA    D    C   17 * 44%  0% (19-15) 44  7   1
+Smith            26    N/N   R    D    D    C   12   17% 11% (13-4)   2  3   3
+Trout            20    N/N   R    E    D    D   14    3%  0% (20-6)   2  0   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Alexander                          3e8  2e23      4e16 4e16      +0   .246 25 
+Arozarena                                         3e5            -1   .207 17 
+Casas                         4e12                                    .172 41 
+Cowser                                            2e4  3e4  2e4  -2   .193 21 
+Dejong                        4e25 3e14 2e11 3e23                     .200 24 
+Dubon                         4e12 2e10 2e5  3e7  2e15 3e15 3e15 -3   .199 48 
+Hoskins                       4e11                                    .241 25 
+Johnson                                           2e1  2e1  2e1  -1   .304 16 
+Lowe                                                        3e2  -2   .210 27 
+McNeil                        4e25 3e12           3e5  4e5  3e5  +1   .256 13 
+Pederson                      5e25                          5e25 +1   .178 24 
+Ramirez                                 1e16                          .255 20 
+Smith           3e1 -1t5p0                                            .291 20 
+Trout                                                       4e1  +0   .208 16 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+[4]Spencer Arrighetti    15   0 2025  HOA    R      5            N    #1WR
+Andrew Heaney         16   0 2025  LAN    L      5     3      N    #1WL
+Tyler Mahle           17   0 2025  TEA    R      5            N    #1WR
+Zebby Matthews        18   0 2025  MNA    R      5            N    #1WR
+Adrian Morejon        19   0 2025  SDN    L            1      2    #1WL
+Johan Oviedo          20   0 2025  PIN    R      5            N    #1WR
+Freddy Peralta        21   0 2025  MLN    R      5            N    #1WR
+Jose Quintana         22   0 2025  MLN    L      5            N    #1WR
+Tyler Rogers          23   0 2025  NYN    R            1      N    #1WR
+A.J. Smith-Shawver    24   0 2025  ATN    R      5            N    #1WR
+Matt Strahm           25   0 2025  PHN    L            1      2    #1WR
+Bryan Woo             26   0 2025  SEA    R      6            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+[4]Arrighetti       52    5R   1   5  5.35  35   30   20   31  6  7  0
+Heaney           28    7R   5  10  5.52 122  129   40   86 25 23  0
+Mahle            44    5L   6   4  2.18  87   69   29   66  5 16  0
+Matthews         49    7R   5   6  5.56  79   94   24   88 12 16  0
+Morejon          44    5L  13   6  2.08  74   49   17   70  2  0  3
+Oviedo           51    1L   2   1  3.57  40   26   23   42  6  9  0
+Peralta          50     E  17   6  2.70 177  124   66  204 21 33  0
+Quintana         24    1R  11   7  3.96 132  120   50   89 18 24  0
+Rogers           47    1L   4   6  1.98  77   66    7   48  4  0  0
+Smith-Shawver    59    6L   3   2  3.86  44   42   21   42  4  9  0
+Strahm           32    3R   2   3  2.74  62   47   20   70  5  0  6
+Woo              50     E  15   7  2.94 187  137   36  198 26 30  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+[4]Arrighetti           N     +9    0       0     6   5e0  E   C   10   6        
+Heaney               N     +0    0       3     9   3e0  E   C   10   1        
+Mahle                N     -6    5       0    18   2e0  E   C   10   4        
+Matthews             N     +0    0       5     6  2e18  E   C   10   2        
+Morejon              N     +4    0       6    18  3e39  E   C   10   0        
+Oviedo               N     +3    8       5     7   3e0  E   C   10   6        
+Peralta              N     +2    4       4     7   2e0  E   C   10   0        
+Quintana             N     +1    3       1    18  3e11  E   C   10   2        
+Rogers               N     +1    0       0    16   3e0  E   C   10   0        
+Smith-Shawver        N     +5    0      15    10   4e0  E   C   10   6        
+Strahm               N     +1    0      11     0  4e23  E   C   10   1        
+Woo                  N     -2    0       3    11   3e8  E   C   10   1        
+[2]
+[1]2025 Seattle Mariners   [2]Black=In Majors(17/12) [4]Blue=In Minors(0/3)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Luis Arraez        1   0 2025  SDN  2R 620 30  4  8 .292  34  21  61 .327 .392
+Joey Bart          2   0 2025  PIN  4L 285 12  1  4 .249  40  93  30 .355 .340
+J.J. Bleday        3   0 2025  SAA  1L 307 17  0 14 .212  36  91  39 .294 .404
+Xander Bogaerts    4   0 2025  SDN  2L 491 30  0 11 .263  48  94  53 .328 .391
+Oswaldo Cabrera    5   0 2025  NYA  1L 107  4  0  1 .243  11  25  11 .322 .308
+Dillon Dingler     6   0 2025  DEA  6L 435 21  2 13 .278  23 110  57 .327 .425
+Jake Fraley        7   0 2025  ATN  3R 191  9  0  6 .241  25  49  23 .332 .382
+Nick Gonzales      8   0 2025  PIN  1R 381 18  3  5 .260  21  73  30 .299 .362
+Max Kepler         9   0 2025  PHN  2R 417 19  0 18 .216  48  93  52 .300 .391
+Jhonkensy Noel    10   0 2025  CLA  2L 148  2  0  6 .162   4  52  13 .183 .297
+Lars Nootbaar     11   0 2025  SLN  2R 509 24  1 13 .234  64 119  48 .325 .361
+Matt Olson        12   0 2025  ATN   E 624 41  2 29 .272  91 176  95 .366 .484
+Jurickson Profar  13   0 2025  ATN   E 318 16  1 14 .245  48  59  43 .353 .434
+Ben Rortvedt      14   0 2025  LAN  2L 112  3  0  1 .152  11  23  10 .240 .205
+Alek Thomas       15   0 2025  ARN   E 433 19  3  9 .249  21 122  38 .289 .370
+Jordan Westburg   16   0 2025  BAA   E 328 10  1 17 .265  17  80  41 .313 .457
+Weston Wilson     17   0 2025  PHN  1L 111  4  0  5 .198  12  34  17 .282 .369
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Arraez           30    N/W   L    C    A    B   11 * 19%  0% (17-11) 11  4   1
+Bart             25    N/W   R    E    D    D   10   14%  3% (13-5)   1  1   3
+Bleday           22    N/N   L    E    D    C   12   25% 25% (13-4)   1  2   1
+Bogaerts         31    N/N   R    A    D    B   13 * 22%  0% (19-13) 20  2   3
+Cabrera          18    W/W   S    E    D    C   12   72%  0% (3-1)    0  1   5
+Dingler          26    N/N   R    E    D    D   12    0%  0% (0-0)    0  0   2
+Fraley            5    W/N   L    C    D    D   14 * 75% 11% (15-9)   4  3   4
+Gonzales         24    N/W   R    E    D    C   14   44%  0% (3-1)    0  2   4
+Kepler           17    N/N   L    D    D    C   12    3%  0% (20-6)   3  0   1
+Noel             56    N/N   R    E    D    D   12    0%  0% (0-0)    0  0   1
+Nootbaar         31    N/N   L    D    D    B   12   28% 14% (13-5)   4  5   1
+Olson            31    N/N   L    E    D    C   10    3%  0% (20-6)   1  0   0
+Profar           30    N/N   S    B    D    D   13 * 19%  0% (18-12)  9  2   1
+Rortvedt         18    W/W   L    E    C    C   10    0%  0% (0-0)    0  0   2
+Thomas           19    N/N   L    C    B    C   16 * 42%  0% (15-12)  7  4   1
+Westburg         31    N/N   R    E    D    D   14   22% 19% (13-3)   1  2   4
+Wilson           65    N/N   R    D    D    D   14 * 61% 39% (15-6)   2  3   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Arraez                        4e1  4e13                               .250 30 
+Bart            4e1 +1t5p1                                            .239 43 
+Bleday                                            4e8  4e8  4e8  -2   .202 30 
+Bogaerts                                     3e10                     .195 35 
+Cabrera                       3e23      3e27      3e2       3e2  -1   .205  7 
+Dingler         1e3 -3t9p0                                            .273 14 
+Fraley                                            3e9       3e9  +1   .213  1 
+Gonzales                           2e16      4e14                     .206 46 
+Kepler                                            2e1  4e1  2e1  -1   .188 37 
+Noel                          4e7                           4e1  -1   .162 42 
+Nootbaar                                          3e1  4e1  3e1  +0   .185  4 
+Olson                         1e5                                     .276 30 
+Profar                                            4e2            +2   .249 13 
+Rortvedt        3e3 +0t1p0                                            .165  7 
+Thomas                                                 2e4       -2   .198  0 
+Westburg                           3e11 2e10                          .260 21 
+Wilson                        4e30 4e12 4e21      4e5            +0   .223  7 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Andrew Abbott         18   0 2025  CIN    L      5            N    #1WL
+Tyler Anderson        19   0 2025  LAA    L      5            N    #1WL
+Shane Bieber          20   0 2025  TOA    R      6            N    #1WR
+Fernando Cruz         22   0 2025  NYA    R            1      1    #1WR
+[4]David Festa           23   0 2025  MNA    R      5            N    #1WR
+Kyle Freeland         24   0 2025  CON    L      6            N    #1WL
+Hunter Gaddis         25   0 2025  CLA    R            1      2    #1WR
+[4]D.L. Hall             26   0 2025  MLN    L      4     3      N    #1WL
+Emerson Hancock       27   0 2025  SEA    R      5     3      N    #1WR
+[4]Max Meyer             28   0 2025  MMN    R      6            N    #1WL
+Mason Miller          29   0 2025  SDN    R            1      5    #1WR
+Andres Munoz          30   0 2025  SEA    R            1      6    #1WR
+Ryne Nelson           31   0 2025  ARN    R      6     3      0    #1WR
+Joe Ryan              32   0 2025  MNA    R      5            N    #1WR
+Gabe Speier           33   0 2025  SEA    L            1      N    #1WL
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Abbott           26     E  10   7  2.87 166  148   43  149 19 29  0
+Anderson         30    9R   2   8  4.56 136  135   57  104 28 26  0
+Bieber           51    9L   4   2  3.57  40   34    7   37  8  7  0
+Cruz             41    3R   3   4  3.56  48   33   24   72  5  0  2
+[4]Festa            50    6L   3   4  5.40  53   49   19   53 10 10  0
+Freeland         21    3L   5  17  4.98 163  193   38  124 22 31  0
+Gaddis           41    2L   2   2  3.11  67   58   21   73  8  0  3
+[4]Hall             42    4L   1   0  3.49  39   24   17   27  2  3  0
+Hancock          51    3R   4   5  4.90  90   93   31   64 15 16  0
+[4]Meyer            50    8L   3   5  4.73  65   72   20   68 12 12  0
+Miller           40    4R   1   2  2.63  62   28   28  104  5  0 22
+Munoz            46    2L   3   3  1.73  62   36   28   83  2  0 38
+Nelson           46    6L   7   3  3.39 154  124   41  132 17 23  1
+Ryan             52    5R  13  10  3.42 171  138   39  194 26 30  0
+Speier           47    1L   4   3  2.61  62   43   11   82  5  0  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Abbott               N     +0    0       5     8   3e8  E   C   10   1        
+Anderson             N     -1    8       7     6   2e0  E   C   10   1        
+Bieber               N     -3    0       0    24   3e0  E   C   10   6        
+Cruz                 N     -2    0      20     0   3e0  E   C   10   5        
+[4]Festa                N     -2    0       3     0   2e0  E   C   10   6        
+Freeland             N     -4    0       2    18  2e35  E   C   12   1        
+Gaddis               N     +2    0       6     0  3e22  E   C   10   0        
+[4]Hall                 N     -2    0       0     6   3e0  E   C   10   5        
+Hancock              N     -1    4       4    22  2e16  E   C   10   1        
+[4]Meyer                N     -4    6       0     0   3e0  E   C   10   5        
+Miller               N     +0    6      12     0   4e0  E   C   10   1        
+Munoz                N     +1    0      20     2   3e0  E   C   10   1        
+Nelson               N     -5    0       1    20   1e0  E   C   10   1        
+Ryan                 N     +3    4       0     6   4e8  E   C   10   1        
+Speier               N     +5    0       3     0   4e0  E   C   10   0        
+[2]
+[1]2025 St. Louis Cardinals   [2]Black=In Majors(14/11) [4]Blue=In Minors(0/4)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Francisco Alvarez  1   0 2025  NYN  3L 246 12  1 11 .256  27  73  32 .339 .447
+Luis Matos         2   0 2025  SFN   E 172  9  1  8 .221  11  27  22 .266 .424
+Reese McGuire      3   0 2025  CHN  3R 133  2  0  9 .226   4  27  24 .245 .444
+Yoan Moncada       4   0 2025  LAA  5R 248 13  2 12 .234  32  75  35 .336 .448
+Connor Norby       5   0 2025  MMN  2R 311 17  1  8 .251  18  90  34 .300 .389
+Ryan O'Hearn       6   0 2025  SDN  2R 474 21  1 17 .281  58 109  63 .366 .437
+Bryan Reynolds     7   0 2025  PIN  2L 587 38  3 16 .245  57 173  73 .318 .402
+Leo Rivas          8   0 2025  SEA   E  90  2  0  2 .244  20  24   9 .387 .333
+Emmanuel Rivera    9   0 2025  BAA  3L 120  4  0  0 .250   6  24  13 .291 .283
+Brent Rooker      10   0 2025  SAA  1L 626 40  3 30 .262  65 155  89 .335 .479
+Jacob Stallings   11   0 2025  BAA  3R 119  4  0  0 .134   6  40   9 .195 .168
+Dansby Swanson    12   0 2025  CHN  2L 590 24  3 24 .244  47 168  77 .300 .417
+Fernando Tatis Jr 13   0 2025  SDN  3R 594 27  2 25 .268  89 129  71 .368 .446
+Gleyber Torres    14   0 2025  DEA  3L 532 22  0 16 .256  85 101  74 .358 .387
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Alvarez          23    N/N   R    E    D    D   10    0%  0% (0-0)    0  0   5
+Matos            48    N/N   R    C    D    D   13 * 14%  0% (20-12)  4  0   1
+McGuire          12    N/N   L    E    D    C   10    0%  0% (0-0)    0  0   2
+Moncada           9    N/N   S    E    D    D   11    0%  0% (0-0)    0  0   5
+Norby            28    N/N   R    B    D    D   13 * 22%  0% (18-12)  8  2   4
+O'Hearn          21    N/N   L    D    D    C   12    8%  0% (15-6)   3  1   1
+Reynolds         25    N/N   S    D    D    D   14   14%  0% (13-6)   3  2   1
+Rivas            40    W/N   S    B    B    D   15 * 19%  0% (20-13)  6  0   1
+Rivera           28    W/W   R    E    D    C   11    6%  0% (20-6)   1  0   1
+Rooker           22    N/N   R    D    D    D   13    8%  0% (17-6)   6  1   0
+Stallings        32    W/W   R    E    D    D    8    0%  0% (0-0)    0  0   2
+Swanson          22    N/N   R    A    D    C   15 * 22%  0% (19-13) 20  3   1
+Tatis Jr         26    N/N   R    A    D    C   15 * 36%  0% (19-13) 32  7   1
+Torres           27    N/N   R    D    D    C   11    6%  0% (16-6)   4  1   1
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Alvarez         4e7 +0t10p3                                           .230 30 
+Matos                                             4e15 4e15 4e15 -1   .202 44 
+McGuire         3e3 -1t1p0                                            .198 39 
+Moncada                                 4e22                          .222 19 
+Norby                                   4e17                          .234  9 
+O'Hearn                       3e13                4e4       4e4  +1   .234 31 
+Reynolds                                                    4e3  -1   .265 36 
+Rivas                              3e8  3e34 3e10           4e16 +2   .213  5 
+Rivera                        3e5       3e13                          .250 37 
+Rooker                                            4e7       4e7  +0   .224 31 
+Stallings       3e1 -1t12p2                                           .147 57 
+Swanson                                      1e12                     .200 21 
+Tatis Jr                                                    1e3  -3   .221  7 
+Torres                             3e6                                .302 24 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Tanner Banks          15   0 2025  PHN    L            1      0    #1WR
+Tristan Beck          16   0 2025  SFN    R            3      1    #1WR
+Emmanuel Clase        17   0 2025  CLA    R            1      5    #1WR
+Yu Darvish            18   0 2025  SDN    R      5            N    #1WR
+[4]Richard Fitts         19   0 2025  BOA    R      4            N    #1WR
+Hunter Greene         20   0 2025  CIN    R      6            N    #1WR
+Shota Imanaga         21   0 2025  CHN    L      6            N    #1WL
+Yusei Kikuchi         22   0 2025  LAA    L      6            N    #1WL
+John King             23   0 2025  SLN    L            1      N    #1WL
+Mark Leiter           24   0 2025  NYA    R            1      1    #1WR
+[4]Ben Lively            25   0 2025  CLA    R      5            N    #1WR
+Chris Martin          26   0 2025  TEA    R            1      1    #1WR
+Lance McCullers       27   0 2025  HOA    R      4     3      N    #1WL
+[4]Trent Thornton        28   0 2025  SEA    R            2      N    #1WR
+[4]Blake Treinen         29   0 2025  LAN    R            1      1    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Banks            41    9L   6   2  3.07  67   56   12   61  9  1  1
+Beck             47    2L   1   0  4.61  57   47   16   41  7  1  2
+Clase            45    1R   5   3  3.23  47   46   12   47  2  0 24
+Darvish          51    5R   5   5  5.38  72   66   19   68 14 15  0
+[4]Fitts            39     E   2   4  5.00  45   43   16   40 11 10  0
+Greene           49    1L   7   4  2.76 108   75   26  132 15 19  0
+Imanaga          25    2L   9   8  3.73 145  117   26  117 31 25  0
+Kikuchi          21    2L   7  11  3.99 178  180   74  174 24 33  0
+King             48    8L   2   1  4.66  48   65   14   28  8  0  0
+Leiter           55    6L   6   7  4.84  48   57   17   54  5  0  2
+[4]Lively           49    4R   2   2  3.22  45   38   15   29  6  9  0
+Martin           38    1R   2   6  2.98  42   43    8   43  6  0  2
+McCullers        48    8L   2   5  6.51  55   61   39   61 10 13  0
+[4]Thornton         48    5R   2   0  4.68  42   41   14   32  6  0  0
+[4]Treinen          41    7R   2   7  5.40  27   30   19   36  4  0  2
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Banks                N     +1    0       6     8  2e21  E   C   10   1        
+Beck                 N     +0    0      12    16   3e0  E   C   10   1        
+Clase                N     +6    0      19     0  4e51  E   C   10   1        
+Darvish              N     +4    0      12    10  3e20  E   C   10   5        
+[4]Fitts                N     +0    8       4    14   4e0  E   C   10   6        
+Greene               N     +0    0      11     0   2e0  E   C   10   3        
+Imanaga              N     -4    0       1     7  2e20  E   C   10   1        
+Kikuchi              N     -2    0       9    14  2e16  E   C   10   0        
+King                 N     +0    0      12    18   2e0  E   C   10   3        
+Leiter               N     +5    0      20     7  4e30  E   C   10   2        
+[4]Lively               N     +7    0       0    24   3e0  E   C   10   6        
+Martin               N     +8    0      10    24   3e0  E   C   10   5        
+McCullers            N     +5    0       3     0  2e26  E   C   10   5        
+[4]Thornton             N     +4    0       4    17   3e0  E   C   10   5        
+[4]Treinen              N     +9    0       7     0   4e0  E   C   10   5        
+[2]
+[1]2025 Tampa Bay Rays   [2]Black=In Majors(15/10) [4]Blue=In Minors(0/2)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Nick Allen         1   0 2025  ATN   E 371 11  0  0 .221  31  99  22 .284 .251
+Jose Altuve        2   0 2025  HOA  1L 588 24  1 26 .265  55 109  77 .329 .442
+Nolan Arenado      3   0 2025  SLN   E 401 18  1 12 .237  28  49  52 .289 .377
+Gabriel Arias      4   0 2025  CLA  1L 432 25  2 11 .220  27 162  54 .274 .363
+Jose Caballero     5   0 2025  NYA  2L 314 18  1  5 .236  47  98  36 .339 .347
+Kyle Isbel         6   0 2025  KCA  3R 368 16  4  4 .255  23  74  33 .301 .353
+Angel Martinez     7   0 2025  CLA  5L 446 23  2 11 .224  23 110  45 .269 .359
+Andy Pages         8   0 2025  LAN   E 581 27  1 27 .272  29 135  86 .313 .461
+Johan Rojas        9   0 2025  PHN  1L 152  3  2  1 .224  13  40  18 .280 .289
+Thomas Saggese    10   0 2025  SLN   E 275 17  0  2 .258  16  83  25 .299 .342
+Carlos Santana    11   0 2025  CHN  1L 415 11  0 11 .219  52  91  54 .308 .325
+Kyle Schwarber    12   0 2025  PHN  2L 604 23  2 56 .240 108 197 132 .365 .563
+Dominic Smith     13   0 2025  SFN  4R 204 12  0  5 .284  15  42  33 .333 .417
+Tyler Stephenson  14   0 2025  CIN  1L 299 18  0 13 .231  37 116  50 .316 .421
+Jacob Wilson      15   0 2025  SAA  2L 486 26  0 13 .311  27  39  63 .355 .444
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Allen            26    W/W   R    C    A    C   14 * 83% 17% (15-9)   8  7   1
+Altuve           19    N/N   R    C    B    C   13 * 42%  0% (15-12) 10  6   1
+Arenado          25    N/N   R    D    D    C   10    6%  0% (20-6)   3  0   3
+Arias            30    N/N   R    C    D    D   12 * 58%  0% (15-13)  8  4   2
+Caballero        33    N/W   R   AA    A    C   17 * 69%  0% (19-16) 49 11   1
+Isbel            17    W/W   L    D    A    C   15 * 42% 19% (15-6)   4  5   1
+Martinez         33    N/N   S    C    B    C   15 * 22%  0% (18-12)  8  2   1
+Pages            25    N/N   R    B    D    D   14 * 58%  0% (15-13) 14  7   1
+Rojas            44    W/W   R    A    B    C   16 * 39%  0% (19-15) 12  2   1
+Saggese          24    W/W   R    C    D    D   13    6%  0% (20-6)   3  0   1
+Santana          31    N/N   S    C    D    C   11    8%  0% (20-6)   7  0   1
+Schwarber        39    N/N   L    B    D    C   11 * 14%  0% (19-6)  10  2   0
+Smith            12    W/N   L    D    D    C   10    6%  0% (20-6)   2  0   2
+Stephenson       20    N/N   R    E    D    C   11   31%  0% (3-1)    0  1   5
+Wilson           23    N/N   R    C    C    B   12   19%  0% (14-6)   5  2   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Allen                              2e59      1e7                      .172 31 
+Altuve                             4e12           5e4            +2   .214 45 
+Arenado                                 2e8                           .227 37 
+Arias                              2e19 2e39 2e22                     .245 28 
+Caballero                          2e50 2e12 2e17 4e6  4e6  4e6  -1   .236  0 
+Isbel                                                  1e1       -2   .250 29 
+Martinez                           3e32                3e9  3e9  -2   .224 26 
+Pages                                             3e12 3e12 2e12 -3   .290 21 
+Rojas                                                  2e7       -3   .251 16 
+Saggese                            4e20 4e24 4e6                      .239 27 
+Santana                       2e3       5e37                          .251 21 
+Schwarber                                         5e22           +2   .237  1 
+Smith                         2e3                           5e10 +2   .321 38 
+Stephenson      3e2 -1t3p0                                            .244 14 
+Wilson                                       3e10                     .334 49 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Matt Boyd             16   0 2025  CHN    L      6            N    #1WL
+[4]Joe Boyle             17   0 2025  TBA    R      4     4      N    #1WR
+Corbin Burnes         18   0 2025  ARN    R      6            N    #1WR
+[4]Luis Gil              19   0 2025  NYA    R      5            N    #1WR
+Mackenzie Gore        20   0 2025  WAN    L      6            N    #1WL
+Ryan Helsley          21   0 2025  NYN    R            1      4    #1WR
+Trevor Megill         22   0 2025  MLN    R            1      6    #1WL
+Nick Pivetta          23   0 2025  SDN    R      6            N    #1WR
+Cade Povich           24   0 2025  BAA    L      5     4      N    #1WL
+Yariel Rodriguez      25   0 2025  TOA    R            1      1    #1WR
+Jojo Romero           26   0 2025  SLN    L            1      4    #1WL
+Cole Sands            27   0 2025  MNA    R      1     1      2    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Boyd             26    3L  14   8  3.21 180  154   42  154 19 31  0
+[4]Boyle            54     E   1   4  4.67  52   43   28   58  6  9  0
+Burnes           54    2L   3   2  2.66  64   49   26   63  7 11  0
+[4]Gil              52     E   4   1  3.32  57   47   33   41  5 11  0
+Gore             27    2L   5  15  4.17 160  152   64  185 20 30  0
+Helsley          52    2L   3   4  4.50  56   61   25   63  8  0 21
+Megill           53    4L   6   3  2.49  47   36   17   60  3  0 30
+Pivetta          49    3L  13   5  2.87 182  129   50  190 22 31  0
+Povich           24    2R   3   8  5.21 112  125   43  118 17 20  0
+Rodriguez        38    4R   3   2  3.08  73   50   34   66  8  1  2
+Romero           42     E   4   6  2.07  61   47   29   55  2  0  8
+Sands            49    1L   4   6  4.50  72   65   19   64  7  3  3
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Boyd                 N     -5    0       2    18  1e31  E   C   10   1        
+[4]Boyle                N     +7    0       8     9  4e28  E   C   10   1        
+Burnes               N     -3   12       3    18  3e22  E   C   10   5        
+[4]Gil                  N     -3   13      15    12  3e51  E   C   10   5        
+Gore                 N     +0    0      17     2   3e0  E   C   10   1        
+Helsley              N     +3    0      20     0   3e0  E   C   10   1        
+Megill               N     +9    0       9     8   4e0  E   C   10   3        
+Pivetta              N     -1    0       0     1   2e8  E   C   10   1        
+Povich               N     -4    0      11    12  2e13  E   C   10   2        
+Rodriguez            N     +1   10       6    21   2e0  E   C   10   1        
+Romero               N     +0    0       7    16   4e0  E   C   10   1        
+Sands                N     +1    0       9    18  3e20  E   C   10   1        
+[2]
+[1]2025 Texas Rangers   [2]Black=In Majors(16/13) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Ozzie Albies       1   0 2025  ATN  2L 603 23  2 16 .240  55  94  74 .306 .365
+Yordan Alvarez     2   0 2025  HOA  8L 165  8  0  6 .273  28  33  27 .367 .430
+Miguel Amaya       3   0 2025  CHN  4R  96  9  0  4 .281   4  22  25 .314 .500
+Kerry Carpenter    4   0 2025  DEA  2R 433 18  5 26 .252  18 106  62 .291 .497
+Wilmer Flores      5   0 2025  SFN   E 419 10  0 16 .241  34  88  71 .307 .379
+Darell Hernaiz     6   0 2025  SAA  2L 173  5  1  2 .231  17  24  16 .292 .306
+Colt Keith         7   0 2025  DEA  6R 414 22  2 13 .256  48 102  45 .333 .413
+Gavin Lux          8   0 2025  CIN  5R 446 28  2  5 .269  56 114  53 .350 .374
+Dylan Moore        9   0 2025  TEA   E 219  5  0 11 .201  20  82  25 .267 .374
+Max Muncy         10   0 2025  LAN  6R 313 10  2 19 .243  64  83  67 .376 .470
+Cal Raleigh       11   0 2025  SEA  4L 596 24  0 60 .247  97 188 125 .359 .589
+Luis Robert       12   0 2025  CHA  4L 382 12  0 14 .223  40 112  53 .297 .364
+Brayan Rocchio    13   0 2025  CLA  1R 344 18  2  5 .233  22  77  44 .290 .340
+Josh Smith        14   0 2025  TEA  3R 495 23  2 10 .251  55 100  35 .335 .366
+Seiya Suzuki      15   0 2025  CHN   E 571 31  3 32 .245  71 164 103 .326 .478
+Gio Urshela       16   0 2025  SAA   E 181 14  1  0 .238  13  40  20 .287 .326
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Albies           29    N/N   S    B    D    C   14 * 22%  0% (18-12) 14  3   1
+Alvarez          19    N/N   L    E    D    C   10   22%  6% (13-6)   1  1   5
+Amaya            20    N/N   R    E    C    C    9    0%  0% (0-0)    0  0   6
+Carpenter        14    N/N   L    E    D    D   13   14%  3% (13-5)   1  1   2
+Flores           33    N/N   R    E    D    C    8    3%  0% (20-6)   1  0   1
+Hernaiz          28    N/W   R    D    D    C   13 * 61% 33% (15-7)   3  4   1
+Keith            10    W/N   L    E    D    D   13    8%  3% (13-5)   1  1   1
+Lux              13    W/W   L    E    D    C   12    3%  0% (20-6)   1  0   1
+Moore            52    N/N   R    A    D    D   14 * 50%  0% (18-15) 14  5   1
+Muncy            22    N/N   L    C    D    D   12    6%  0% (20-6)   4  0   4
+Raleigh          31    N/N   S    B    D    D   10 * 25%  0% (18-12) 14  4   1
+Robert           24    N/N   R   AA    D    D   16 * 53%  0% (19-15) 33  8   4
+Rocchio          29    N/W   S    B    B    C   14 * 67%  0% (15-13)  8  4   1
+Smith            22    W/N   L    B    B    C   14 * 19%  0% (18-11) 12  3   1
+Suzuki           27    N/N   R    D    D    C   13   19%  0% (14-6)   5  2   1
+Urshela          23    W/W   R    E    D    D    9   64%  0% (3-1)    0  1   2
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Albies                             4e2                                .240 20 
+Alvarez                                           5e12           -2   .298  1 
+Amaya           2e6 +0t1p0                                            .299  0 
+Carpenter                                         3e7       3e7  -2   .214  6 
+Flores                        4e7       4e56                          .294 45 
+Hernaiz                            4e15 3e20 3e7                      .196 12 
+Keith                         4e9  4e32 4e11                          .232 23 
+Lux                                4e23 4e44      5e7            +3   .287  3 
+Moore                         4e30 3e14 3e37 4e17           4e9  +1   .191  0 
+Muncy                                   4e20                          .224 10 
+Raleigh         2e2 -2t4p0                                            .240  8 
+Robert                                                 2e2       -1   .260 30 
+Rocchio                            1e14      2e22                     .260 13 
+Smith                         3e7  4e24 3e6  3e14 4e5  4e5  4e5  +1   .186  2 
+Suzuki                                            4e10 4e10 4e10 +1   .240 30 
+Urshela                       4e5       4e10                          .251 45 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Jose Alvarado         17   0 2025  PHN    L            1      4    #1WL
+Camilo Doval          18   0 2025  NYA    R            1      4    #1WR
+Jhoan Duran           19   0 2025  PHN    R            1      6    #1WR
+Zac Gallen            20   0 2025  ARN    R      6            N    #1WR
+Kevin Gausman         21   0 2025  TOA    R      6            N    #1WL
+Carlos Hernandez      22   0 2025  CLA    R            1      N    #1WR
+Orion Kerkering       23   0 2025  PHN    R            1      2    #1WR
+Casey Mize            24   0 2025  DEA    R      5            N    #1WR
+Reese Olson           25   0 2025  DEA    R      5            N    #1WR
+Manuel Rodriguez      26   0 2025  TBA    R            1      N    #1WR
+Spencer Strider       27   0 2025  ATN    R      5            N    #1WR
+Ranger Suarez         28   0 2025  PHN    L      6            N    #1WL
+Victor Vodnik         29   0 2025  CON    R            1      3    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Alvarado         25    5R   4   2  3.81  26   27    7   32  4  0  7
+Doval            47    2L   4   3  3.58  65   51   35   72  4  0 16
+Duran            52    7L   7   6  2.06  70   58   19   80  3  0 32
+Gallen           49     E  13  15  4.83 192  176   66  175 31 33  0
+Gausman          48    3L  10  11  3.59 193  155   50  189 21 32  0
+Hernandez        45    7R   1   0  6.23  43   50   22   39  4  0  0
+Kerkering        39    2R   8   4  3.30  60   55   27   65  6  0  4
+Mize             55    1L  14   6  3.87 149  153   36  139 21 28  0
+Olson            46    3L   4   4  3.15  69   58   25   65  5 13  0
+Rodriguez        33    2L   1   2  2.08  30   26    6   25  2  0  0
+Strider          52     E   7  14  4.45 125  124   51  131 20 23  0
+Suarez           20    2L  12   8  3.20 157  154   38  151 14 26  0
+Vodnik           51    4R   4   3  3.02  51   45   26   49  4  0 10
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Alvarado             N     +0    0      20     0   5e0  E   C   10   2        
+Doval                N     +9   19      13    18  5e22  E   C   10   1        
+Duran                N     +9    0       9     4   4e0  E   C   10   0        
+Gallen               Y     +0    0       1    16   3e8  E   C   10   0        
+Gausman              N     +2    4       0     3   3e0  E   C   10   0        
+Hernandez            N     +9    0      20     0  5e33  E   C   10   1        
+Kerkering            N     +3    0      18     6   3e0  E   C   10   1        
+Mize                 N     +1    0       2     5  4e10  E   C   10   1        
+Olson                N     +1    0       6    20   4e0  E   C   10   5        
+Rodriguez            N     +8    0       7    24   3e0  E   C   10   5        
+Strider              N     +0    3       1     4  3e23  E   C   10   2        
+Suarez               N     +0    0       0    12  3e18  E   C   10   1        
+Vodnik               N     -4    0      17    23   3e0  E   C   10   3        
+[2]
+[1]2025 Toronto Blue Jays   [2]Black=In Majors(15/12) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Matt Chapman       1   0 2025  SFN  2R 454 23  2 21 .231  71 126  61 .340 .430
+William Contreras  2   0 2025  MLN  2R 566 28  0 17 .260  84 120  76 .355 .399
+Tyler Fitzgerald   3   0 2025  SFN  2L 217 10  1  4 .217  17  70  14 .278 .327
+Paul Goldschmidt   4   0 2025  NYA  6L 489 31  1 10 .274  36 100  45 .328 .403
+Hunter Goodman     5   0 2025  CON  1L 540 28  5 31 .278  33 152  91 .323 .520
+Trent Grisham      6   0 2025  NYA  3R 494  9  1 34 .235  82 137  74 .348 .464
+Enrique Hernandez  7   0 2025  LAN  2L 232  8  0 10 .203  18  68  35 .255 .366
+Jung Hoo Lee       8   0 2025  SFN  3R 560 31 12  8 .266  47  71  55 .327 .407
+Rafael Marchan     9   0 2025  PHN  1L 105  4  0  2 .210  10  17  13 .282 .305
+Shohei Ohtani     10   0 2025  LAN  1R 611 25  9 55 .282 109 187 102 .392 .622
+Amed Rosario      11   0 2025  NYA  4L 181 11  0  6 .276   7  31  23 .309 .436
+Juan Soto         12   0 2025  NYN  3R 577 20  1 43 .263 127 137 105 .396 .525
+Trevor Story      13   0 2025  BOA   E 612 29  0 25 .263  33 176  96 .308 .433
+Bryson Stott      14   0 2025  PHN  2R 499 22  3 13 .257  54  91  66 .328 .391
+Matt Vierling     15   0 2025  DEA  1L  88  3  0  1 .239   7  24  11 .310 .307
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Chapman          24    N/N   R    C    D    D   14 * 31%  0% (16-12)  9  4   3
+Contreras        27    N/N   R    C    D    B   11   19%  3% (13-6)   6  4   1
+Fitzgerald       29    W/N   R    B    A    D   16 * 44%  0% (17-14)  9  4   2
+Goldschmidt      31    N/W   R    C    D    C   11    8%  0% (17-6)   5  1   1
+Goodman          24    N/N   R    E    D    C   11   17% 17% (13-3)   1  2   1
+Grisham          27    N/N   L    D    D    C   11   14%  0% (13-6)   3  2   1
+Hernandez        41    N/N   R    E    D    D   12    0%  0% (0-0)    0  0   4
+Lee              28    N/W   L    B    D    B   14 * 17%  0% (17-6)  10  3   1
+Marchan          29    W/N   S    E    D    C   10    0%  0% (0-0)    0  0   2
+Ohtani           36    N/N   L    A    D    D   16 * 28%  0% (17-12) 20  6   1
+Rosario          64    N/N   R    E    D    C   14    3%  0% (20-6)   1  0   1
+Soto             36    N/N   L   AA    C    C   13 * 28%  0% (19-13) 38  4   1
+Story            26    N/N   R   AA    D    D   16 * 28%  0% (19-13) 31  1   1
+Stott            22    W/N   L    A    C    C   16 * 28%  0% (19-13) 24  5   1
+Vierling         43    N/W   R    C    D    D   14 *  8%  0% (20-6)   2  0   6
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Chapman                                 1e17                          .203 20 
+Contreras       2e5 -3t3p2    5e30                5e16           +2   .260 30 
+Fitzgerald                         2e10                     4e7  +0   .184 14 
+Goldschmidt                   2e7                                     .260 23 
+Goodman         4e10 +1t5p1                                           .268 42 
+Grisham                                                2e3       +0   .216 16 
+Hernandez                     3e5  3e17 3e22      3e13 3e13      -1   .212 43 
+Lee                                                    2e3       -1   .235  0 
+Marchan         3e1 -2t6p2                                            .184  9 
+Ohtani                                                                .249 15 
+Rosario                            3e23 4e25 4e20           4e6  +1   .303 51 
+Soto                                                        4e1  -1   .228 32 
+Story                                        2e20                     .258  0 
+Stott                              1e4       3e14                     .257  6 
+Vierling                                4e10      3e3  3e3  3e3  +0   .257 10 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Brayan Bello          16   0 2025  BOA    R      6            N    #1WR
+Aaron Bummer          17   0 2025  ATN    L            2      N    #1WL
+Yennier Cano          18   0 2025  BAA    R            1      1    #1WR
+Max Fried             19   0 2025  NYA    L      6            N    #1WL
+Tyler Glasnow         20   0 2025  LAN    R      5            N    #1WL
+Landon Knack          21   0 2025  LAN    R      4     4      0    #1WL
+Shohei Ohtani         22   0 2025  LAN    R      4            N    #8NL
+Andre Pallante        23   0 2025  SLN    R      5            N    #1WR
+Ryan Thompson         24   0 2025  ARN    R            1      0    #1WR
+Jose Urena            25   0 2025  LAA    R      4     3      0    #1WR
+Will Vest             26   0 2025  DEA    R            1      4    #1WR
+Logan Webb            27   0 2025  SFN    R      6            N    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Bello            58     E  11   9  3.35 167  147   59  124 16 28  0
+Bummer           46    1R   3   2  3.81  54   51   17   51  3  2  0
+Cano             42    7R   3   7  5.12  58   62   24   53  7  0  2
+Fried            22    2R  19   5  2.86 195  164   51  189 14 32  0
+Glasnow          49     E   4   3  3.19  90   56   43  106 10 18  0
+Knack            54    9L   3   2  4.89  42   40   19   42 10  7  1
+Ohtani           44    8L   1   1  2.87  47   40    9   62  3 14  0
+Pallante         49    1L   6  15  5.31 163  173   62  111 21 31  0
+Thompson         43    4R   3   2  3.92  41   42   13   36  4  0  1
+Urena            54    2R   0   1  4.58  55   57   23   34  8  6  1
+Vest             43    2R   6   5  3.01  69   61   22   75  4  0 23
+Webb             50    3R  15  11  3.22 207  210   46  224 14 34  0
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Bello                N     +2    0       6    19  2e17  E   C   10   1        
+Bummer               N     +7    0       3    15  2e51  E   C   10   3        
+Cano                 N     +7    5       7    17  2e24  E   C   10   1        
+Fried                Y     -5    2       9    11  1e30  E   C   10   0        
+Glasnow              N     +3    8      13    15   3e0  E   C   10   3        
+Knack                N     +0    0       4     2   3e0  E   C   10   1        
+Ohtani               N     -2    0      20    10   2e0  A   D   16   1        
+Pallante             N     +2    4      16    11  3e35  E   C   10   1        
+Thompson             N     +9    7       0    22   4e0  E   C   10   4        
+Urena                N     -4    0       7     2  2e51  E   C   10   1        
+Vest                 N     +0    0      13    15   2e0  E   C   10   1        
+Webb                 Y     -1    0       1    19   1e7  E   C   10   0        
+[2]
+[1]2025 Washington Nationals   [2]Black=In Majors(17/12) [4]Blue=In Minors(0/0)
+
+[1]                   CODES YEAR TEAM BAL  AB DO TR HR BAVG  BB K'S RBI  OB%  SL%
+Jonathan Aranda    1   0 2025  TBA  3R 370 22  0 14 .316  41 107  59 .393 .489
+Bo Bichette        2   0 2025  TOA  2L 582 44  1 18 .311  40  91  94 .357 .483
+Dominic Canzone    3   0 2025  SEA  3R 243 11  0 11 .300  20  59  32 .358 .481
+Victor Caratini    4   0 2025  HOA  1R 344 14  0 12 .259  23  65  46 .324 .404
+Willi Castro       5   0 2025  CHN  1L 402 17  3 11 .226  40 111  33 .313 .366
+Zach Dezenzo       6   0 2025  HOA   E  98  6  0  2 .245  11  37  10 .321 .367
+Luis Garcia Jr     7   0 2025  WAN  5R 488 28  1 16 .252  27  84  66 .289 .412
+Trevor Larnach     8   0 2025  MNA  1R 503 24  1 17 .250  53 122  60 .323 .404
+Jorge Mateo        9   0 2025  BAA  3L  79  4  0  1 .177   4  30   3 .217 .266
+James McCann      10   0 2025  ARN   E 123  6  0  5 .260   8  33  17 .324 .431
+Jake McCarthy     11   0 2025  ARN   E 206  7  5  4 .204  10  40  20 .247 .345
+Pedro Pages       12   0 2025  SLN   E 361 15  0 11 .230  19 107  45 .272 .363
+Luke Raley        13   0 2025  SEA  4R 183  8  0  4 .202  19  64  19 .319 .311
+Julio Rodriguez   14   0 2025  SEA   E 652 31  4 32 .267  44 152  95 .324 .474
+Nolan Schanuel    15   0 2025  LAA  1L 488 23  1 12 .264  59  71  53 .353 .389
+Eugenio Suarez    16   0 2025  SEA  1R 588 28  0 49 .228  46 196 118 .298 .526
+Taylor Walls      17   0 2025  TBA  2L 282 14  1  4 .220  26  70  38 .280 .319
+
+[1]                LEFT% POWER BAT STEAL BUNT H&R RUN SUPPLEMENT-STEAL  SB CS INJ
+Aranda           23    W/N   L    E    D    D   10   39%  0% (3-1)    0  2   4
+Bichette         22    N/N   R    D    D    C   11   28%  3% (13-7)   4  3   1
+Canzone          24    N/N   L    C    D    C   11   14%  0% (15-6)   3  1   1
+Caratini         15    N/N   S    E    D    C    8    3%  0% (20-6)   1  0   2
+Castro           26    N/N   S    B    D    D   14 * 33%  0% (17-13) 10  4   1
+Dezenzo           9    W/N   R    D    D    D   13    6%  0% (20-6)   1  0   6
+Garcia Jr        20    W/N   L    B    D    C   12 * 33%  0% (18-13) 14  5   1
+Larnach          21    W/N   L    D    D    B   11   33%  8% (13-6)   4  4   1
+Mateo            49    W/N   R    A    D    D   16 * 92%  0% (20-16) 15  2   6
+McCann           35    N/N   R    E    D    D   10    0%  0% (0-0)    0  0   2
+McCarthy         20    W/N   L    B    B    C   16 * 19%  0% (20-13)  6  0   1
+Pages            29    N/N   R    E    C    D    9    0%  0% (0-0)    0  0   2
+Raley            18    W/N   L    D    B    C   15   25%  0% (13-6)   2  1   5
+Rodriguez        26    N/N   R    A    D    B   17 * 31%  0% (19-14) 30  6   1
+Schanuel         22    N/N   L    C    C    B   12    6%  0% (17-6)   5  1   2
+Suarez           27    N/N   R    D    D    D   10   11%  0% (16-6)   4  1   1
+Walls            33    W/N   S    A    C    C   16 * 50%  0% (17-14) 14  6   4
+
+[1]                Catcher       1b   2b   3b   ss   lf   cf   rf   ARM  ClAv DP
+Aranda                        3e9                                     .332 31 
+Bichette                                     4e16                     .359 44 
+Canzone                                                     4e3  +1   .288 34 
+Caratini        3e11 +2t4p0   4e8                                     .228 33 
+Castro                             3e6  3e33 4e56 3e5  4e5  4e5  +0   .200 40 
+Dezenzo                       4e14                4e7       4e7  +1   .261 24 
+Garcia Jr                     5e25 4e10                               .284 19 
+Larnach                                           4e1       4e1  +2   .222 48 
+Mateo                              3e59 4e37 3e64 4e16 4e16      +0   .170 18 
+McCann          2e4 -1t1p0    4e25                                    .225 34 
+McCarthy                                          3e3  3e3  3e3  +0   .173 12 
+Pages           2e5 -1t3p3    5e25 5e71                               .197 39 
+Raley                         4e14                3e6  4e6  3e6  -1   .185  8 
+Rodriguez                                              1e4       -3   .218 34 
+Schanuel                      2e8                                     .268 27 
+Suarez                        4e30      4e17                          .228 27 
+Walls                              1e4  2e11 1e10                     .259  0 
+
+[1]                       CODES YEAR TEAM  THROWS START RELIEF CLOSER BATS
+Felix Bautista        18   0 2025  BAA    R            1      5    #1WR
+Edwin Diaz            19   0 2025  NYN    R            1      6    #1WR
+Lucas Giolito         20   0 2025  BOA    R      6            N    #1WR
+Jeff Hoffman          21   0 2025  TOA    R            1      5    #1WR
+Andrew Kittredge      22   0 2025  CHN    R            1      3    #1WR
+Seth Lugo             23   0 2025  KCA    R      6            N    #1WR
+Nick Martinez         24   0 2025  CIN    R      6     3      N    #1WL
+Tobias Myers          25   0 2025  MLN    R      4     3      N    #1WR
+Cristopher Sanchez    26   0 2025  PHN    L      6            N    #1WL
+Blake Snell           27   0 2025  LAN    L      5            N    #1WL
+Hunter Strickland     28   0 2025  LAA    R            1      0    #1WR
+Greg Weissert         29   0 2025  BOA    R            1      2    #1WR
+
+[1]                LEFT% BAL WON LOST  ERA  IP HITS WALKS K'S HR GS SV
+Bautista         51    2L   1   1  2.60  35   16   23   50  3  0 19
+Diaz             53    1L   6   3  1.63  66   37   21   98  4  0 28
+Giolito          48    1L  10   4  3.41 145  131   56  121 17 26  0
+Hoffman          50    2R   9   7  4.37  68   54   27   84 15  0 33
+Kittredge        46    8L   4   3  3.40  53   41   11   64  7  0  5
+Lugo             59    7R   8   7  4.15 145  133   55  125 27 26  0
+Martinez         46    2L  11  14  4.45 166  158   42  116 22 26  0
+Myers            42     E   1   2  3.55  51   54   15   38  5  6  0
+Sanchez          21    4L  13   5  2.50 202  171   44  212 12 32  0
+Snell            22    1R   5   4  2.35  61   51   26   72  3 11  0
+Strickland       48    4L   1   2  3.27  22   17   10   14  2  0  1
+Weissert         39    2L   6   6  2.82  67   57   21   57  6  0  4
+
+[1]                *-RATING HOLD BALK WILD-PITCH DP FIELD STL BNT RUN INJ
+Bautista             N     +9    0       6     0  5e42  E   C   10   5        
+Diaz                 N     +9    0      20     1   3e0  E   C   10   1        
+Giolito              N     +1    0       5     5  3e30  E   C   10   1        
+Hoffman              N     +2    0       6     0  4e21  E   C   10   0        
+Kittredge            N     +7    0       4    16   5e0  E   C   10   4        
+Lugo                 N     -2    0       7    10   2e0  E   C   10   1        
+Martinez             N     +0    0       8    16   2e8  E   C   10   1        
+Myers                N     -3    8       0     6  3e28  E   C   10   2        
+Sanchez              Y     +0    2       6    25   3e7  E   C   10   0        
+Snell                N     +1    0      20     6   3e0  E   C   10   5        
+Strickland           N     -1    0      10     8   3e0  E   C   10   5        
+Weissert             N     +2    0       2     9   3e0  E   C   10   0        

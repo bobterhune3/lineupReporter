@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>LineupReporter</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <header class="site-header">
+        <h1>LineupReporter</h1>
+        <p class="tagline">Strat-O-Matic lineup &amp; roster reports</p>
+        <nav>
+            <a th:href="@{/}" class="nav-link">Home</a>
+            <a th:href="@{/usage}" class="nav-link">Usage Estimator</a>
+            <a th:href="@{/opponents}" class="nav-link">Opponents</a>
+            <a th:href="@{/balance}" class="nav-link">Balance Report</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="card">
+            <h2>Upload Roster Report</h2>
+            <p class="help">Upload a Strat-O-Matic League Roster Report (PRT). Create it via Team → Display Reports → Roster Report → Each Team → Print to File.</p>
+            <form th:if="${!initialized}" method="post" action="#" th:action="@{/upload}" enctype="multipart/form-data" class="upload-form">
+                <input type="file" name="file" accept=".prt,.txt" required/>
+                <button type="submit">Load Report</button>
+            </form>
+            <p th:if="${initialized}" class="success">Report loaded. Select a team below or upload a new report.</p>
+            <form th:if="${initialized}" method="post" action="#" th:action="@{/upload}" enctype="multipart/form-data" class="upload-form">
+                <input type="file" name="file" accept=".prt,.txt"/>
+                <button type="submit">Replace Report</button>
+            </form>
+        </section>
+        <p th:if="${error}" class="error" th:text="${error}">Error message</p>
+        <section th:if="${initialized}" class="card">
+            <h2>Teams</h2>
+            <ul class="team-list">
+                <li th:each="team : ${teams}">
+                    <a th:href="@{/team(abrv=${team.abrv})}" th:text="${team.name + ' (' + team.abrv + ')'}">Team (ABB)</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>LineupReporter &mdash; Java 17 Spring Boot</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title th:text="${team.name + ' - LineupReporter'}">Team</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <header class="site-header">
+        <h1>LineupReporter</h1>
+        <p class="tagline">Strat-O-Matic lineup &amp; roster reports</p>
+        <nav>
+            <a th:href="@{/}" class="nav-link">Home</a>
+            <a th:href="@{/usage}" class="nav-link">Usage Estimator</a>
+            <a th:href="@{/opponents}" class="nav-link">Opponents</a>
+            <a th:href="@{/balance}" class="nav-link">Balance Report</a>
+        </nav>
+    </header>
+    <main class="content">
+        <p th:if="${error}" class="error" th:text="${error}">Error</p>
+        <section th:if="${team}" class="card">
+            <h2 th:text="${team.name + ' (' + team.abrv + ')'}">Team</h2>
+            <h3>Pitchers (by balance)</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Balance</th>
+                        <th>L IP</th>
+                        <th>R IP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="entry : ${balanceL.entrySet()}">
+                        <td th:text="${entry.key}">-</td>
+                        <td th:text="${balanceL.get(entry.key)}">0</td>
+                        <td th:text="${balanceR.get(entry.key)}">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Pitchers</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Throws</th>
+                        <th>Bal</th>
+                        <th>IP</th>
+                        <th>GS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="p : ${pitchers}">
+                        <td th:text="${p.name}">-</td>
+                        <td th:text="${p.throwsArm}">-</td>
+                        <td th:text="${p.bal}">-</td>
+                        <td th:text="${p.ip}">-</td>
+                        <td th:text="${p.gs}">-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Batters</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Bal</th>
+                        <th>AB</th>
+                        <th>Power L/R</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="b : ${batters}">
+                        <td th:text="${b.name}">-</td>
+                        <td th:text="${b.bal}">-</td>
+                        <td th:text="${b.actual}">-</td>
+                        <td th:text="${(b.powerL ?: '') + '/' + (b.powerR ?: '')}">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>LineupReporter &mdash; Java 17 Spring Boot</p>
+    </footer>
+</body>
+</html>

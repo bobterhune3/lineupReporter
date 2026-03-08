@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Usage Estimator - LineupReporter</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+    <link rel="stylesheet" th:href="@{/css/usage.css}"/>
+</head>
+<body>
+    <header class="site-header">
+        <h1>LineupReporter</h1>
+        <p class="tagline">Strat-O-Matic lineup &amp; roster reports</p>
+        <nav>
+            <a th:href="@{/}" class="nav-link">Home</a>
+            <a th:href="@{/usage}" class="nav-link">Usage Estimator</a>
+            <a th:href="@{/opponents}" class="nav-link">Opponents</a>
+            <a th:href="@{/balance}" class="nav-link">Balance Report</a>
+        </nav>
+    </header>
+    <main class="content usage-page">
+        <section class="card" id="usage-not-initialized">
+            <p>Load a roster report from the <a th:href="@{/}">Home</a> page first.</p>
+        </section>
+        <div id="usage-app" style="display: none;">
+            <section class="card">
+                <label>Team:
+                    <select id="team-select">
+                        <option value="">-- Select team --</option>
+                    </select>
+                </label>
+                <button type="button" id="btn-manage-lineups">Manage lineups</button>
+                <button type="button" id="btn-settings">Settings</button>
+            </section>
+            <section class="card" id="lineup-grid-section">
+                <h2>Lineup grid</h2>
+                <p class="help">Select a player for each position in each lineup. Changes are saved automatically.</p>
+                <div id="lineup-grid-container"></div>
+            </section>
+            <section class="card" id="batter-info-section">
+                <h2>Team batting information</h2>
+                <table class="data-table" id="batter-info-table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Defense</th>
+                            <th>Prj AB</th>
+                            <th>Act AB</th>
+                            <th>Remain</th>
+                            <th>Bal</th>
+                            <th>Positions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+            <section class="card" id="balance-stats-section">
+                <h2>Estimated batter at-bats by balance</h2>
+                <table class="data-table" id="balance-stats-table">
+                    <thead>
+                        <tr>
+                            <th>BAL</th>
+                            <th>LH IP</th>
+                            <th>Est. LH AB</th>
+                            <th>RH IP</th>
+                            <th>Est. RH AB</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </div>
+
+        <!-- Manage lineups modal -->
+        <div id="lineup-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3>Manage lineups</h3>
+                <p class="help">Add, edit, or reorder lineups. Each lineup is defined by pitcher arm (L/R) and balance range.</p>
+                <ul id="lineup-list"></ul>
+                <div class="modal-actions">
+                    <button type="button" id="btn-add-lineup">Add lineup</button>
+                    <button type="button" id="btn-edit-lineup" disabled>Edit</button>
+                    <button type="button" id="btn-delete-lineup" disabled>Delete</button>
+                    <button type="button" id="btn-close-lineup-modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add/Edit lineup form modal -->
+        <div id="lineup-form-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3 id="lineup-form-title">Add lineup</h3>
+                <div class="form-group">
+                    <label>Pitcher arm:</label>
+                    <label><input type="radio" name="pitcher-arm" value="L"/> Left</label>
+                    <label><input type="radio" name="pitcher-arm" value="R" checked/> Right</label>
+                </div>
+                <div class="form-group">
+                    <label>From balance:</label>
+                    <select id="balance-from"></select>
+                </div>
+                <div class="form-group">
+                    <label>To balance:</label>
+                    <select id="balance-to"></select>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="btn-save-lineup">Save</button>
+                    <button type="button" id="btn-cancel-lineup-form">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings modal -->
+        <div id="settings-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3>Settings</h3>
+                <div class="form-group">
+                    <label>AB addition (buffer):</label>
+                    <input type="number" id="setting-ab-addition" min="0" value="0"/>
+                </div>
+                <div class="form-group">
+                    <label>Target at-bats:</label>
+                    <input type="number" id="setting-target-ab" min="1" value="615"/>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="btn-save-settings">Save</button>
+                    <button type="button" id="btn-close-settings">Close</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>LineupReporter &mdash; Java 17 Spring Boot</p>
+    </footer>
+    <script th:src="@{/js/usage.js}"></script>
+</body>
+</html>

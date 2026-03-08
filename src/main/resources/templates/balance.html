@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Balance Report - LineupReporter</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <header class="site-header">
+        <h1>LineupReporter</h1>
+        <p class="tagline">Strat-O-Matic lineup &amp; roster reports</p>
+        <nav>
+            <a th:href="@{/}" class="nav-link">Home</a>
+            <a th:href="@{/usage}" class="nav-link">Usage Estimator</a>
+            <a th:href="@{/opponents}" class="nav-link">Opponents</a>
+            <a th:href="@{/balance}" class="nav-link">Balance Report</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="card">
+            <h2>Pitcher balance report</h2>
+            <form method="get" th:action="@{/balance}" class="balance-form">
+                <label>Team
+                    <select name="abrv">
+                        <option value="">-- Select team --</option>
+                        <option th:each="t : ${teams}" th:value="${t.abrv}" th:text="${t.name + ' (' + t.abrv + ')'}"
+                                th:selected="${selectedTeam != null && selectedTeam.abrv == t.abrv}">Team</option>
+                    </select>
+                </label>
+                <label>In-division games <input type="number" name="inDiv" th:value="${inDiv}" min="0"/></label>
+                <label>Out-division games <input type="number" name="outDiv" th:value="${outDiv}" min="0"/></label>
+                <button type="submit">Update</button>
+            </form>
+        </section>
+        <section th:if="${selectedTeam}" class="card">
+            <h3 th:text="${'Balance: ' + selectedTeam.name}">Balance</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Balance</th>
+                        <th>vs L (IP)</th>
+                        <th>vs R (IP)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="entry : ${balanceL.entrySet()}">
+                        <td th:text="${entry.key}">-</td>
+                        <td th:text="${balanceL.get(entry.key)}">0</td>
+                        <td th:text="${balanceR.get(entry.key)}">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>LineupReporter &mdash; Java 17 Spring Boot</p>
+    </footer>
+</body>
+</html>

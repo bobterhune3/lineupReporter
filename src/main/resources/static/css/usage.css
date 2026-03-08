@@ -1,0 +1,33 @@
+/* Usage Estimator */
+.content.usage-page { max-width: 1600px; }
+
+#team-select { min-height: 2.25rem; padding: 0.4rem 0.6rem; font-size: 1rem; }
+
+.lineup-grid-table { width: 100%; table-layout: fixed; }
+.lineup-grid-table th, .lineup-grid-table td { padding: 0.35rem 0.5rem; font-size: 0.85rem; border: 1px solid var(--border); }
+.lineup-grid-table .pos-label { font-weight: 600; color: var(--accent); width: 2.5rem; }
+.lineup-grid-table select { width: 100%; max-width: 140px; background: var(--bg); color: var(--text); border: 1px solid var(--border); padding: 0.25rem; font-family: inherit; font-size: 0.8rem; }
+.lineup-grid-table select.not-set { color: #f0c000; }
+.lineup-grid-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.03); }
+
+.modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; z-index: 100; }
+.modal-content { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; max-width: 480px; width: 90%; max-height: 85vh; overflow: auto; }
+.modal-content h3 { margin: 0 0 1rem 0; }
+.modal-actions { margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.modal-actions button { background: var(--accent); color: var(--bg); border: none; padding: 0.5rem 1rem; border-radius: 6px; font-family: inherit; cursor: pointer; }
+.modal-actions button:disabled { opacity: 0.5; cursor: not-allowed; }
+.modal-actions button:hover:not(:disabled) { background: var(--accent-hover); }
+
+.form-group { margin-bottom: 0.75rem; }
+.form-group label { display: block; margin-bottom: 0.25rem; color: var(--muted); }
+.form-group input[type="number"], .form-group select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 0.4rem; border-radius: 4px; font-family: inherit; width: 100%; max-width: 120px; }
+.form-group label input[type="radio"] { margin-right: 0.5rem; }
+
+#lineup-list { list-style: none; padding: 0; margin: 0 0 1rem 0; max-height: 200px; overflow: auto; }
+#lineup-list li { padding: 0.5rem; border-bottom: 1px solid var(--border); cursor: pointer; }
+#lineup-list li:hover, #lineup-list li.selected { background: rgba(88, 166, 255, 0.15); }
+
+.negative { color: var(--error); }
+
+#batter-info-table .prj-ab-zero { color: #f0c000; }
+#batter-info-table tr.batter-good { color: var(--success); }

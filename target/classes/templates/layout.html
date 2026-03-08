@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>LineupReporter</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <header class="site-header">
+        <h1>LineupReporter</h1>
+        <p class="tagline">Strat-O-Matic lineup &amp; roster reports</p>
+        <nav>
+            <a th:href="@{/}" class="nav-link">Home</a>
+            <a th:href="@{/balance}" class="nav-link">Balance Report</a>
+        </nav>
+    </header>
+    <main class="content">
+        <th:block th:replace="~{::content}"/>
+    </main>
+    <footer class="site-footer">
+        <p>LineupReporter &mdash; Java 17 Spring Boot</p>
+    </footer>
+</body>
+</html>
