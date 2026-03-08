@@ -2,6 +2,8 @@
 
 Java 17 Spring Boot web UI for Strat-O-Matic lineup and roster reports. Port of the LineupEngine2 C# library.
 
+This project ported A C# desktop UI and two C# libraries that I had previously written and used cursor AI to port it to a Java Spring Boot with javascript UI.
+
 ## Requirements
 
 - Java 17+
