@@ -216,7 +216,7 @@ public class SomTeamReportFile {
                     float val = 0f;
                     try { val = Float.parseFloat(m.group(4).trim()); } catch (NumberFormatException ignored) {}
                     player.setActual((int) (val * config.getABMultiplier()));
-                    player.setId(lookupOrBuildPlayerId(player, team, database, true, batters.size()));
+                    player.setId(lookupOrBuildPlayerId(player, team, database, true));
                     batters.add(player);
                 }
             } else if (inBatterBalanceSection && team != null && batterIndex < batters.size()) {
@@ -237,7 +237,7 @@ public class SomTeamReportFile {
                     player.setPowerL(m.group(2).trim());
                     player.setPowerR(m.group(3).trim());
                     player.setThrowsArm(m.group(4).trim());
-                    player.setId(lookupOrBuildPlayerId(player, team, database, true, batterIndex));
+                    player.setId(lookupOrBuildPlayerId(player, team, database, true));
                     batterIndex++;
                 }
             } else if (inPitcherSection && team != null) {
@@ -254,7 +254,7 @@ public class SomTeamReportFile {
                     if (!sp.isEmpty()) player.setGames(Integer.parseInt(sp));
                     try { player.setReliefRating(Integer.parseInt(m.group(5).trim())); } catch (NumberFormatException ignored) {}
                     try { player.setCloserRating(Integer.parseInt(m.group(6).trim())); } catch (NumberFormatException e) { player.setCloserRating(-1); }
-                    player.setId(lookupOrBuildPlayerId(player, team, database, false, pitchers.size()));
+                    player.setId(lookupOrBuildPlayerId(player, team, database, false));
                     pitchers.add(player);
                 }
             } else if (inPitcherBalanceSection && team != null && pitcherIndex < pitchers.size()) {
@@ -334,19 +334,19 @@ public class SomTeamReportFile {
         return balance;
     }
 
-    /** Build a persistent string id: team_name_position_hr_index (e.g. ARI_John_Smith_B_9L_0, ARI_John_Smith_P_R_0). */
-    private static String buildBatterId(String teamAbrv, String name, String balance, int index) {
+    /** Build a persistent string id: team_name_position_hr (e.g. ARI_John_Smith_B_9L, ARI_John_Smith_P_R). */
+    private static String buildBatterId(String teamAbrv, String name, String balance) {
         String t = (teamAbrv != null && !teamAbrv.isEmpty()) ? teamAbrv : "UNK";
         String n = sanitizePlayerName(name != null ? name : "");
         String b = (balance != null && !balance.isEmpty()) ? balance : "E";
-        return t + "_" + n + "_B_" + b + "_" + index;
+        return t + "_" + n + "_B_" + b;
     }
 
-    private static String buildPitcherId(String teamAbrv, String name, String throwsArm, int index) {
+    private static String buildPitcherId(String teamAbrv, String name, String throwsArm) {
         String t = (teamAbrv != null && !teamAbrv.isEmpty()) ? teamAbrv : "UNK";
         String n = sanitizePlayerName(name != null ? name : "");
         String th = (throwsArm != null && !throwsArm.isEmpty()) ? throwsArm : "R";
-        return t + "_" + n + "_P_" + th + "_" + index;
+        return t + "_" + n + "_P_" + th;
     }
 
     private static String sanitizePlayerName(String name) {
@@ -354,7 +354,7 @@ public class SomTeamReportFile {
         return name.trim().replaceAll("\\s+", "_").replaceAll("[^A-Za-z0-9_]", "");
     }
 
-    private String lookupOrBuildPlayerId(Player player, Team team, Map<String, TeamLineup> database, boolean hitter, int index) {
+    private String lookupOrBuildPlayerId(Player player, Team team, Map<String, TeamLineup> database, boolean hitter) {
         if (database != null && team != null) {
             TeamLineup lineup = database.get(team.getAbrv());
             if (lineup != null && lineup.getPlayerByGRID() != null) {
@@ -365,9 +365,9 @@ public class SomTeamReportFile {
         }
         String teamAbrv = team != null ? team.getAbrv() : "UNK";
         if (hitter) {
-            return buildBatterId(teamAbrv, player.getName(), player.getBal(), index);
+            return buildBatterId(teamAbrv, player.getName(), player.getBal());
         }
-        return buildPitcherId(teamAbrv, player.getName(), player.getThrowsArm(), index);
+        return buildPitcherId(teamAbrv, player.getName(), player.getThrowsArm());
     }
 
     private Team lookupTeam(String teamAbv) {

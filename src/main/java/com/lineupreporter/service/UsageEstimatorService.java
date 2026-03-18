@@ -140,8 +140,9 @@ public class UsageEstimatorService {
         int abAddition = appConfig.getAbAddition();
         List<BatterInfoRow> rows = new ArrayList<>();
         List<Player> sorted = new ArrayList<>(batters);
-        sorted.sort(Comparator
-            .comparing((Player p) -> formatDefense(p.getDef()), Comparator.nullsFirst(String::compareTo))
+        sorted.sort(Comparator.comparing(
+            (Player p) -> lastNameFrom(p.getName()),
+            Comparator.nullsFirst(String.CASE_INSENSITIVE_ORDER))
             .thenComparing(Player::getName, Comparator.nullsFirst(String::compareTo)));
         for (Player p : sorted) {
             String pid = p.getId() != null ? p.getId() : "";
@@ -177,7 +178,16 @@ public class UsageEstimatorService {
     }
 
     private static void addDefPart(List<String> parts, String pos, String rating) {
-        if (rating != null && !rating.isBlank()) parts.add(pos + ":" + rating.trim());
+        if (rating == null || rating.isBlank()) return;
+        String r = rating.trim();
+        if (r.contains("$") && !r.isEmpty() && Character.isDigit(r.charAt(0)) && (r.charAt(0) - '0') > 4) return;
+        parts.add(pos + ":" + r);
+    }
+
+    private static String lastNameFrom(String name) {
+        if (name == null || name.isBlank()) return "";
+        int lastSpace = name.trim().lastIndexOf(' ');
+        return lastSpace >= 0 ? name.substring(lastSpace + 1).trim() : name.trim();
     }
 
     private float abAdjustment(int actual, int abAddition) {
@@ -232,9 +242,9 @@ public class UsageEstimatorService {
             addIfEligible(result, "2B", d.getSecond(), p);
             addIfEligible(result, "3B", d.getThird(), p);
             addIfEligible(result, "SS", d.getShortStop(), p);
-            addIfEligible(result, "LF", d.getLeft(), p);
-            addIfEligible(result, "CF", d.getCenter(), p);
-            addIfEligible(result, "RF", d.getRight(), p);
+            addIfEligibleOutfield(result, "LF", d.getLeft(), p);
+            addIfEligibleOutfield(result, "CF", d.getCenter(), p);
+            addIfEligibleOutfield(result, "RF", d.getRight(), p);
             UsageApiDto.PlayerOptionDto opt = new UsageApiDto.PlayerOptionDto();
             opt.setId(p.getId());
             opt.setName(p.getName());
@@ -252,6 +262,20 @@ public class UsageEstimatorService {
             opt.setDefRating(rating.trim());
             result.get(pos).add(opt);
         }
+    }
+
+    /** Outfield only: add only when rating is present and numeric value is 4 or less. */
+    private void addIfEligibleOutfield(Map<String, List<UsageApiDto.PlayerOptionDto>> result, String pos, String rating, Player p) {
+        if (rating == null || rating.isBlank()) return;
+        String trimmed = rating.trim();
+        if (trimmed.isEmpty()) return;
+        char first = trimmed.charAt(0);
+        if (Character.isDigit(first) && (first - '0') > 4) return;
+        UsageApiDto.PlayerOptionDto opt = new UsageApiDto.PlayerOptionDto();
+        opt.setId(p.getId());
+        opt.setName(p.getName());
+        opt.setDefRating(trimmed);
+        result.get(pos).add(opt);
     }
 
     /** Get current grid assignments for a team (lineupIndex, positionIndex, player). */

@@ -74,6 +74,7 @@ public final class TeamUtils {
         if (teamName.startsWith("Houston Astr")) return "HSN";
         if (teamName.startsWith("Kansas City")) return "KCM";
         if (teamName.startsWith("Los Angeles")) return "LAN";
+        if (teamName.startsWith("Miami Fins")) return "MIA";
         if (teamName.startsWith("Milwaukee Br")) return "MLG";
         if (teamName.startsWith("Minnesota Tw")) return "MNB";
         if (teamName.startsWith("New York Yan")) return "NYB";
