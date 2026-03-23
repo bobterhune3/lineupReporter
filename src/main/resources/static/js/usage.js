@@ -4,6 +4,62 @@
     const BALANCE_LABELS = ['9L','8L','7L','6L','5L','4L','3L','2L','1L','E','1R','2R','3R','4R','5R','6R','7R','8R','9R'];
     const POSITION_LABELS = ['C','1B','2B','3B','SS','LF','CF','RF','DH'];
 
+    /** Same text as lineup column header (e.g. "L 9L-3L (76)"). */
+    function lineupHeaderTextFromLineup(lu) {
+        if (!lu) return '';
+        return (lu.pitcherArm || '') + ' ' + (lu.balanceFrom || '') + '-' + (lu.balanceTo || '') + ' (' + (lu.estimatedAtBats || 0) + ')';
+    }
+
+    /** First letter of header: L = vs lefties, R = vs righties. */
+    function pitcherGroupLetter(lu) {
+        const c = lineupHeaderTextFromLineup(lu).trim().charAt(0);
+        return c ? c.toUpperCase() : '';
+    }
+
+    function isPitcherArmLFromHeaderText(lu) {
+        return pitcherGroupLetter(lu) === 'L';
+    }
+
+    /**
+     * First column in grid order for each group (L or R) is primary; others in that group are secondary.
+     * Secondary cells whose selected playerId differs from the primary column for that row get class differs-from-primary.
+     */
+    function updateGroupPrimaryCompareClasses() {
+        const container = document.getElementById('lineup-grid-container');
+        if (!container || !lineups.length) return;
+
+        let primaryL = -1;
+        let primaryR = -1;
+        for (let i = 0; i < lineups.length; i++) {
+            const g = pitcherGroupLetter(lineups[i]);
+            if (g === 'L' && primaryL < 0) primaryL = i;
+            if (g === 'R' && primaryR < 0) primaryR = i;
+        }
+
+        container.querySelectorAll('.lineup-grid-table select').forEach(function(sel) {
+            sel.classList.remove('differs-from-primary');
+        });
+
+        for (let col = 0; col < lineups.length; col++) {
+            const g = pitcherGroupLetter(lineups[col]);
+            const primaryCol = g === 'L' ? primaryL : g === 'R' ? primaryR : -1;
+            if (primaryCol < 0 || col === primaryCol) continue;
+
+            for (let pos = 0; pos < POSITION_LABELS.length; pos++) {
+                const sec = container.querySelector(
+                    'select[data-lineup-index="' + col + '"][data-position-index="' + pos + '"]'
+                );
+                const prim = container.querySelector(
+                    'select[data-lineup-index="' + primaryCol + '"][data-position-index="' + pos + '"]'
+                );
+                if (!sec || !prim) continue;
+                const a = (sec.value || '').trim();
+                const b = (prim.value || '').trim();
+                if (a !== b) sec.classList.add('differs-from-primary');
+            }
+        }
+    }
+
     let currentTeam = null;
     let lineups = [];
     let gridAssignments = [];
@@ -49,6 +105,17 @@
             document.getElementById('btn-cancel-lineup-form').addEventListener('click', () => hide(document.getElementById('lineup-form-modal')));
             document.getElementById('btn-save-settings').addEventListener('click', saveSettings);
             document.getElementById('btn-close-settings').addEventListener('click', () => hide(document.getElementById('settings-modal')));
+            document.getElementById('btn-close-copy-column-modal').addEventListener('click', () => hide(document.getElementById('copy-column-modal')));
+            document.getElementById('btn-copy-column-modal-text').addEventListener('click', async () => {
+                const text = (document.getElementById('copy-column-modal-text').value || '').trim();
+                const ok = await tryCopyTextToClipboard(text);
+                if (ok) {
+                    hide(document.getElementById('copy-column-modal'));
+                    alert('Copied to clipboard.');
+                } else {
+                    alert('Copy failed. Please select and copy the text manually.');
+                }
+            });
             populateBalanceDropdowns();
             loadSettings();
         }).catch(() => {});
@@ -162,15 +229,52 @@
             }
             duplicatePlayerIdsByCol[col] = new Set(Object.keys(count).filter(function(pid) { return count[pid] >= 2; }));
         }
+
         const table = document.createElement('table');
         table.className = 'lineup-grid-table data-table';
         const thead = document.createElement('thead');
-        let headerRow = '<tr><th></th>';
+        const headerTr = document.createElement('tr');
+        headerTr.appendChild(document.createElement('th')); // blank top-left cell for position labels
         lineups.forEach((l, i) => {
-            headerRow += '<th>' + (l.pitcherArm || '') + ' ' + (l.balanceFrom || '') + '-' + (l.balanceTo || '') + ' (' + (l.estimatedAtBats || 0) + ')</th>';
+            const th = document.createElement('th');
+            const cell = document.createElement('div');
+            cell.className = 'lineup-grid-header-cell';
+
+            const label = document.createElement('div');
+            const headerText = lineupHeaderTextFromLineup(l);
+            label.textContent = headerText;
+            // LHP column: first letter of header is L (e.g. "L 9L-3L (76)"); R stays default (e.g. "R 9L-3L (89)").
+            if (isPitcherArmLFromHeaderText(l)) {
+                th.classList.add('lineup-grid-col-vs-lhp');
+            }
+
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'lineup-grid-copy-btn';
+            btn.textContent = 'Copy';
+            btn.dataset.lineupIndex = String(i);
+            btn.addEventListener('click', (ev) => {
+                ev.preventDefault();
+                ev.stopPropagation();
+                copyLineupColumnToClipboard(i);
+            });
+
+            // Column number: skip position column; column 2 => #1, column 3 => #3, … (odd numbers).
+            const colNum = document.createElement('span');
+            colNum.className = 'lineup-grid-column-num';
+            colNum.textContent = '#' + (i + 1);
+
+            const actionsRow = document.createElement('div');
+            actionsRow.className = 'lineup-grid-header-actions';
+            actionsRow.appendChild(btn);
+            actionsRow.appendChild(colNum);
+
+            cell.appendChild(label);
+            cell.appendChild(actionsRow);
+            th.appendChild(cell);
+            headerTr.appendChild(th);
         });
-        headerRow += '</tr>';
-        thead.innerHTML = headerRow;
+        thead.appendChild(headerTr);
         table.appendChild(thead);
         const tbody = document.createElement('tbody');
         for (let pos = 0; pos < POSITION_LABELS.length; pos++) {
@@ -180,6 +284,9 @@
             const options = eligiblePlayers[posKey] || [];
             for (let col = 0; col < lineups.length; col++) {
                 const td = document.createElement('td');
+                if (isPitcherArmLFromHeaderText(lineups[col])) {
+                    td.classList.add('lineup-grid-col-vs-lhp');
+                }
                 const select = document.createElement('select');
                 select.dataset.lineupIndex = col;
                 select.dataset.positionIndex = pos;
@@ -205,6 +312,60 @@
         }
         table.appendChild(tbody);
         container.appendChild(table);
+        updateGroupPrimaryCompareClasses();
+    }
+
+    function getLineupColumnLabel(lineupIndex) {
+        const l = lineups[lineupIndex];
+        if (!l) return 'Lineup ' + lineupIndex;
+        return lineupHeaderTextFromLineup(l);
+    }
+
+    function buildColumnCopyText(lineupIndex) {
+        // 9 lines: position label from the first column + selected player name from this lineup column.
+        const container = document.getElementById('lineup-grid-container');
+        const lines = [];
+        for (let pos = 0; pos < POSITION_LABELS.length; pos++) {
+            const select = container.querySelector(
+                '.lineup-grid-table select[data-lineup-index="' + lineupIndex + '"][data-position-index="' + pos + '"]'
+            );
+            const option = select && select.selectedOptions && select.selectedOptions[0] ? select.selectedOptions[0] : null;
+            const playerText = option && option.textContent ? option.textContent.trim() : '';
+            const playerNameOnly = playerText.replace(/\s*\([^)]*\)\s*$/, '').trim();
+            lines.push(POSITION_LABELS[pos] + ': ' + (playerNameOnly || playerText || 'NOT SET'));
+        }
+        return lines.join('\n');
+    }
+
+    async function tryCopyTextToClipboard(text) {
+        try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                return true;
+            }
+        } catch (e) {
+            // Clipboard can fail in non-secure contexts / browser policy. Fallback to modal.
+        }
+        return false;
+    }
+
+    async function copyLineupColumnToClipboard(lineupIndex) {
+        const text = buildColumnCopyText(lineupIndex);
+        const title = 'Copy lineup: ' + getLineupColumnLabel(lineupIndex);
+
+        const ok = await tryCopyTextToClipboard(text);
+        if (ok) {
+            alert('Copied ' + getLineupColumnLabel(lineupIndex));
+            return;
+        }
+
+        // Fallback UI: copy/paste from a textarea.
+        document.getElementById('copy-column-modal-title').textContent = title;
+        const ta = document.getElementById('copy-column-modal-text');
+        ta.value = text;
+        show(document.getElementById('copy-column-modal'));
+        ta.focus();
+        ta.select();
     }
 
     function onGridCellChange(ev) {
@@ -222,6 +383,7 @@
         a.playerId = playerId;
         a.playerName = playerName;
         updateDuplicateInLineupClassForColumn(lineupIndex);
+        updateGroupPrimaryCompareClasses();
         saveGrid();
     }
 

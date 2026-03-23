@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#79b8ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bg)"/>
+
+  <!-- Baseball body -->
+  <circle cx="25" cy="32" r="17" fill="#ffffff"/>
+  <path d="M14 23 C20 29,20 35,14 41" fill="none" stroke="#d33" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M36 23 C30 29,30 35,36 41" fill="none" stroke="#d33" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M16 25 l2 2 M16 29 l2 2 M16 33 l2 2 M16 37 l2 2" stroke="#d33" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M34 25 l-2 2 M34 29 l-2 2 M34 33 l-2 2 M34 37 l-2 2" stroke="#d33" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Calculator overlay -->
+  <rect x="33" y="19" width="22" height="30" rx="3" fill="#1a2332" stroke="#e6edf3" stroke-width="1.5"/>
+  <rect x="36" y="22" width="16" height="6" rx="1.2" fill="#8b949e"/>
+  <g fill="#58a6ff">
+    <rect x="36" y="31" width="4" height="4" rx="0.6"/>
+    <rect x="42" y="31" width="4" height="4" rx="0.6"/>
+    <rect x="48" y="31" width="4" height="4" rx="0.6"/>
+    <rect x="36" y="37" width="4" height="4" rx="0.6"/>
+    <rect x="42" y="37" width="4" height="4" rx="0.6"/>
+    <rect x="48" y="37" width="4" height="4" rx="0.6"/>
+    <rect x="36" y="43" width="10" height="4" rx="0.6"/>
+    <rect x="48" y="43" width="4" height="4" rx="0.6"/>
+  </g>
+</svg>

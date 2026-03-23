@@ -8,11 +8,48 @@
 .lineup-grid-table td:not(.pos-label) { min-width: 11rem; }
 .lineup-grid-table th:first-child, .lineup-grid-table .pos-label { width: 1.75rem; max-width: 1.75rem; min-width: 1.75rem; }
 .lineup-grid-table .pos-label { font-weight: 600; color: var(--accent); }
+.lineup-grid-header-cell { display: flex; flex-direction: column; gap: 0.35rem; align-items: flex-start; }
+.lineup-grid-header-actions { display: flex; flex-direction: row; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.lineup-grid-column-num { color: var(--muted); font-size: 0.85rem; font-weight: 400; }
+.lineup-grid-copy-btn {
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    padding: 0.25rem 0.55rem;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.lineup-grid-copy-btn:hover { background: var(--accent-hover); }
 .lineup-grid-table thead th { font-weight: 700; color: #fff; }
 .lineup-grid-table select { width: 100%; max-width: 100%; min-width: 10rem; min-height: 2rem; padding: 0.4rem 0.5rem; font-size: 0.875rem; font-weight: 300; background: var(--bg); color: var(--text); border: 1px solid var(--border); font-family: inherit; }
 .lineup-grid-table select.not-set { color: #f0c000; }
+/* Secondary lineup in same L/R group differs from primary column for this row */
+.lineup-grid-table select.differs-from-primary { color: #f0c000; }
 .lineup-grid-table select.duplicate-in-lineup { color: var(--error); }
 .lineup-grid-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.03); }
+
+/* Lineup columns vs LHP (header starts with L, e.g. "L 9L-3L (76)"); R columns unchanged */
+.lineup-grid-table thead th.lineup-grid-col-vs-lhp {
+    background: rgba(255, 255, 255, 0.1);
+}
+.lineup-grid-table tbody td.lineup-grid-col-vs-lhp {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#copy-column-modal-text {
+    width: 100%;
+    min-height: 12rem;
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-family: var(--font);
+    resize: vertical;
+}
 
 .modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; z-index: 100; }
 .modal-content { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; max-width: 480px; width: 90%; max-height: 85vh; overflow: auto; }

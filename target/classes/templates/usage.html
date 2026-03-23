@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Usage Estimator - LineupReporter</title>
+    <title>Bobs Usage Calculator</title>
     <link rel="stylesheet" th:href="@{/css/style.css}"/>
     <link rel="stylesheet" th:href="@{/css/usage.css}"/>
+    <link rel="icon" type="image/svg+xml" th:href="@{/icons/baseball-calculator.svg}" href="/icons/baseball-calculator.svg"/>
 </head>
 <body>
     <header class="site-header">
@@ -125,6 +126,18 @@
                 <div class="modal-actions">
                     <button type="button" id="btn-save-settings">Save</button>
                     <button type="button" id="btn-close-settings">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copy lineup column modal (fallback when clipboard is unavailable) -->
+        <div id="copy-column-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3 id="copy-column-modal-title">Copy lineup</h3>
+                <textarea id="copy-column-modal-text" readonly></textarea>
+                <div class="modal-actions">
+                    <button type="button" id="btn-copy-column-modal-text">Copy</button>
+                    <button type="button" id="btn-close-copy-column-modal">Close</button>
                 </div>
             </div>
         </div>

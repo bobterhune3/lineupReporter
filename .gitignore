@@ -1,3 +1,7 @@
+# Maven build output
+target/
+lineupreporter-data/
+
 # Compiled class file
 *.class
 

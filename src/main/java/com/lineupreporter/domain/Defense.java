@@ -68,7 +68,8 @@ public class Defense {
             return (Character.isDigit(c) ? (c - '0' + 2) : c) + left.substring(1)+"$";
         }
         else if(StringUtils.isEmpty(center) && !StringUtils.isEmpty(right) ) {
-            return right+"$";
+            char c = right.charAt(0);
+            return (Character.isDigit(c) ? (c - '0' + 1) : c) + right.substring(1)+"$";
         }
         return center;
     }

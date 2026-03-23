@@ -90,6 +90,8 @@ public final class TeamUtils {
         if (teamName.startsWith("Texas Ranger")) return "TXG";
         if (teamName.startsWith("Toronto Blue")) return "TOG";
         if (teamName.startsWith("Washington N")) return "WSG";
+        if (teamName.startsWith("Bob Terhune1")) return "TE1";
+        if (teamName.startsWith("Bob Terhune2")) return "TE2";
         return "UNK";
     }
 //
